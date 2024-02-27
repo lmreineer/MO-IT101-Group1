@@ -1,14 +1,26 @@
 import java.util.Scanner;
 
 public class MotorPH {
-  static void displayUpperBorder(String text) {
+  static void displayUpperBorder(int menuInput) {
     System.out.println("================================");
-    System.out.println(text);
+    switch (menuInput) {
+      case 1:
+        System.out.println("|     Employee Information     |");
+        break;
+      case 2:
+        System.out.println("|          Gross Wage          |");
+        break;
+      case 3:
+        System.out.println("|           Net Wage           |");
+        break;
+    }
     System.out.println("================================");
   }
 
   static void displayMenu() {
-    displayUpperBorder("|   Motor PH Payroll System    |");
+    System.out.println("================================");
+    System.out.println("|   Motor PH Payroll System    |");
+    System.out.println("================================");
     System.out.println("|   1:  Search Employee        |");
     System.out.println("|   2:  Calculate Gross Wage   |");
     System.out.println("|   3:  Calculate Net Wage     |");
@@ -44,6 +56,28 @@ public class MotorPH {
     System.out.println("Hourly Rate: " + info.hourlyRate[employeeNumInput]);
   }
 
+  static void showEmployeeGrossWage(int employeeNumInput) {
+    EmployeeInfo info = new EmployeeInfo();
+
+    System.out.println("Last Name: " + info.lastName[employeeNumInput]);
+    System.out.println("First Name: " + info.firstName[employeeNumInput]);
+
+    grossWageCalculation grossWage = new grossWageCalculation();
+
+    System.out.println("Gross Wage: " + grossWage.calculateGrossWage(employeeNumInput));
+  }
+
+  static void showEmployeeNetWage(int employeeNumInput) {
+    EmployeeInfo info = new EmployeeInfo();
+
+    System.out.println("Last Name: " + info.lastName[employeeNumInput]);
+    System.out.println("First Name: " + info.firstName[employeeNumInput]);
+
+    netWageCalculation netWage = new netWageCalculation();
+
+    System.out.println("Net Wage: " + netWage.calculateNetWage(employeeNumInput));
+  }
+
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
@@ -52,39 +86,27 @@ public class MotorPH {
 
     EmployeeInfo info = new EmployeeInfo();
 
-    // If user chose option 1
-    if (menuInput == 1) {
+    if (menuInput >= 1 && menuInput <= 3) {
       clearConsole();
 
-      displayUpperBorder("|     Employee Information     |");
+      // Display upper border based on menu input
+      displayUpperBorder(menuInput);
 
       System.out.print("Employee Number: ");
       // Start the array at 1
       int employeeNumInput = scanner.nextInt() - 1;
 
       if (employeeNumInput <= info.totalEmployees) {
-        // Show employee information based on inputted number
-        showEmployeeInfo(employeeNumInput);
-      } else {
-        System.out.println("Employee not found");
-      }
-    } else if (menuInput == 2) {
-      clearConsole();
-
-      displayUpperBorder("|         Gross Wage           |");
-
-      System.out.print("Employee Number: ");
-      // Start the array at 1
-      int employeeNumInput = scanner.nextInt() - 1;
-
-      if (employeeNumInput <= info.totalEmployees) {
-        // Show employee information based on inputted number
-        System.out.println("Last Name: " + info.lastName[employeeNumInput]);
-        System.out.println("First Name: " + info.firstName[employeeNumInput]);
-
-        wageCalculation grossWage = new wageCalculation();
-
-        System.out.println("Gross Wage: " + grossWage.calculateGrossWage(employeeNumInput));
+        if (menuInput == 1) {
+          // Show the employee's information based on inputted number
+          showEmployeeInfo(employeeNumInput);
+        } else if (menuInput == 2) {
+          // Show the employee's gross wage based on inputted number
+          showEmployeeGrossWage(employeeNumInput);
+        } else if (menuInput == 3) {
+          // Show the employee's net wage based on inputted number
+          showEmployeeNetWage(employeeNumInput);
+        }
       } else {
         System.out.println("Employee not found");
       }
