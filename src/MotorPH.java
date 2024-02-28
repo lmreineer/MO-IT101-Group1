@@ -64,7 +64,7 @@ public class MotorPH {
 
     grossWageCalculation grossWage = new grossWageCalculation();
 
-    System.out.println("Gross Wage: " + grossWage.calculateGrossWage(employeeNumInput));
+    System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
   }
 
   static void showEmployeeNetWage(int employeeNumInput) {
@@ -75,7 +75,7 @@ public class MotorPH {
 
     netWageCalculation netWage = new netWageCalculation();
 
-    System.out.println("Net Wage: " + netWage.calculateNetWage(employeeNumInput));
+    System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
   }
 
   public static void main(String[] args) {
