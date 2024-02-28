@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.text.DecimalFormat;
 
 public class netWageCalculation {
@@ -67,7 +68,28 @@ public class netWageCalculation {
       employeeShare = (50 * monthlyPremium) / 100;
     }
 
-    String formattedPhilHealthDeduction = decimal.format(employeeShare);
+    double philHealthDeduction = doubledGrossWage - employeeShare;
+
+    String formattedPhilHealthDeduction = decimal.format(philHealthDeduction);
+
+    return formattedPhilHealthDeduction;
+  }
+
+  public String calculatePagIbigContribution(int employeeNumInput) {
+    double validatedTotalContribution = 0;
+
+    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+
+    if (doubledGrossWage >= 1000 && doubledGrossWage <= 1500) {
+      validatedTotalContribution = (3 * doubledGrossWage) / 100;
+    } else if (doubledGrossWage > 1500) {
+      double totalContribution = (4 * doubledGrossWage) / 100;
+      validatedTotalContribution = totalContribution > 100 ? 100 : totalContribution;
+    }
+
+    double pagIbigDeduction = doubledGrossWage - validatedTotalContribution;
+
+    String formattedPhilHealthDeduction = decimal.format(pagIbigDeduction);
 
     return formattedPhilHealthDeduction;
   }
