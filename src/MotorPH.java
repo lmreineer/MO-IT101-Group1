@@ -13,6 +13,9 @@ public class MotorPH {
       case 3:
         System.out.println("|           Net Wage           |");
         break;
+      case 0:
+        System.out.println("|           Logged out         |");
+        break;
     }
     System.out.println("================================");
   }
@@ -22,8 +25,8 @@ public class MotorPH {
     System.out.println("|   Motor PH Payroll System    |");
     System.out.println("================================");
     System.out.println("|   1:  Search Employee        |");
-    System.out.println("|   2:  Calculate Gross Wage   |");
-    System.out.println("|   3:  Calculate Net Wage     |");
+    System.out.println("|   2:  Generate Gross Wage    |");
+    System.out.println("|   3:  Generate Net Wage      |");
     System.out.println("|                              |");
     System.out.println("|   0:  Exit Menu              |");
     System.out.println("================================");
@@ -63,10 +66,14 @@ public class MotorPH {
 
     System.out.println("Last Name: " + info.lastName[employeeNumInput]);
     System.out.println("First Name: " + info.firstName[employeeNumInput]);
+    System.out.println("Position: " + info.position[employeeNumInput]);
 
     grossWageCalculation grossWage = new grossWageCalculation();
 
-    System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
+    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+
+    String formattedGrossWage = String.format("%,.2f", doubledGrossWage);
+    System.out.println("Gross Wage: ₱" + formattedGrossWage);
   }
 
   static void showEmployeeNetWage(int employeeNumInput) {
@@ -74,19 +81,23 @@ public class MotorPH {
 
     System.out.println("Last Name: " + info.lastName[employeeNumInput]);
     System.out.println("First Name: " + info.firstName[employeeNumInput]);
+    System.out.println("Position: " + info.position[employeeNumInput]);
 
     netWageCalculation netWage = new netWageCalculation();
 
-    System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
+    double doubledNetWage = Double.parseDouble(netWage.calculateNetWage(employeeNumInput));
+
+    String formattedNetWage = String.format("%,.2f", doubledNetWage);
+    System.out.println("Net Wage: ₱" + formattedNetWage);
   }
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
     displayMenu();
-    int menuInput = scanner.nextInt();
 
-    EmployeeInfo info = new EmployeeInfo();
+    System.out.print("Choose your option: ");
+    int menuInput = scanner.nextInt();
 
     if (menuInput >= 1 && menuInput <= 3) {
       clearConsole();
@@ -94,10 +105,11 @@ public class MotorPH {
       // Display upper border based on menu input
       displayUpperBorder(menuInput);
 
-      System.out.print("Employee Number: ");
-
+      System.out.print("Employee ID: ");
       // Start the array at 1
       int employeeNumInput = scanner.nextInt() - 1;
+
+      EmployeeInfo info = new EmployeeInfo();
 
       if (employeeNumInput <= info.totalEmployees) {
         if (menuInput == 1) {
@@ -111,12 +123,14 @@ public class MotorPH {
           showEmployeeNetWage(employeeNumInput);
         }
       } else {
-        System.out.println("Employee not found");
+        System.out.println("\n" + "Employee not found");
       }
     } else if (menuInput == 0) {
-      System.out.println("\n" + "Logged out");
+      clearConsole();
+
+      displayUpperBorder(menuInput);
     } else {
-      System.out.println("Invalid input");
+      System.out.println("\n" + "Invalid input");
     }
   }
 }

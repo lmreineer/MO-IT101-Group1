@@ -3,8 +3,6 @@ import java.text.DecimalFormat;
 public class netWageCalculation {
   grossWageCalculation grossWage = new grossWageCalculation();
 
-  DecimalFormat decimal = new DecimalFormat("0.00");
-
   public double calculateSssContribution(int employeeNumInput) {
     double sssDeduction = 0;
 
@@ -139,6 +137,8 @@ public class netWageCalculation {
             + calculatePagIbigContribution(employeeNumInput);
     double withholdingTax = calculateWithholdingTax(employeeNumInput, monthlyContributions);
     double totalDeductions = monthlyContributions + withholdingTax;
+
+    DecimalFormat decimal = new DecimalFormat("0.00");
 
     double netWage = doubledGrossWage - totalDeductions;
     String formattedNetWage = decimal.format(netWage);
