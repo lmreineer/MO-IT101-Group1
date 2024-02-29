@@ -7,7 +7,7 @@ public class grossWageCalculation {
 
     DecimalFormat decimal = new DecimalFormat("0.00");
 
-    // 160 because: 8 x 5 is 40 and 40 x 4 = 160
+    // Work in progress
     double grossWage = info.hourlyRate[employeeNumInput] * 160;
     String formattedGrossWage = decimal.format(grossWage);
 

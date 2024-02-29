@@ -24,6 +24,8 @@ public class MotorPH {
     System.out.println("|   1:  Search Employee        |");
     System.out.println("|   2:  Calculate Gross Wage   |");
     System.out.println("|   3:  Calculate Net Wage     |");
+    System.out.println("|                              |");
+    System.out.println("|   0:  Exit Menu              |");
     System.out.println("================================");
   }
 
@@ -93,6 +95,7 @@ public class MotorPH {
       displayUpperBorder(menuInput);
 
       System.out.print("Employee Number: ");
+
       // Start the array at 1
       int employeeNumInput = scanner.nextInt() - 1;
 
@@ -110,6 +113,8 @@ public class MotorPH {
       } else {
         System.out.println("Employee not found");
       }
+    } else if (menuInput == 0) {
+      System.out.println("\n" + "Logged out");
     } else {
       System.out.println("Invalid input");
     }
