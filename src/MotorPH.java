@@ -49,30 +49,31 @@ public class MotorPH {
   }
 
   static void showEmployeeInfo(int employeeNumInput) {
-    System.out.println("Last Name: " + info.lastName[employeeNumInput]);
-    System.out.println("First Name: " + info.firstName[employeeNumInput]);
-    System.out.println("Birthdate: " + info.birthdate[employeeNumInput]);
-    System.out.println("Address: " + info.address[employeeNumInput]);
-    System.out.println("Phone Number: " + info.phoneNumber[employeeNumInput]);
-    System.out.println("SSS #: " + info.sssNumber[employeeNumInput]);
-    System.out.println("PhilHealth #: " + info.philhealthNumber[employeeNumInput]);
-    System.out.println("TIN #: " + info.tinNumber[employeeNumInput]);
-    System.out.println("Pag-IBIG #: " + info.pagIbigNumber[employeeNumInput]);
-    System.out.println("Status: " + info.status[employeeNumInput]);
-    System.out.println("Position: " + info.position[employeeNumInput]);
-    System.out.println("Immediate Supervisor: " + info.immediateSupervisor[employeeNumInput]);
-    System.out.println("Basic Salary: ₱" + info.basicSalary[employeeNumInput]);
-    System.out.println("Rice Subsidy: ₱" + info.riceSubsidy[employeeNumInput]);
-    System.out.println("Phone Allowance: ₱" + info.phoneAllowance[employeeNumInput]);
-    System.out.println("Clothing Allowance: ₱" + info.clothingAllowance[employeeNumInput]);
-    System.out.println("Gross Semi-monthly Rate: ₱" + info.grossSemimonthlyRate[employeeNumInput]);
-    System.out.println("Hourly Rate: ₱" + info.hourlyRate[employeeNumInput]);
+    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
+    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
+    System.out.println("Birthdate: " + info.getBirthdate()[employeeNumInput]);
+    System.out.println("Address: " + info.getAddress()[employeeNumInput]);
+    System.out.println("Phone Number: " + info.getPhoneNumber()[employeeNumInput]);
+    System.out.println("SSS #: " + info.getSssNumber()[employeeNumInput]);
+    System.out.println("PhilHealth #: " + info.getPhilhealthNumber()[employeeNumInput]);
+    System.out.println("TIN #: " + info.getTinNumber()[employeeNumInput]);
+    System.out.println("Pag-IBIG #: " + info.getPagIbigNumber()[employeeNumInput]);
+    System.out.println("Status: " + info.getStatus()[employeeNumInput]);
+    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
+    System.out.println("Immediate Supervisor: " + info.getImmediateSupervisor()[employeeNumInput]);
+    System.out.println("Basic Salary: ₱" + info.getBasicSalary()[employeeNumInput]);
+    System.out.println("Rice Subsidy: ₱" + info.getRiceSubsidy()[employeeNumInput]);
+    System.out.println("Phone Allowance: ₱" + info.getPhoneAllowance()[employeeNumInput]);
+    System.out.println("Clothing Allowance: ₱" + info.getClothingAllowance()[employeeNumInput]);
+    System.out.println(
+        "Gross Semi-monthly Rate: ₱" + info.getGrossSemimonthlyRate()[employeeNumInput]);
+    System.out.println("Hourly Rate: ₱" + info.getHourlyRate()[employeeNumInput]);
   }
 
   static void showEmployeeGrossWage(int employeeNumInput) {
-    System.out.println("Last Name: " + info.lastName[employeeNumInput]);
-    System.out.println("First Name: " + info.firstName[employeeNumInput]);
-    System.out.println("Position: " + info.position[employeeNumInput]);
+    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
+    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
+    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
 
     // Display "Gross Wage" heading
     displayUpperBorder(4);
@@ -86,9 +87,9 @@ public class MotorPH {
   }
 
   static void showEmployeeNetWage(int employeeNumInput) {
-    System.out.println("Last Name: " + info.lastName[employeeNumInput]);
-    System.out.println("First Name: " + info.firstName[employeeNumInput]);
-    System.out.println("Position: " + info.position[employeeNumInput]);
+    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
+    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
+    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
 
     // Display "Net Wage" heading
     displayUpperBorder(5);
@@ -127,7 +128,7 @@ public class MotorPH {
 
       EmployeeInfo info = new EmployeeInfo();
 
-      if (employeeNumInput <= info.totalEmployees) {
+      if (employeeNumInput <= info.getTotalEmployees()) {
         if (menuInput == 1) {
           // Show the employee's information based on inputted number
           showEmployeeInfo(employeeNumInput);

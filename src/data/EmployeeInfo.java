@@ -33,6 +33,8 @@ public class EmployeeInfo {
         return firstName;
     }
 
+    public String[] getBirthdate() { return birthdate; }
+
     public String[] getAddress() {
         return address;
     }
@@ -90,6 +92,6 @@ public class EmployeeInfo {
     }
 
     public double[] getHourlyRate() {
-        return getHourlyRate();
+        return hourlyRate;
     }
 }

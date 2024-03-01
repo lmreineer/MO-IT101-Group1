@@ -7,7 +7,7 @@ public class grossWageCalculation {
 
   public String calculateWeeklyRate(int employeeNumInput) {
 
-    double weeklyRate = info.hourlyRate[employeeNumInput] * 40;
+    double weeklyRate = info.getHourlyRate()[employeeNumInput] * 40;
 
     String formattedWeeklyRate = String.format("%,.2f", weeklyRate);
 
@@ -15,7 +15,7 @@ public class grossWageCalculation {
   }
 
   public String formatHourlyRate(int employeeNumInput) {
-    double hourlyRate = info.hourlyRate[employeeNumInput];
+    double hourlyRate = info.getHourlyRate()[employeeNumInput];
 
     String formattedHourlyRate = String.format("%,.2f", hourlyRate);
 
@@ -31,7 +31,7 @@ public class grossWageCalculation {
   public double calculateGrossWage(int employeeNumInput) {
     int hoursWorked = calculateHoursWorked();
 
-    double grossWage = info.hourlyRate[employeeNumInput] * hoursWorked;
+    double grossWage = info.getHourlyRate()[employeeNumInput] * hoursWorked;
 
     return grossWage;
   }
