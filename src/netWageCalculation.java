@@ -1,14 +1,12 @@
-import java.text.DecimalFormat;
-
 public class netWageCalculation {
   grossWageCalculation grossWage = new grossWageCalculation();
 
-  public double calculateSssContribution(int employeeNumInput) {
+  public String calculateSssContribution(int employeeNumInput) {
     double sssDeduction = 0;
 
     SssContributionList sss = new SssContributionList();
 
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+    double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
 
     // Loop through the compensation ranges and apply deduction based on contribution
     for (int i = 0; i < sss.compensationRanges.length; i++) {
@@ -32,14 +30,17 @@ public class netWageCalculation {
       }
     }
 
-    return sssDeduction;
+    // Round to two decimal places and apply thousands separator
+    String formattedSssDeduction = String.format("%,.2f", sssDeduction);
+
+    return formattedSssDeduction;
   }
 
-  public double calculatePhilHealthContribution(int employeeNumInput) {
+  public String calculatePhilHealthContribution(int employeeNumInput) {
     double monthlyPremium = 0;
     double philHealthDeduction = 0;
 
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+    double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
 
     // If grossWage is less than the minimum basic salary
     if (doubledGrossWage < 10000) {
@@ -63,13 +64,16 @@ public class netWageCalculation {
       philHealthDeduction = (50 * monthlyPremium) / 100;
     }
 
-    return philHealthDeduction;
+    // Round to two decimal places and apply thousands separator
+    String formattedPhilhealthDeduction = String.format("%,.2f", philHealthDeduction);
+
+    return formattedPhilhealthDeduction;
   }
 
-  public double calculatePagIbigContribution(int employeeNumInput) {
+  public String calculatePagIbigContribution(int employeeNumInput) {
     double pagIbigDeduction = 0;
 
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+    double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
 
     // If grossWage is at least 1000 to 1500
     if (doubledGrossWage >= 1000 && doubledGrossWage <= 1500) {
@@ -84,14 +88,29 @@ public class netWageCalculation {
       pagIbigDeduction = totalContribution > 100 ? 100 : totalContribution;
     }
 
-    return pagIbigDeduction;
+    // Round to two decimal places and apply thousands separator
+    String formattedPhilhealthDeduction = String.format("%,.2f", pagIbigDeduction);
+
+    return formattedPhilhealthDeduction;
   }
 
-  public double calculateWithholdingTax(int employeeNumInput, double monthlyContributions) {
+  public double calculateMonthlyContributions(int employeeNumInput) {
+    // Calculate total deductions before calculating withholding tax
+    double monthlyContributions =
+        Double.parseDouble(calculateSssContribution(employeeNumInput))
+            + Double.parseDouble(calculatePhilHealthContribution(employeeNumInput))
+            + Double.parseDouble(calculatePagIbigContribution(employeeNumInput));
+
+    return monthlyContributions;
+  }
+
+  public String calculateWithholdingTax(int employeeNumInput) {
     double excessValue = 0;
     double withholdingTax = 0;
 
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+    double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
+
+    double monthlyContributions = calculateMonthlyContributions(employeeNumInput);
 
     double taxableIncome = doubledGrossWage - monthlyContributions;
 
@@ -124,24 +143,28 @@ public class netWageCalculation {
       withholdingTax = ((32 * excessValue) / 100) + 200833.33;
     }
 
-    return withholdingTax;
+    // Round to two decimal places and apply thousands separator
+    String formattedWithholdingTax = String.format("%,.2f", withholdingTax);
+
+    return formattedWithholdingTax;
+  }
+
+  public double calculateTotalDeductions(int employeeNumInput) {
+    double monthlyContributions = calculateMonthlyContributions(employeeNumInput);
+    double withholdingTax = Double.parseDouble(calculateWithholdingTax(employeeNumInput));
+    double totalDeductions = monthlyContributions + withholdingTax;
+
+    return totalDeductions;
   }
 
   public String calculateNetWage(int employeeNumInput) {
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
+    double totalDeductions = calculateTotalDeductions(employeeNumInput);
 
-    // Calculate total deductions before withholding tax
-    double monthlyContributions =
-        calculateSssContribution(employeeNumInput)
-            + calculatePhilHealthContribution(employeeNumInput)
-            + calculatePagIbigContribution(employeeNumInput);
-    double withholdingTax = calculateWithholdingTax(employeeNumInput, monthlyContributions);
-    double totalDeductions = monthlyContributions + withholdingTax;
-
-    DecimalFormat decimal = new DecimalFormat("0.00");
+    double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
 
     double netWage = doubledGrossWage - totalDeductions;
-    String formattedNetWage = decimal.format(netWage);
+
+    String formattedNetWage = String.format("%,.2f", netWage);
 
     return formattedNetWage;
   }

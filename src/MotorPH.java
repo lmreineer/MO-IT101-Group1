@@ -1,20 +1,26 @@
 import java.util.Scanner;
 
 public class MotorPH {
+  static EmployeeInfo info = new EmployeeInfo();
+
   static void displayUpperBorder(int menuInput) {
     System.out.println("================================");
     switch (menuInput) {
       case 1:
-        System.out.println("|     Employee Information     |");
+        System.out.println("      Employee Information      ");
         break;
       case 2:
-        System.out.println("|          Gross Wage          |");
-        break;
       case 3:
-        System.out.println("|           Net Wage           |");
+        System.out.println("            Employee            ");
+        break;
+      case 4:
+        System.out.println("           Gross Wage           ");
+        break;
+      case 5:
+        System.out.println("            Net Wage            ");
         break;
       case 0:
-        System.out.println("|           Logged out         |");
+        System.out.println("           Logged out           ");
         break;
     }
     System.out.println("================================");
@@ -22,11 +28,11 @@ public class MotorPH {
 
   static void displayMenu() {
     System.out.println("================================");
-    System.out.println("|   Motor PH Payroll System    |");
+    System.out.println("    Motor PH Payroll System     ");
     System.out.println("================================");
     System.out.println("|   1:  Search Employee        |");
-    System.out.println("|   2:  Generate Gross Wage    |");
-    System.out.println("|   3:  Generate Net Wage      |");
+    System.out.println("|   2:  Calculate Gross Wage   |");
+    System.out.println("|   2:  Calculate Net Wage     |");
     System.out.println("|                              |");
     System.out.println("|   0:  Exit Menu              |");
     System.out.println("================================");
@@ -39,8 +45,6 @@ public class MotorPH {
   }
 
   static void showEmployeeInfo(int employeeNumInput) {
-    EmployeeInfo info = new EmployeeInfo();
-
     System.out.println("Last Name: " + info.lastName[employeeNumInput]);
     System.out.println("First Name: " + info.firstName[employeeNumInput]);
     System.out.println("Birthdate: " + info.birthdate[employeeNumInput]);
@@ -53,42 +57,50 @@ public class MotorPH {
     System.out.println("Status: " + info.status[employeeNumInput]);
     System.out.println("Position: " + info.position[employeeNumInput]);
     System.out.println("Immediate Supervisor: " + info.immediateSupervisor[employeeNumInput]);
-    System.out.println("Basic Salary: " + info.basicSalary[employeeNumInput]);
-    System.out.println("Rice Subsidy: " + info.riceSubsidy[employeeNumInput]);
-    System.out.println("Phone Allowance: " + info.phoneAllowance[employeeNumInput]);
-    System.out.println("Clothing Allowance: " + info.clothingAllowance[employeeNumInput]);
-    System.out.println("Gross Semi-monthly Rate: " + info.grossSemimonthlyRate[employeeNumInput]);
-    System.out.println("Hourly Rate: " + info.hourlyRate[employeeNumInput]);
+    System.out.println("Basic Salary: ₱" + info.basicSalary[employeeNumInput]);
+    System.out.println("Rice Subsidy: ₱" + info.riceSubsidy[employeeNumInput]);
+    System.out.println("Phone Allowance: ₱" + info.phoneAllowance[employeeNumInput]);
+    System.out.println("Clothing Allowance: ₱" + info.clothingAllowance[employeeNumInput]);
+    System.out.println("Gross Semi-monthly Rate: ₱" + info.grossSemimonthlyRate[employeeNumInput]);
+    System.out.println("Hourly Rate: ₱" + info.hourlyRate[employeeNumInput]);
   }
 
   static void showEmployeeGrossWage(int employeeNumInput) {
-    EmployeeInfo info = new EmployeeInfo();
-
     System.out.println("Last Name: " + info.lastName[employeeNumInput]);
     System.out.println("First Name: " + info.firstName[employeeNumInput]);
     System.out.println("Position: " + info.position[employeeNumInput]);
+
+    // Display "Gross Wage" heading
+    displayUpperBorder(4);
 
     grossWageCalculation grossWage = new grossWageCalculation();
 
-    double doubledGrossWage = Double.parseDouble(grossWage.calculateGrossWage(employeeNumInput));
-
-    String formattedGrossWage = String.format("%,.2f", doubledGrossWage);
-    System.out.println("Gross Wage: ₱" + formattedGrossWage);
+    System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
+    System.out.println("Hourly Rate: ₱" + grossWage.formatHourlyRate(employeeNumInput));
+    System.out.println("Hours Worked: " + grossWage.calculateHoursWorked());
+    System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
   }
 
   static void showEmployeeNetWage(int employeeNumInput) {
-    EmployeeInfo info = new EmployeeInfo();
-
     System.out.println("Last Name: " + info.lastName[employeeNumInput]);
     System.out.println("First Name: " + info.firstName[employeeNumInput]);
     System.out.println("Position: " + info.position[employeeNumInput]);
 
+    // Display "Net Wage" heading
+    displayUpperBorder(5);
+
     netWageCalculation netWage = new netWageCalculation();
 
-    double doubledNetWage = Double.parseDouble(netWage.calculateNetWage(employeeNumInput));
+    String sssDeduction = netWage.calculateSssContribution(employeeNumInput);
+    String philHealthDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
+    String pagIbigDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
+    String withholdingTax = netWage.calculateWithholdingTax(employeeNumInput);
 
-    String formattedNetWage = String.format("%,.2f", doubledNetWage);
-    System.out.println("Net Wage: ₱" + formattedNetWage);
+    System.out.println("Social Security System: ₱" + sssDeduction);
+    System.out.println("PhilHealth: ₱" + philHealthDeduction);
+    System.out.println("Pag-IBIG: ₱" + pagIbigDeduction);
+    System.out.println("Withholding Tax: ₱" + withholdingTax);
+    System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
   }
 
   public static void main(String[] args) {
@@ -119,7 +131,7 @@ public class MotorPH {
           // Show the employee's gross wage based on inputted number
           showEmployeeGrossWage(employeeNumInput);
         } else if (menuInput == 3) {
-          // Show the employee's net wage based on inputted number
+          //           Show the employee's net wage based on inputted number
           showEmployeeNetWage(employeeNumInput);
         }
       } else {
