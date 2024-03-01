@@ -1,7 +1,8 @@
 import data.EmployeeInfo;
-import wage_calculation.grossWageCalculation;
-import wage_calculation.netWageCalculation;
+import wage_calculation.GrossWageCalculation;
+import wage_calculation.NetWageCalculation;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MotorPH {
@@ -18,10 +19,13 @@ public class MotorPH {
         System.out.println("            Employee            ");
         break;
       case 4:
-        System.out.println("            Net Wage            ");
+        System.out.println("            Earnings            ");
         break;
       case 5:
         System.out.println("           Deductions           ");
+        break;
+      case 6:
+        System.out.println("          Take-Home Pay         ");
         break;
       case 0:
         System.out.println("           Logged out           ");
@@ -70,15 +74,19 @@ public class MotorPH {
     System.out.println("Hourly Rate: ₱" + info.getHourlyRate()[employeeNumInput]);
   }
 
-  static void showEmployeeGrossWage(int employeeNumInput) {
+  static void showBasicInfo(int employeeNumInput) {
     System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
     System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
     System.out.println("Position: " + info.getPosition()[employeeNumInput]);
+  }
+
+  static void showEmployeeGrossWage(int employeeNumInput) {
+    showBasicInfo(employeeNumInput);
 
     // Display "Gross Wage" heading
     displayUpperBorder(4);
 
-    grossWageCalculation grossWage = new grossWageCalculation();
+    GrossWageCalculation grossWage = new GrossWageCalculation();
 
     System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
     System.out.println("Hourly Rate: ₱" + grossWage.formatHourlyRate(employeeNumInput));
@@ -87,67 +95,105 @@ public class MotorPH {
   }
 
   static void showEmployeeNetWage(int employeeNumInput) {
-    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
-    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
-    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
+    showBasicInfo(employeeNumInput);
 
-    // Display "Net Wage" heading
+    // Display "Deductions" heading
     displayUpperBorder(5);
 
-    netWageCalculation netWage = new netWageCalculation();
+    NetWageCalculation netWage = new NetWageCalculation();
 
     String sssDeduction = netWage.calculateSssContribution(employeeNumInput);
     String philHealthDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
     String pagIbigDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
     String withholdingTax = netWage.calculateWithholdingTax(employeeNumInput);
+    String formattedTotalDeductions = netWage.formatTotalDeductions(employeeNumInput);
+    double lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
 
     System.out.println("Social Security System: ₱" + sssDeduction);
     System.out.println("PhilHealth: ₱" + philHealthDeduction);
     System.out.println("Pag-IBIG: ₱" + pagIbigDeduction);
     System.out.println("Withholding Tax: ₱" + withholdingTax);
+    System.out.println("Late Arrival Deduction: ₱" + lateArrivalDeduction);
+
+    // Display "Net Wage" heading
+    displayUpperBorder(6);
+
+    GrossWageCalculation grossWage = new GrossWageCalculation();
+
+    System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
+    System.out.println("Total Deductions: ₱" + formattedTotalDeductions);
     System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
   }
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    displayMenu();
+    boolean anotherOperation = true;
 
-    System.out.print("Choose your option: ");
-    int menuInput = scanner.nextInt();
+    while (anotherOperation) {
+      displayMenu();
 
-    if (menuInput >= 1 && menuInput <= 3) {
-      clearConsole();
+      System.out.print("Choose your option: ");
+      int menuInput = scanner.nextInt();
 
-      // Display upper border based on menu input
-      displayUpperBorder(menuInput);
+      if (menuInput >= 1 && menuInput <= 3) {
+        clearConsole();
 
-      System.out.print("Employee ID: ");
-      // Start the array at 1
-      int employeeNumInput = scanner.nextInt() - 1;
+        // Display upper border based on menu input
+        displayUpperBorder(menuInput);
 
-      EmployeeInfo info = new EmployeeInfo();
+        boolean inputIsValid = false;
 
-      if (employeeNumInput <= info.getTotalEmployees()) {
-        if (menuInput == 1) {
-          // Show the employee's information based on inputted number
-          showEmployeeInfo(employeeNumInput);
-        } else if (menuInput == 2) {
-          // Show the employee's gross wage based on inputted number
-          showEmployeeGrossWage(employeeNumInput);
-        } else if (menuInput == 3) {
-          //           Show the employee's net wage based on inputted number
-          showEmployeeNetWage(employeeNumInput);
+        // While input is invalid, retry prompts
+        while (!inputIsValid) {
+          System.out.print("Employee ID: ");
+          // Start the array at 1
+          int employeeNumInput = scanner.nextInt() - 1;
+
+          EmployeeInfo info = new EmployeeInfo();
+
+          if (employeeNumInput >= 0 && employeeNumInput < info.getTotalEmployees()) {
+            if (menuInput == 1) {
+              // Show the employee's information based on inputted number
+              showEmployeeInfo(employeeNumInput);
+            } else if (menuInput == 2) {
+              // Show the employee's gross wage based on inputted number
+              showEmployeeGrossWage(employeeNumInput);
+            } else if (menuInput == 3) {
+              // Show the employee's net wage based on inputted number
+              showEmployeeNetWage(employeeNumInput);
+            }
+
+            inputIsValid = true;
+            System.out.print("\nWould you like to go back to the main menu? (y) or (n)\n");
+
+          } else {
+            clearConsole();
+
+            System.out.println("\nEmployee not found. Please try again.\n");
+
+            displayUpperBorder(menuInput);
+          }
         }
-      } else {
-        System.out.println("\n" + "Employee not found");
-      }
-    } else if (menuInput == 0) {
-      clearConsole();
+        while (inputIsValid) {
+          String asd = scanner.nextLine();
 
-      displayUpperBorder(menuInput);
-    } else {
-      System.out.println("\n" + "Invalid input");
+          if (asd.equalsIgnoreCase("y")) {
+            clearConsole();
+
+            anotherOperation = true;
+            inputIsValid = false;
+          } else if (asd.equalsIgnoreCase("n")) {
+            System.exit(0);
+          }
+        }
+      } else if (menuInput == 0) {
+        clearConsole();
+
+        displayUpperBorder(menuInput);
+      } else {
+        System.out.println("\nInvalid input");
+      }
     }
   }
 }

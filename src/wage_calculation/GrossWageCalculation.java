@@ -2,7 +2,7 @@ package wage_calculation;
 
 import data.EmployeeInfo;
 
-public class grossWageCalculation {
+public class GrossWageCalculation {
   static EmployeeInfo info = new EmployeeInfo();
 
   public String calculateWeeklyRate(int employeeNumInput) {
