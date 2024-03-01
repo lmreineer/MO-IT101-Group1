@@ -1,6 +1,6 @@
 import data.EmployeeInfo;
-import wageCalculation.grossWageCalculation;
-import wageCalculation.netWageCalculation;
+import wage_calculation.grossWageCalculation;
+import wage_calculation.netWageCalculation;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package wageCalculation;
+package wage_calculation;
 
 import data.SssContributionList;
 
