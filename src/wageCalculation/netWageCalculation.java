@@ -1,3 +1,7 @@
+package wageCalculation;
+
+import data.SssContributionList;
+
 public class netWageCalculation {
   grossWageCalculation grossWage = new grossWageCalculation();
 

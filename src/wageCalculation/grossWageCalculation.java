@@ -1,4 +1,6 @@
-import java.text.DecimalFormat;
+package wageCalculation;
+
+import data.EmployeeInfo;
 
 public class grossWageCalculation {
   static EmployeeInfo info = new EmployeeInfo();

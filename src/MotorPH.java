@@ -1,3 +1,7 @@
+import data.EmployeeInfo;
+import wageCalculation.grossWageCalculation;
+import wageCalculation.netWageCalculation;
+
 import java.util.Scanner;
 
 public class MotorPH {
@@ -14,10 +18,10 @@ public class MotorPH {
         System.out.println("            Employee            ");
         break;
       case 4:
-        System.out.println("           Gross Wage           ");
+        System.out.println("            Net Wage            ");
         break;
       case 5:
-        System.out.println("            Net Wage            ");
+        System.out.println("           Deductions           ");
         break;
       case 0:
         System.out.println("           Logged out           ");

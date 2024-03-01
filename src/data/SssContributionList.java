@@ -1,5 +1,7 @@
+package data;
+
 public class SssContributionList {
-  String[] compensationRanges = {
+  public String[] compensationRanges = {
     "3250-3750",
     "3750-4250",
     "4250-4750",
@@ -44,7 +46,7 @@ public class SssContributionList {
     "23750-24250",
     "24250-24750",
   };
-  double[] contributions = {
+  public double[] contributions = {
     135.00, 157.50, 180.00, 202.50, 225.00, 247.50, 270.00, 292.50, 315.00, 337.50, 360.00, 382.50,
     405.00, 427.50, 450.00, 472.50, 495.00, 517.50, 540.00, 562.50, 585.00, 607.50, 630.00, 652.50,
     675.00, 697.50, 720.00, 742.50, 765.00, 787.50, 810.00, 832.50, 855.00, 877.50, 900.00, 922.50,

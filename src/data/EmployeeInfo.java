@@ -1,6 +1,8 @@
-class EmployeeInfo {
-  int totalEmployees = 34;
-  String lastName[] = {
+package data;
+
+public class EmployeeInfo {
+  public int totalEmployees = 34;
+  public String[] lastName = {
     "Garcia",
     "Lim",
     "Aquino",
@@ -36,7 +38,7 @@ class EmployeeInfo {
     "Martinez",
     "Santos"
   };
-  String firstName[] = {
+  public String firstName[] = {
     "Manuel III",
     "Antonio",
     "Bianca Sofia",
@@ -72,7 +74,7 @@ class EmployeeInfo {
     "Carlos Ian",
     "Beatriz"
   };
-  String birthdate[] = {
+  public String birthdate[] = {
     "10/11/1983",
     "06/19/1988",
     "08/04/1989",
@@ -108,7 +110,7 @@ class EmployeeInfo {
     "11/16/1990",
     "08/07/1990"
   };
-  String address[] = {
+  public String address[] = {
     "Valero Carpark Building Valero Street 1227, Makati City",
     "San Antonio De Padua 2, Block 1 Lot 8 and 2, Dasmarinas, Cavite",
     "Rm. 402 4/F Jiao Building Timog Avenue Cor. Quezon Avenue 1100, Quezon City",
@@ -144,7 +146,7 @@ class EmployeeInfo {
     "Bulala, Camalaniugan",
     "Agapita Building, Metro Manila"
   };
-  String phoneNumber[] = {
+  public String phoneNumber[] = {
     "966-860-270",
     "171-867-411",
     "966-889-370",
@@ -180,7 +182,7 @@ class EmployeeInfo {
     "078-854-208",
     "526-639-511"
   };
-  String sssNumber[] = {
+  public String sssNumber[] = {
     "44-4506057-3",
     "52-2061274-9",
     "30-8870406-2",
@@ -216,7 +218,7 @@ class EmployeeInfo {
     "11-5062972-7",
     "20-2987501-5"
   };
-  String philhealthNumber[] = {
+  public String philhealthNumber[] = {
     "820126853951",
     "331735646338",
     "177451189665",
@@ -252,7 +254,7 @@ class EmployeeInfo {
     "380685387212",
     "918460050077"
   };
-  String tinNumber[] = {
+  public String tinNumber[] = {
     "442-605-657-000",
     "683-102-776-000",
     "971-711-280-000",
@@ -288,7 +290,7 @@ class EmployeeInfo {
     "256-436-296-000",
     "911-529-713-000"
   };
-  String pagIbigNumber[] = {
+  public String pagIbigNumber[] = {
     "691295330870",
     "663904995411",
     "171519773969",
@@ -324,7 +326,7 @@ class EmployeeInfo {
     "993372963726",
     "874042259378"
   };
-  String status[] = {
+  public String status[] = {
     "Regular",
     "Regular",
     "Regular",
@@ -360,7 +362,7 @@ class EmployeeInfo {
     "Regular",
     "Regular"
   };
-  String position[] = {
+  public String position[] = {
     "Chief Executive Officer",
     "Chief Operating Officer",
     "Chief Finance Officer",
@@ -396,7 +398,7 @@ class EmployeeInfo {
     "Supply Chain and Logistics",
     "Customer Service and Relations"
   };
-  String immediateSupervisor[] = {
+  public String immediateSupervisor[] = {
     "N/A",
     "Garcia, Manuel III",
     "Garcia, Manuel III",
@@ -432,35 +434,35 @@ class EmployeeInfo {
     "Reyes, Isabella",
     "Reyes, Isabella"
   };
-  String basicSalary[] = {
+  public String basicSalary[] = {
     "90,000", "60,000", "60,000", "60,000", "52,670", "52,670", "42,975", "22,500", "22,500",
     "52,670", "50,825", "38,475", "24,000", "24,000", "53,500", "42,975", "41,850", "22,500",
     "22,500", "23,250", "23,250", "24,000", "22,500", "22,500", "24,000", "24,750", "24,750",
     "24,000", "22,500", "22,500", "22,500", "52,670", "52,670", "52,670"
   };
-  String riceSubsidy[] = {
+  public String riceSubsidy[] = {
     "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500",
     "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500",
     "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500", "1,500",
     "1,500", "1,500", "1,500", "1,500"
   };
-  String phoneAllowance[] = {
+  public String phoneAllowance[] = {
     "2,000", "2,000", "2,000", "2,000", "1,000", "1,000", "800", "500", "500", "1,000", "1,000",
     "800", "500", "500", "1,000", "800", "800", "500", "500", "500", "500", "500", "500", "500",
     "500", "500", "500", "500", "500", "500", "500", "1,000", "1,000", "1,000"
   };
-  String clothingAllowance[] = {
+  public String clothingAllowance[] = {
     "1,000", "1,000", "1,000", "1,000", "1,000", "1,000", "800", "500", "500", "1,000", "1,000",
     "800", "500", "500", "1,000", "800", "800", "500", "500", "500", "500", "500", "500", "500",
     "500", "500", "500", "500", "500", "500", "500", "1,000", "1,000", "1,000"
   };
-  String grossSemimonthlyRate[] = {
+  public String grossSemimonthlyRate[] = {
     "45,000", "30,000", "30,000", "30,000", "26,335", "26,335", "21,488", "11,250", "11,250",
     "26,335", "25,413", "19,238", "12,000", "12,000", "26,750", "21,488", "20,925", "11,250",
     "11,250", "11,625", "11,625", "12,000", "11,250", "11,250", "12,000", "12,375", "12,375",
     "12,000", "11,250", "11,250", "11,250", "26,335", "26,335", "26,335"
   };
-  double hourlyRate[] = {
+  public double[] hourlyRate = {
     535.71, 357.14, 357.14, 357.14, 313.51, 313.51, 255.80, 133.93, 133.93, 313.51, 302.53, 229.02,
     142.86, 142.86, 318.45, 255.80, 249.11, 133.93, 133.93, 138.39, 138.39, 142.86, 133.93, 133.93,
     142.86, 147.32, 147.32, 142.86, 133.93, 133.93, 133.93, 313.51, 313.51, 313.51,
