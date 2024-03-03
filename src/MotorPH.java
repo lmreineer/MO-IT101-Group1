@@ -1,12 +1,16 @@
 import data.EmployeeInfo;
+import data.EmployeeDataInitializer;
 import wage_calculation.GrossWageCalculation;
 import wage_calculation.NetWageCalculation;
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 public class MotorPH {
-  static EmployeeInfo info = new EmployeeInfo();
+  static EmployeeDataInitializer dataInitializer = new EmployeeDataInitializer();
+  private static List<EmployeeInfo> info;
 
   static void displayUpperBorder(int menuInput) {
     System.out.println("================================");
@@ -53,31 +57,39 @@ public class MotorPH {
   }
 
   static void showEmployeeInfo(int employeeNumInput) {
-    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
-    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
-    System.out.println("Birthdate: " + info.getBirthdate()[employeeNumInput]);
-    System.out.println("Address: " + info.getAddress()[employeeNumInput]);
-    System.out.println("Phone Number: " + info.getPhoneNumber()[employeeNumInput]);
-    System.out.println("SSS #: " + info.getSssNumber()[employeeNumInput]);
-    System.out.println("PhilHealth #: " + info.getPhilhealthNumber()[employeeNumInput]);
-    System.out.println("TIN #: " + info.getTinNumber()[employeeNumInput]);
-    System.out.println("Pag-IBIG #: " + info.getPagIbigNumber()[employeeNumInput]);
-    System.out.println("Status: " + info.getStatus()[employeeNumInput]);
-    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
-    System.out.println("Immediate Supervisor: " + info.getImmediateSupervisor()[employeeNumInput]);
-    System.out.println("Basic Salary: ₱" + info.getBasicSalary()[employeeNumInput]);
-    System.out.println("Rice Subsidy: ₱" + info.getRiceSubsidy()[employeeNumInput]);
-    System.out.println("Phone Allowance: ₱" + info.getPhoneAllowance()[employeeNumInput]);
-    System.out.println("Clothing Allowance: ₱" + info.getClothingAllowance()[employeeNumInput]);
+    info = dataInitializer.getEmployeeList();
+    EmployeeInfo employee = info.get(employeeNumInput - 1);
+
+    System.out.println("Last Name: " + String.join(", ", employee.getLastName()));
+    System.out.println("First Name: " + String.join(", ", employee.getFirstName()));
+    System.out.println("Birthdate: " + String.join(", ", employee.getBirthdate()));
+    System.out.println("Address: " + String.join(", ", employee.getAddress()));
+    System.out.println("Phone Number: " + String.join(", ", employee.getPhoneNumber()));
+    System.out.println("SSS #: " + String.join(", ", employee.getSssNumber()));
+    System.out.println("PhilHealth #: " + String.join(", ", employee.getPhilhealthNumber()));
+    System.out.println("TIN #: " + String.join(", ", employee.getTinNumber()));
+    System.out.println("Pag-IBIG #: " + String.join(", ", employee.getPagIbigNumber()));
+    System.out.println("Status: " + String.join(", ", employee.getStatus()));
+    System.out.println("Position: " + String.join(", ", employee.getPosition()));
     System.out.println(
-        "Gross Semi-monthly Rate: ₱" + info.getGrossSemimonthlyRate()[employeeNumInput]);
-    System.out.println("Hourly Rate: ₱" + info.getHourlyRate()[employeeNumInput]);
+        "Immediate Supervisor: " + String.join(", ", employee.getImmediateSupervisor()));
+    System.out.println("Basic Salary: ₱" + String.join(", ", employee.getBasicSalary()));
+    System.out.println("Rice Subsidy: ₱" + String.join(", ", employee.getRiceSubsidy()));
+    System.out.println("Phone Allowance: ₱" + String.join(", ", employee.getPhoneAllowance()));
+    System.out.println(
+        "Clothing Allowance: ₱" + String.join(", ", employee.getClothingAllowance()));
+    System.out.println(
+        "Gross Semi-monthly Rate: ₱" + String.join(", ", employee.getGrossSemimonthlyRate()));
+    System.out.println("Hourly Rate: ₱" + employee.getHourlyRate());
   }
 
   static void showBasicInfo(int employeeNumInput) {
-    System.out.println("Last Name: " + info.getLastName()[employeeNumInput]);
-    System.out.println("First Name: " + info.getFirstName()[employeeNumInput]);
-    System.out.println("Position: " + info.getPosition()[employeeNumInput]);
+    info = dataInitializer.getEmployeeList();
+    EmployeeInfo employee = info.get(employeeNumInput - 1);
+
+    System.out.println("Last Name: " + String.join(", ", employee.getLastName()));
+    System.out.println("First Name: " + String.join(", ", employee.getFirstName()));
+    System.out.println("Position: " + String.join(", ", employee.getPosition()));
   }
 
   static void showEmployeeGrossWage(int employeeNumInput) {
@@ -104,7 +116,7 @@ public class MotorPH {
 
     String sssDeduction = netWage.calculateSssContribution(employeeNumInput);
     String philHealthDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
-    String pagIbigDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
+    String pagIbigDeduction = netWage.calculatePagIbigContribution(employeeNumInput);
     String withholdingTax = netWage.calculateWithholdingTax(employeeNumInput);
     String formattedTotalDeductions = netWage.formatTotalDeductions(employeeNumInput);
     double lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
@@ -149,11 +161,11 @@ public class MotorPH {
           do {
             System.out.print("Employee ID: ");
             // Subtract by 1 to start array index at 1
-            int employeeNumInput = scanner.nextInt() - 1;
+            int employeeNumInput = scanner.nextInt();
 
-            EmployeeInfo info = new EmployeeInfo();
+            info = dataInitializer.getEmployeeList();
 
-            if (employeeNumInput >= 0 && employeeNumInput < info.getTotalEmployees()) {
+            if (employeeNumInput >= 1 && employeeNumInput < 34) {
               if (menuInput == 1) {
                 // Show the employee's information based on inputted number
                 showEmployeeInfo(employeeNumInput);
@@ -170,6 +182,12 @@ public class MotorPH {
 
               // After the operation, ask if the user wants to return to the main menu
               System.out.print("\nWould you like to go back to the main menu? (y) or (n)\n");
+            } else {
+              clearConsole();
+
+              System.out.println("\nInput is invalid. Please try again.\n");
+
+              displayUpperBorder(menuInput);
             }
 
             // While the input is invalid, retry input
@@ -204,14 +222,14 @@ public class MotorPH {
 
           displayUpperBorder(menuInput);
 
-          // Else if the user input is invalid (with integer)
+          // Else if the user input is invalid (using integer)
         } else {
           clearConsole();
 
-          System.out.println("\nInput is invalid. Please try.\n");
+          System.out.println("\nInput is invalid. Please try again.\n");
         }
 
-        // Catch the error if the user input is invalid (with data types other than integer)
+        // Catch the error if the user input is invalid (using data types other than integer)
       } catch (InputMismatchException e) {
         clearConsole();
 
