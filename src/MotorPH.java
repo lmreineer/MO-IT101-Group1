@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MotorPH {
-  static EmployeeDataInitializer dataInitializer = new EmployeeDataInitializer();
+  private static EmployeeDataInitializer dataInitializer = new EmployeeDataInitializer();
   private static List<EmployeeInfo> info;
 
   static void displayUpperBorder(int menuInput) {
@@ -101,6 +101,8 @@ public class MotorPH {
 
     System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
     System.out.println("Hourly Rate: ₱" + grossWage.formatHourlyRate(employeeNumInput));
+    System.out.println("Period Start Date: 11/21/2022");
+    System.out.println("Period End Date: 11/25/2022");
     System.out.println("Hours Worked: " + grossWage.calculateTotalHoursWorked(employeeNumInput));
     System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
   }

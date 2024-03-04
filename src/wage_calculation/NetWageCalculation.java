@@ -1,9 +1,19 @@
 package wage_calculation;
 
+import data.AttendanceRecords;
 import data.SssContributionList;
+import data.initializer.EmployeeDataInitializer;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.List;
 
 public class NetWageCalculation {
-  GrossWageCalculation grossWage = new GrossWageCalculation();
+  private GrossWageCalculation grossWage = new GrossWageCalculation();
+  private static EmployeeDataInitializer dataInitializer = new EmployeeDataInitializer();
 
   public String calculateSssContribution(int employeeNumInput) {
     double sssDeduction = 0;
@@ -156,7 +166,38 @@ public class NetWageCalculation {
   }
 
   public double calculateLateArrivalDeduction(int employeeNumInput) {
-    return 0;
+    double lateArrivalDeduction = 0;
+
+    List<AttendanceRecords> attendanceRecords = dataInitializer.getAttendanceRecords();
+
+    SimpleDateFormat format = new SimpleDateFormat("HH:mm");
+    boolean employeeFound = false;
+
+    for (AttendanceRecords attendanceRecord : attendanceRecords) {
+      if (attendanceRecord.getEmployeeId() == employeeNumInput) {
+        employeeFound = true;
+
+        try {
+          Date startTime = format.parse(attendanceRecord.getStartTime());
+
+          // Calculate the minutes of lateness
+          int minutesLate =
+              (int) ((startTime.getTime() - format.parse("8:10").getTime()) / (60 * 1000));
+
+          // Deduct for every minute of lateness, with a maximum of 100
+          lateArrivalDeduction = Math.min(minutesLate, 100);
+        } catch (ParseException e) {
+          e.printStackTrace();
+        }
+      }
+    }
+
+    // If employee number not found, set lateArrivalDeduction to 0
+    if (!employeeFound || lateArrivalDeduction < 0) {
+      lateArrivalDeduction = 0;
+    }
+
+    return lateArrivalDeduction;
   }
 
   public double calculateTotalDeductions(int employeeNumInput) {

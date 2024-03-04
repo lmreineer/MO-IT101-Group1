@@ -8,7 +8,7 @@ import java.util.List;
 public class AttendanceRecordsInitializer {
   public List<AttendanceRecords> attendance =
       Arrays.asList(
-          // 12/19/2022
+          // 11/21/2022
           new AttendanceRecords(7, "San Jose", "Brad", "11/21/2022", "8:00", "17:00"),
           new AttendanceRecords(8, "Romualdez", "Alice", "11/21/2022", "8:00", "17:00"),
           new AttendanceRecords(9, "Atienza", "Rosie", "11/21/2022", "8:00", "17:00"),
@@ -60,7 +60,7 @@ public class AttendanceRecordsInitializer {
           new AttendanceRecords(30, "Maceda", "Emelia ", "11/22/2022", "8:21", "17:00"),
           new AttendanceRecords(31, "Aguilar", "Delia ", "11/22/2022", "8:00", "17:00"),
 
-          // 12/21/2022
+          // 11/23/2022
           new AttendanceRecords(7, "San Jose", "Brad", "11/23/2022", "0:00", "0:00"),
           new AttendanceRecords(8, "Romualdez", "Alice", "11/23/2022", "0:00", "0:00"),
           new AttendanceRecords(9, "Atienza", "Rosie", "11/23/2022", "0:00", "0:00"),
@@ -86,7 +86,7 @@ public class AttendanceRecordsInitializer {
           new AttendanceRecords(30, "Maceda", "Emelia ", "11/23/2022", "0:00", "0:00"),
           new AttendanceRecords(31, "Aguilar", "Delia ", "11/23/2022", "0:00", "0:00"),
 
-          // 12/22/2022
+          // 11/24/2022
           new AttendanceRecords(7, "San Jose", "Brad", "11/24/2022", "8:00", "17:00"),
           new AttendanceRecords(8, "Romualdez", "Alice", "11/24/2022", "8:15", "17:00"),
           new AttendanceRecords(9, "Atienza", "Rosie", "11/24/2022", "8:00", "17:00"),
@@ -112,7 +112,7 @@ public class AttendanceRecordsInitializer {
           new AttendanceRecords(30, "Maceda", "Emelia ", "11/24/2022", "8:00", "17:00"),
           new AttendanceRecords(31, "Aguilar", "Delia ", "11/24/2022", "8:00", "17:00"),
 
-          // 12/23/2022
+          // 11/25/2022
           new AttendanceRecords(7, "San Jose", "Brad", "11/25/2022", "8:00", "17:00"),
           new AttendanceRecords(8, "Romualdez", "Alice", "11/25/2022", "8:00", "17:00"),
           new AttendanceRecords(9, "Atienza", "Rosie", "11/25/2022", "11:30", "17:00"),
