@@ -1,7 +1,5 @@
 package data;
 
-import com.sun.source.tree.ClassTree;
-
 public class AttendanceRecords {
   private String lastName;
   private String firstName;
