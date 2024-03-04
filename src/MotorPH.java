@@ -1,9 +1,8 @@
 import data.EmployeeInfo;
-import data.EmployeeDataInitializer;
+import data.initializer.EmployeeDataInitializer;
 import wage_calculation.GrossWageCalculation;
 import wage_calculation.NetWageCalculation;
 
-import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -102,7 +101,7 @@ public class MotorPH {
 
     System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
     System.out.println("Hourly Rate: ₱" + grossWage.formatHourlyRate(employeeNumInput));
-    System.out.println("Hours Worked: " + grossWage.calculateHoursWorked());
+    System.out.println("Hours Worked: " + grossWage.calculateTotalHoursWorked(employeeNumInput));
     System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
   }
 
@@ -165,7 +164,7 @@ public class MotorPH {
 
             info = dataInitializer.getEmployeeList();
 
-            if (employeeNumInput >= 1 && employeeNumInput < 34) {
+            if (employeeNumInput >= 1 && employeeNumInput < info.size()) {
               if (menuInput == 1) {
                 // Show the employee's information based on inputted number
                 showEmployeeInfo(employeeNumInput);
