@@ -19,8 +19,4 @@ public abstract class EmployeeDataManager {
   public List<AttendanceRecords> getAttendanceRecords() {
     return attendanceRecords;
   }
-
-  public void addAttendanceRecord(AttendanceRecords record) {
-    attendanceRecords.add(record);
-  }
 }

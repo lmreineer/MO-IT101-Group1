@@ -42,17 +42,16 @@ public class GrossWageCalculation extends EmployeeDataManager {
   }
 
   public int calculateTotalHoursWorked(int employeeNumInput) {
-    int diffHours = 0;
+    int totalHoursWorked = 0;
 
     List<AttendanceRecords> attendanceRecords = dataInitializer.getAttendanceRecords();
 
-    // Iterate through the attendanceRecords to find the record with the matching employeeId
-    for (AttendanceRecords attendance : attendanceRecords) {
-      if (attendance.getEmployeeId() == employeeNumInput) {
+    SimpleDateFormat format = new SimpleDateFormat("HH:mm");
+    for (AttendanceRecords attendanceRecord : attendanceRecords) {
+      if (attendanceRecord.getEmployeeId() == employeeNumInput) {
         try {
-          SimpleDateFormat format = new SimpleDateFormat("HH:mm");
-          Date startDate = format.parse(attendance.getStartTime());
-          Date endDate = format.parse(attendance.getEndTime());
+          Date startDate = format.parse(attendanceRecord.getStartTime());
+          Date endDate = format.parse(attendanceRecord.getEndTime());
 
           Calendar startCalendar = new GregorianCalendar();
           startCalendar.setTime(startDate);
@@ -61,20 +60,17 @@ public class GrossWageCalculation extends EmployeeDataManager {
           endCalendar.setTime(endDate);
 
           int diffMillis = (int) (endCalendar.getTimeInMillis() - startCalendar.getTimeInMillis());
-          diffHours = diffMillis / (60 * 60 * 1000);
+          totalHoursWorked += diffMillis / (60 * 60 * 1000);
 
         } catch (ParseException e) {
-          // Handle the ParseException
+          // Handle the ParseException appropriately
+          // For example, log a message or throw a runtime exception
           e.printStackTrace();
         }
-        // Exit the loop
-        break;
-      } else {
-        diffHours = 40;
       }
     }
 
-    return diffHours;
+    return totalHoursWorked;
   }
 
   public double calculateGrossWage(int employeeNumInput) {
