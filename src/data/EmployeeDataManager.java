@@ -4,19 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class EmployeeDataManager {
-  private List<EmployeeInfo> employeeList;
+  private List<EmployeeInfo> employeeInfo;
   private List<AttendanceRecords> attendanceRecords;
+  private List<SssContributionRange> sssContributionRange;
 
   public EmployeeDataManager() {
-    employeeList = new ArrayList<>();
+    employeeInfo = new ArrayList<>();
     attendanceRecords = new ArrayList<>();
+    sssContributionRange = new ArrayList<>();
   }
 
   public List<EmployeeInfo> getEmployeeList() {
-    return employeeList;
+    return employeeInfo;
   }
 
   public List<AttendanceRecords> getAttendanceRecords() {
     return attendanceRecords;
+  }
+
+  public List<SssContributionRange> getSssContributionRange() {
+    return sssContributionRange;
   }
 }

@@ -115,11 +115,16 @@ public class MotorPH {
 
     NetWageCalculation netWage = new NetWageCalculation();
 
-    String sssDeduction = netWage.calculateSssContribution(employeeNumInput);
-    String philHealthDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
-    String pagIbigDeduction = netWage.calculatePagIbigContribution(employeeNumInput);
-    String withholdingTax = netWage.calculateWithholdingTax(employeeNumInput);
-    String formattedTotalDeductions = netWage.formatTotalDeductions(employeeNumInput);
+    String sssDeduction =
+        netWage.formatDeduction(netWage.calculateSssContribution(employeeNumInput));
+    String philHealthDeduction =
+        netWage.formatDeduction(netWage.calculatePhilHealthContribution(employeeNumInput));
+    String pagIbigDeduction =
+        netWage.formatDeduction(netWage.calculatePagIbigContribution(employeeNumInput));
+    String withholdingTax =
+        netWage.formatDeduction(netWage.calculateWithholdingTax(employeeNumInput));
+    String totalDeductions =
+        netWage.formatDeduction(netWage.calculateTotalDeductions(employeeNumInput));
     double lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
 
     System.out.println("Social Security System: ₱" + sssDeduction);
@@ -134,7 +139,7 @@ public class MotorPH {
     GrossWageCalculation grossWage = new GrossWageCalculation();
 
     System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
-    System.out.println("Total Deductions: ₱" + formattedTotalDeductions);
+    System.out.println("Total Deductions: ₱" + totalDeductions);
     System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
   }
 
@@ -166,7 +171,7 @@ public class MotorPH {
 
             info = dataInitializer.getEmployeeList();
 
-            if (employeeNumInput >= 1 && employeeNumInput < info.size()) {
+            if (employeeNumInput >= 1 && employeeNumInput <= info.size()) {
               if (menuInput == 1) {
                 // Show the employee's information based on inputted number
                 showEmployeeInfo(employeeNumInput);

@@ -1,56 +1,45 @@
 package wage_calculation;
 
 import data.AttendanceRecords;
-import data.SssContributionList;
+import data.SssContributionRange;
 import data.initializer.EmployeeDataInitializer;
+import data.initializer.SssContributionRangeInitializer;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 public class NetWageCalculation {
-  private GrossWageCalculation grossWage = new GrossWageCalculation();
+  private static GrossWageCalculation grossWage = new GrossWageCalculation();
   private static EmployeeDataInitializer dataInitializer = new EmployeeDataInitializer();
 
-  public String calculateSssContribution(int employeeNumInput) {
+  public double calculateSssContribution(int employeeNumInput) {
     double sssDeduction = 0;
-
-    SssContributionList sss = new SssContributionList();
 
     double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
 
     // Loop through the compensation ranges and apply deduction based on contribution
-    for (int i = 0; i < sss.getCompensationRanges().length; i++) {
-      // Separate the values
-      String[] asd = sss.getCompensationRanges()[i].split("-");
-      // Convert to double and assign both values to their sides based on the SSS Contribution sheet
+    for (SssContributionRange contribution : dataInitializer.getSssContributionRange()) {
+      String[] asd = contribution.getRange().split("-");
       double leftValue = Double.parseDouble(asd[0]);
       double rightValue = Double.parseDouble(asd[1]);
 
-      // Check the range of which the employee's grossWage falls between
       if (doubledGrossWage > leftValue && doubledGrossWage <= rightValue) {
-        // Apply deduction based on contribution
-        // "contribution[i]"'s logic: ONLY return the value if the condition is true
-        sssDeduction = sss.getContributions()[i];
+        sssDeduction = contribution.getContribution();
+        // Exit the loop if the matching range is found
+        break;
       } else if (doubledGrossWage <= leftValue) {
-        // Subtract grossWage with the first element of the contributions array
-        sssDeduction = sss.getContributions()[0];
+        sssDeduction = 135.00;
       } else if (doubledGrossWage > rightValue) {
-        // Subtract grossWage with the last element of the contributions array
-        sssDeduction = sss.getContributions()[sss.getContributions().length - 1];
+        sssDeduction = 1125.00;
       }
     }
 
-    // Round to two decimal places and apply thousands separator
-    String formattedSssDeduction = String.format("%,.2f", sssDeduction);
-
-    return formattedSssDeduction;
+    return sssDeduction;
   }
 
-  public String calculatePhilHealthContribution(int employeeNumInput) {
+  public double calculatePhilHealthContribution(int employeeNumInput) {
     double monthlyPremium = 0;
     double philHealthDeduction = 0;
 
@@ -78,13 +67,10 @@ public class NetWageCalculation {
       philHealthDeduction = (50 * monthlyPremium) / 100;
     }
 
-    // Round to two decimal places and apply thousands separator
-    String formattedPhilhealthDeduction = String.format("%,.2f", philHealthDeduction);
-
-    return formattedPhilhealthDeduction;
+    return philHealthDeduction;
   }
 
-  public String calculatePagIbigContribution(int employeeNumInput) {
+  public double calculatePagIbigContribution(int employeeNumInput) {
     double pagIbigDeduction = 0;
 
     double doubledGrossWage = grossWage.calculateGrossWage(employeeNumInput);
@@ -102,17 +88,13 @@ public class NetWageCalculation {
       pagIbigDeduction = totalContribution > 100 ? 100 : totalContribution;
     }
 
-    // Round to two decimal places and apply thousands separator
-    String formattedPhilhealthDeduction = String.format("%,.2f", pagIbigDeduction);
-
-    return formattedPhilhealthDeduction;
+    return pagIbigDeduction;
   }
 
   public double calculateMonthlyContributions(int employeeNumInput) {
-    double sssContribution = Double.parseDouble(calculateSssContribution(employeeNumInput));
-    double philHealthContribution =
-        Double.parseDouble(calculatePhilHealthContribution(employeeNumInput));
-    double pagIbigContribution = Double.parseDouble(calculatePagIbigContribution(employeeNumInput));
+    double sssContribution = calculateSssContribution(employeeNumInput);
+    double philHealthContribution = calculatePhilHealthContribution(employeeNumInput);
+    double pagIbigContribution = calculatePagIbigContribution(employeeNumInput);
 
     // Calculate total deductions before calculating withholding tax
     double monthlyContributions = sssContribution + philHealthContribution + pagIbigContribution;
@@ -120,7 +102,7 @@ public class NetWageCalculation {
     return monthlyContributions;
   }
 
-  public String calculateWithholdingTax(int employeeNumInput) {
+  public double calculateWithholdingTax(int employeeNumInput) {
     double excessValue = 0;
     double withholdingTax = 0;
 
@@ -159,10 +141,7 @@ public class NetWageCalculation {
       withholdingTax = ((32 * excessValue) / 100) + 200833.33;
     }
 
-    // Round to two decimal places and apply thousands separator
-    String formattedWithholdingTax = String.format("%,.2f", withholdingTax);
-
-    return formattedWithholdingTax;
+    return withholdingTax;
   }
 
   public double calculateLateArrivalDeduction(int employeeNumInput) {
@@ -202,21 +181,12 @@ public class NetWageCalculation {
 
   public double calculateTotalDeductions(int employeeNumInput) {
     double monthlyContributions = calculateMonthlyContributions(employeeNumInput);
-    double withholdingTax = Double.parseDouble(calculateWithholdingTax(employeeNumInput));
+    double withholdingTax = calculateWithholdingTax(employeeNumInput);
     double lateArrivalDeduction = calculateLateArrivalDeduction(employeeNumInput);
 
     double totalDeductions = monthlyContributions + withholdingTax + lateArrivalDeduction;
 
     return totalDeductions;
-  }
-
-  public String formatTotalDeductions(int employeeNumInput) {
-    double totalDeductions = calculateTotalDeductions(employeeNumInput);
-
-    // Round to two decimal places and apply thousands separator
-    String formattedTotalDeductions = String.format("%,.2f", totalDeductions);
-
-    return formattedTotalDeductions;
   }
 
   public String calculateNetWage(int employeeNumInput) {
@@ -230,5 +200,9 @@ public class NetWageCalculation {
     String formattedNetWage = String.format("%,.2f", netWage);
 
     return formattedNetWage;
+  }
+
+  public String formatDeduction(double deduction) {
+    return String.format("%,.2f", deduction);
   }
 }
