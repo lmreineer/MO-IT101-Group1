@@ -62,6 +62,7 @@ public class MotorPH {
         info = dataInitializer.getEmployeeList();
         EmployeeInfo employee = info.get(employeeNumInput - 1);
 
+        // Use String.join(", ", attribute) to remove brackets
         System.out.println("Last Name: " + String.join(", ", employee.getLastName()));
         System.out.println("First Name: " + String.join(", ", employee.getFirstName()));
         System.out.println("Birthdate: " + String.join(", ", employee.getBirthdate()));
