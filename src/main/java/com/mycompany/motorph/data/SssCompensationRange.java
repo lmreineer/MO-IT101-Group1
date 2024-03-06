@@ -8,12 +8,12 @@ package com.mycompany.motorph.data;
  *
  * @author lance
  */
-public class SssContributionRange {
+public class SssCompensationRange {
 
     private String range;
     private double contribution;
 
-    public SssContributionRange(String range, double contribution) {
+    public SssCompensationRange(String range, double contribution) {
         this.range = range;
         this.contribution = contribution;
     }

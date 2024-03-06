@@ -6,7 +6,7 @@ package com.mycompany.motorph.data.initializer;
 
 import com.mycompany.motorph.data.EmployeeInfo;
 import com.mycompany.motorph.data.AttendanceRecords;
-import com.mycompany.motorph.data.SssContributionRange;
+import com.mycompany.motorph.data.SssCompensationRange;
 import com.mycompany.motorph.data.EmployeeDataManager;
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class EmployeeDataInitializer extends EmployeeDataManager {
     public EmployeeDataInitializer() {
         List<EmployeeInfo> employees = (employeeInfo.employees);
         List<AttendanceRecords> attendance = (attendanceRecords.attendance);
-        List<SssContributionRange> contribution = (sssContributionRange.contribution);
+        List<SssCompensationRange> contribution = (sssContributionRange.contribution);
 
         // Populate
         getEmployeeList().addAll(employees);

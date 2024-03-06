@@ -54,35 +54,40 @@ public class MotorPH {
 
     static void clearConsole() {
         for (int i = 0; i < 1000; i++) {
+            // Print 999 newlines to clear the console
             System.out.println("\n");
         }
+    }
+
+    private static String removeBrackets(String[] attribute) {
+        // Use String.join(", ", attribute) to remove brackets
+        return String.join(", ", attribute);
     }
 
     static void showEmployeeInfo(int employeeNumInput) {
         info = dataInitializer.getEmployeeList();
         EmployeeInfo employee = info.get(employeeNumInput - 1);
 
-        // Use String.join(", ", attribute) to remove brackets
-        System.out.println("Last Name: " + String.join(", ", employee.getLastName()));
-        System.out.println("First Name: " + String.join(", ", employee.getFirstName()));
-        System.out.println("Birthdate: " + String.join(", ", employee.getBirthdate()));
-        System.out.println("Address: " + String.join(", ", employee.getAddress()));
-        System.out.println("Phone Number: " + String.join(", ", employee.getPhoneNumber()));
-        System.out.println("SSS #: " + String.join(", ", employee.getSssNumber()));
-        System.out.println("PhilHealth #: " + String.join(", ", employee.getPhilhealthNumber()));
-        System.out.println("TIN #: " + String.join(", ", employee.getTinNumber()));
-        System.out.println("Pag-IBIG #: " + String.join(", ", employee.getPagIbigNumber()));
-        System.out.println("Status: " + String.join(", ", employee.getStatus()));
-        System.out.println("Position: " + String.join(", ", employee.getPosition()));
+        System.out.println("Last Name: " + removeBrackets(employee.getLastName()));
+        System.out.println("First Name: " + removeBrackets(employee.getFirstName()));
+        System.out.println("Birthdate: " + removeBrackets(employee.getBirthdate()));
+        System.out.println("Address: " + removeBrackets(employee.getAddress()));
+        System.out.println("Phone Number: " + removeBrackets(employee.getPhoneNumber()));
+        System.out.println("SSS #: " + removeBrackets(employee.getSssNumber()));
+        System.out.println("PhilHealth #: " + removeBrackets(employee.getPhilhealthNumber()));
+        System.out.println("TIN #: " + removeBrackets(employee.getTinNumber()));
+        System.out.println("Pag-IBIG #: " + removeBrackets(employee.getPagIbigNumber()));
+        System.out.println("Status: " + removeBrackets(employee.getStatus()));
+        System.out.println("Position: " + removeBrackets(employee.getPosition()));
         System.out.println(
-                "Immediate Supervisor: " + String.join(", ", employee.getImmediateSupervisor()));
-        System.out.println("Basic Salary: ₱" + String.join(", ", employee.getBasicSalary()));
-        System.out.println("Rice Subsidy: ₱" + String.join(", ", employee.getRiceSubsidy()));
-        System.out.println("Phone Allowance: ₱" + String.join(", ", employee.getPhoneAllowance()));
+                "Immediate Supervisor: " + removeBrackets(employee.getImmediateSupervisor()));
+        System.out.println("Basic Salary: ₱" + removeBrackets(employee.getBasicSalary()));
+        System.out.println("Rice Subsidy: ₱" + removeBrackets(employee.getRiceSubsidy()));
+        System.out.println("Phone Allowance: ₱" + removeBrackets(employee.getPhoneAllowance()));
         System.out.println(
-                "Clothing Allowance: ₱" + String.join(", ", employee.getClothingAllowance()));
+                "Clothing Allowance: ₱" + removeBrackets(employee.getClothingAllowance()));
         System.out.println(
-                "Gross Semi-monthly Rate: ₱" + String.join(", ", employee.getGrossSemimonthlyRate()));
+                "Gross Semi-monthly Rate: ₱" + removeBrackets(employee.getGrossSemimonthlyRate()));
         System.out.println("Hourly Rate: ₱" + employee.getHourlyRate());
     }
 
@@ -90,23 +95,26 @@ public class MotorPH {
         info = dataInitializer.getEmployeeList();
         EmployeeInfo employee = info.get(employeeNumInput - 1);
 
-        System.out.println("Last Name: " + String.join(", ", employee.getLastName()));
-        System.out.println("First Name: " + String.join(", ", employee.getFirstName()));
-        System.out.println("Position: " + String.join(", ", employee.getPosition()));
+        System.out.println("Last Name: " + removeBrackets(employee.getLastName()));
+        System.out.println("First Name: " + removeBrackets(employee.getFirstName()));
+        System.out.println("Position: " + removeBrackets(employee.getPosition()));
     }
 
     static void showEmployeeGrossWage(int employeeNumInput) {
+        info = dataInitializer.getEmployeeList();
+        EmployeeInfo employee = info.get(employeeNumInput - 1);
+
         showBasicInfo(employeeNumInput);
 
         // Display "Gross Wage" heading
         displayUpperBorder(4);
 
         System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
-        System.out.println("Hourly Rate: ₱" + grossWage.formatHourlyRate(employeeNumInput));
+        System.out.println("Hourly Rate: ₱" + employee.getHourlyRate());
         System.out.println("Period Start Date: 11/21/2022");
         System.out.println("Period End Date: 11/25/2022");
         System.out.println("Hours Worked: " + grossWage.calculateTotalHoursWorked(employeeNumInput));
-        System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
+        System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
     }
 
     static void showEmployeeNetWage(int employeeNumInput) {
@@ -117,6 +125,7 @@ public class MotorPH {
 
         NetWageCalculation netWage = new NetWageCalculation();
 
+        // Format each to desired numeral format
         String sssDeduction
                 = netWage.formatDeduction(netWage.calculateSssContribution(employeeNumInput));
         String philHealthDeduction
@@ -127,6 +136,7 @@ public class MotorPH {
                 = netWage.formatDeduction(netWage.calculateWithholdingTax(employeeNumInput));
         String totalDeductions
                 = netWage.formatDeduction(netWage.calculateTotalDeductions(employeeNumInput));
+
         double lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
 
         System.out.println("Social Security System: ₱" + sssDeduction);
@@ -138,7 +148,7 @@ public class MotorPH {
         // Display "Net Wage" heading
         displayUpperBorder(6);
 
-        System.out.println("Gross Wage: ₱" + grossWage.formatGrossWage(employeeNumInput));
+        System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
         System.out.println("Total Deductions: ₱" + totalDeductions);
         System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
     }

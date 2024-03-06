@@ -1,8 +1,8 @@
 com/mycompany/motorph/MotorPH.class
+com/mycompany/motorph/data/SssCompensationRange.class
 com/mycompany/motorph/wage_calculation/GrossWageCalculation.class
 com/mycompany/motorph/data/initializer/EmployeeDataInitializer.class
 com/mycompany/motorph/data/initializer/AttendanceRecordsInitializer.class
-com/mycompany/motorph/data/SssContributionRange.class
 com/mycompany/motorph/data/EmployeeInfo.class
 com/mycompany/motorph/wage_calculation/NetWageCalculation.class
 com/mycompany/motorph/data/AttendanceRecords.class

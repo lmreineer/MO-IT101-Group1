@@ -36,18 +36,6 @@ public class GrossWageCalculation extends EmployeeDataManager {
         return formattedWeeklyRate;
     }
 
-    public String formatHourlyRate(int employeeNumInput) {
-        info = dataInitializer.getEmployeeList();
-        EmployeeInfo employee = info.get(employeeNumInput - 1);
-
-        double hourlyRate = employee.getHourlyRate();
-
-        // Round to two decimal places and apply thousands separator
-        String formattedHourlyRate = String.format("%,.2f", hourlyRate);
-
-        return formattedHourlyRate;
-    }
-
     public int calculateTotalHoursWorked(int employeeNumInput) {
         int totalHoursWorked = 0;
 
@@ -74,8 +62,7 @@ public class GrossWageCalculation extends EmployeeDataManager {
                     totalHoursWorked += diffMillis / (60 * 60 * 1000);
 
                 } catch (ParseException e) {
-                    // Handle the ParseException appropriately
-                    // For example, log a message or throw a runtime exception
+                    // Handle exception
                     e.printStackTrace();
                 }
             }
@@ -89,23 +76,19 @@ public class GrossWageCalculation extends EmployeeDataManager {
         return totalHoursWorked;
     }
 
-    public double calculateGrossWage(int employeeNumInput) {
+    public String calculateGrossWage(int employeeNumInput) {
         info = dataInitializer.getEmployeeList();
         EmployeeInfo employee = info.get(employeeNumInput - 1);
 
-        double hoursWorked = calculateTotalHoursWorked(employeeNumInput);
+        int hoursWorked = calculateTotalHoursWorked(employeeNumInput);
 
         double grossWage = employee.getHourlyRate() * hoursWorked;
 
-        return grossWage;
+        return formatTotal(grossWage);
     }
 
-    public String formatGrossWage(int employeeNumInput) {
-        double grossWage = calculateGrossWage(employeeNumInput);
-
+    public String formatTotal(double total) {
         // Round to two decimal places and apply thousands separator
-        String formattedGrossWage = String.format("%,.2f", grossWage);
-
-        return formattedGrossWage;
+        return String.format("%,.2f", total);
     }
 }

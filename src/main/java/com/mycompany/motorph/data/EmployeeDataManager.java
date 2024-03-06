@@ -15,7 +15,7 @@ public abstract class EmployeeDataManager {
 
     private List<EmployeeInfo> employeeInfo;
     private List<AttendanceRecords> attendanceRecords;
-    private List<SssContributionRange> sssContributionRange;
+    private List<SssCompensationRange> sssContributionRange;
 
     public EmployeeDataManager() {
         employeeInfo = new ArrayList<>();
@@ -31,7 +31,7 @@ public abstract class EmployeeDataManager {
         return attendanceRecords;
     }
 
-    public List<SssContributionRange> getSssContributionRange() {
+    public List<SssCompensationRange> getSssContributionRange() {
         return sssContributionRange;
     }
 }
