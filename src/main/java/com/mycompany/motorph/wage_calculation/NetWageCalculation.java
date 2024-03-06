@@ -30,7 +30,7 @@ public class NetWageCalculation {
         return calculatedGrossWage;
     }
 
-    public double calculateSssContribution(int employeeNumInput) {
+    public String calculateSssContribution(int employeeNumInput) {
         double sssDeduction = 0;
 
         // Loop through the compensation ranges
@@ -52,10 +52,10 @@ public class NetWageCalculation {
             }
         }
 
-        return sssDeduction;
+        return formatDeduction(sssDeduction);
     }
 
-    public double calculatePhilHealthContribution(int employeeNumInput) {
+    public String calculatePhilHealthContribution(int employeeNumInput) {
         double monthlyPremium = 0;
         double philHealthDeduction = 0;
 
@@ -81,10 +81,10 @@ public class NetWageCalculation {
             philHealthDeduction = (50 * monthlyPremium) / 100;
         }
 
-        return philHealthDeduction;
+        return formatDeduction(philHealthDeduction);
     }
 
-    public double calculatePagIbigContribution(int employeeNumInput) {
+    public String calculatePagIbigContribution(int employeeNumInput) {
         double pagIbigDeduction = 0;
 
         // If grossWage is at least 1000 to 1500
@@ -100,13 +100,14 @@ public class NetWageCalculation {
             pagIbigDeduction = totalContribution > 100 ? 100 : totalContribution;
         }
 
-        return pagIbigDeduction;
+        return formatDeduction(pagIbigDeduction);
     }
 
     public double calculateMonthlyContributions(int employeeNumInput) {
-        double sssContribution = calculateSssContribution(employeeNumInput);
-        double philHealthContribution = calculatePhilHealthContribution(employeeNumInput);
-        double pagIbigContribution = calculatePagIbigContribution(employeeNumInput);
+        // Remove commas from each variable
+        double sssContribution = Double.parseDouble(calculateSssContribution(employeeNumInput).replace(",", ""));
+        double philHealthContribution = Double.parseDouble(calculatePhilHealthContribution(employeeNumInput).replace(",", ""));
+        double pagIbigContribution = Double.parseDouble(calculatePagIbigContribution(employeeNumInput).replace(",", ""));
 
         // Calculate total deductions before calculating withholding tax
         double monthlyContributions = sssContribution + philHealthContribution + pagIbigContribution;
@@ -114,7 +115,7 @@ public class NetWageCalculation {
         return monthlyContributions;
     }
 
-    public double calculateWithholdingTax(int employeeNumInput) {
+    public String calculateWithholdingTax(int employeeNumInput) {
         double excessValue = 0;
         double withholdingTax = 0;
 
@@ -151,10 +152,10 @@ public class NetWageCalculation {
             withholdingTax = ((32 * excessValue) / 100) + 200833.33;
         }
 
-        return withholdingTax;
+        return formatDeduction(withholdingTax);
     }
 
-    public double calculateLateArrivalDeduction(int employeeNumInput) {
+    public String calculateLateArrivalDeduction(int employeeNumInput) {
         double lateArrivalDeduction = 0;
 
         List<AttendanceRecords> attendanceRecords = dataInitializer.getAttendanceRecords();
@@ -187,13 +188,16 @@ public class NetWageCalculation {
             lateArrivalDeduction = 0;
         }
 
-        return lateArrivalDeduction;
+        return formatDeduction(lateArrivalDeduction);
     }
 
     public double calculateTotalDeductions(int employeeNumInput) {
         double monthlyContributions = calculateMonthlyContributions(employeeNumInput);
-        double withholdingTax = calculateWithholdingTax(employeeNumInput);
-        double lateArrivalDeduction = calculateLateArrivalDeduction(employeeNumInput);
+
+        // Remove commas from variable
+        double withholdingTax = Double.parseDouble(calculateWithholdingTax(employeeNumInput).replace(", ", ""));
+
+        double lateArrivalDeduction = Double.parseDouble(calculateLateArrivalDeduction(employeeNumInput));
 
         double totalDeductions = monthlyContributions + withholdingTax + lateArrivalDeduction;
 

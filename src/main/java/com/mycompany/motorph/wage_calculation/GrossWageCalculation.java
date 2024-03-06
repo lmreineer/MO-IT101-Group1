@@ -30,10 +30,7 @@ public class GrossWageCalculation extends EmployeeDataManager {
 
         double weeklyRate = employee.getHourlyRate() * 40;
 
-        // Round to two decimal places and apply thousands separator
-        String formattedWeeklyRate = String.format("%,.2f", weeklyRate);
-
-        return formattedWeeklyRate;
+        return formatTotal(weeklyRate);
     }
 
     public int calculateTotalHoursWorked(int employeeNumInput) {

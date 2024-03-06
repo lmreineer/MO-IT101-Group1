@@ -126,18 +126,12 @@ public class MotorPH {
         NetWageCalculation netWage = new NetWageCalculation();
 
         // Format each to desired numeral format
-        String sssDeduction
-                = netWage.formatDeduction(netWage.calculateSssContribution(employeeNumInput));
-        String philHealthDeduction
-                = netWage.formatDeduction(netWage.calculatePhilHealthContribution(employeeNumInput));
-        String pagIbigDeduction
-                = netWage.formatDeduction(netWage.calculatePagIbigContribution(employeeNumInput));
-        String withholdingTax
-                = netWage.formatDeduction(netWage.calculateWithholdingTax(employeeNumInput));
-        String totalDeductions
-                = netWage.formatDeduction(netWage.calculateTotalDeductions(employeeNumInput));
-
-        double lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
+        String sssDeduction = netWage.calculateSssContribution(employeeNumInput);
+        String philHealthDeduction = netWage.calculatePhilHealthContribution(employeeNumInput);
+        String pagIbigDeduction = netWage.calculatePagIbigContribution(employeeNumInput);
+        String withholdingTax = netWage.calculateWithholdingTax(employeeNumInput);
+        double totalDeductions = netWage.calculateTotalDeductions(employeeNumInput);
+        String lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
 
         System.out.println("Social Security System: ₱" + sssDeduction);
         System.out.println("PhilHealth: ₱" + philHealthDeduction);
