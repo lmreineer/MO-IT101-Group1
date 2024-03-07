@@ -81,14 +81,14 @@ public class MotorPH {
         System.out.println("Position: " + removeBrackets(employee.getPosition()));
         System.out.println(
                 "Immediate Supervisor: " + removeBrackets(employee.getImmediateSupervisor()));
-        System.out.println("Basic Salary: ₱" + removeBrackets(employee.getBasicSalary()));
-        System.out.println("Rice Subsidy: ₱" + removeBrackets(employee.getRiceSubsidy()));
-        System.out.println("Phone Allowance: ₱" + removeBrackets(employee.getPhoneAllowance()));
+        System.out.println("Basic Salary: PHP " + removeBrackets(employee.getBasicSalary()));
+        System.out.println("Rice Subsidy: PHP " + removeBrackets(employee.getRiceSubsidy()));
+        System.out.println("Phone Allowance: PHP " + removeBrackets(employee.getPhoneAllowance()));
         System.out.println(
-                "Clothing Allowance: ₱" + removeBrackets(employee.getClothingAllowance()));
+                "Clothing Allowance: PHP " + removeBrackets(employee.getClothingAllowance()));
         System.out.println(
-                "Gross Semi-monthly Rate: ₱" + removeBrackets(employee.getGrossSemimonthlyRate()));
-        System.out.println("Hourly Rate: ₱" + employee.getHourlyRate());
+                "Gross Semi-monthly Rate: PHP " + removeBrackets(employee.getGrossSemimonthlyRate()));
+        System.out.println("Hourly Rate: PHP " + employee.getHourlyRate());
     }
 
     static void showBasicInfo(int employeeNumInput) {
@@ -109,12 +109,12 @@ public class MotorPH {
         // Display "Gross Wage" heading
         displayUpperBorder(4);
 
-        System.out.println("Weekly Rate: ₱" + grossWage.calculateWeeklyRate(employeeNumInput));
-        System.out.println("Hourly Rate: ₱" + employee.getHourlyRate());
+        System.out.println("Weekly Rate: PHP " + grossWage.calculateWeeklyRate(employeeNumInput));
+        System.out.println("Hourly Rate: PHP " + employee.getHourlyRate());
         System.out.println("Period Start Date: 11/21/2022");
         System.out.println("Period End Date: 11/25/2022");
         System.out.println("Hours Worked: " + grossWage.calculateTotalHoursWorked(employeeNumInput));
-        System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
+        System.out.println("Gross Wage: PHP " + grossWage.calculateGrossWage(employeeNumInput));
     }
 
     static void showEmployeeNetWage(int employeeNumInput) {
@@ -133,18 +133,18 @@ public class MotorPH {
         double totalDeductions = netWage.calculateTotalDeductions(employeeNumInput);
         String lateArrivalDeduction = netWage.calculateLateArrivalDeduction(employeeNumInput);
 
-        System.out.println("Social Security System: ₱" + sssDeduction);
-        System.out.println("PhilHealth: ₱" + philHealthDeduction);
-        System.out.println("Pag-IBIG: ₱" + pagIbigDeduction);
-        System.out.println("Withholding Tax: ₱" + withholdingTax);
-        System.out.println("Late Arrival Deduction: ₱" + lateArrivalDeduction);
+        System.out.println("Social Security System: PHP " + sssDeduction);
+        System.out.println("PhilHealth: PHP " + philHealthDeduction);
+        System.out.println("Pag-IBIG: PHP " + pagIbigDeduction);
+        System.out.println("Withholding Tax: PHP " + withholdingTax);
+        System.out.println("Late Arrival Deduction: PHP " + lateArrivalDeduction);
 
         // Display "Net Wage" heading
         displayUpperBorder(6);
 
-        System.out.println("Gross Wage: ₱" + grossWage.calculateGrossWage(employeeNumInput));
-        System.out.println("Total Deductions: ₱" + totalDeductions);
-        System.out.println("Net Wage: ₱" + netWage.calculateNetWage(employeeNumInput));
+        System.out.println("Gross Wage: PHP " + grossWage.calculateGrossWage(employeeNumInput));
+        System.out.println("Total Deductions: PHP " + totalDeductions);
+        System.out.println("Net Wage: PHP " + netWage.calculateNetWage(employeeNumInput));
     }
 
     public static void main(String[] args) {
