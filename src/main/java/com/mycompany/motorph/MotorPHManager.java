@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 /**
  * A class that manages the MotorPH application/payroll system.
@@ -19,10 +18,11 @@ import java.util.concurrent.TimeUnit;
  */
 public class MotorPHManager {
 
-    private SSSDeduction sssDeduction;
-    private HealthInsurancesDeduction healthInsuranceDeduction;
-    private WithholdingTaxCalculation withholdingTaxCalculation;
-    private static final String EMPLOYEES_DATA_PATH = "/home/lance/projects/java/MotorPH/src/main/resources/data/employee_information";
+    private final SSSDeduction sssDeduction;
+    private final HealthInsurancesDeduction healthInsuranceDeduction;
+    private final WithholdingTaxCalculation withholdingTaxCalculation;
+
+    private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
 
     /**
      * Constructor for MotorPHManager.
@@ -128,9 +128,6 @@ public class MotorPHManager {
         // Retrieve employee information from the data source
         Employee employeeInfo = getEmployeeInfo(employeeNumber, EMPLOYEES_DATA_PATH);
 
-        // Calculate the assumed hours worked based on the provided date range
-        double assumedHoursWorked = calculateAssumedHoursWorked(dateRange);
-
         // Show type of wage based on the isGross value given (true or false)
         WageCalculation wageCalculation = (isGross)
                 ? new GrossWageCalculation(employeeNumber,
@@ -148,7 +145,7 @@ public class MotorPHManager {
 
         try {
             // Show the type of wage and/or other information
-            wageCalculation.showWage(employeeNumber, dateRange, assumedHoursWorked);
+            wageCalculation.showWage(employeeNumber, dateRange);
         } catch (RuntimeException e) {
             // Catch runtime exception if an error happens during wage calculation and display an error message
             System.err.println("Error: " + e.getMessage());
@@ -182,36 +179,6 @@ public class MotorPHManager {
                 scanner.nextLine();
             }
         }
-    }
-
-    /**
-     * Calculates assumed hours worked based on the date range inputted.
-     *
-     * Gets used when employee number is not found on the attendance data
-     *
-     * @param dateRange Date range inputted
-     * @return Assumed hours worked
-     */
-    private double calculateAssumedHoursWorked(DateRange dateRange) {
-        // Calculate number of days within the date range inputted
-        long numberOfDays = calculateNumberOfDays(dateRange);
-
-        // Assume 9 hours per day
-        return 9.0 * numberOfDays;
-    }
-
-    /**
-     * Calculates the number of days within the date range inputted.
-     *
-     * @param dateRange Date range inputted
-     * @return Number of days
-     */
-    private long calculateNumberOfDays(DateRange dateRange) {
-        // Calculate the difference/duration in milliseconds between the start and end dates
-        long durationInMillis = Math.abs(dateRange.getEndDate().getTime() - dateRange.getStartDate().getTime());
-
-        // Convert the difference in milliseconds to day and add 1 to include the end date
-        return TimeUnit.DAYS.convert(durationInMillis, TimeUnit.MILLISECONDS) + 1;
     }
 
     /**

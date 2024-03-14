@@ -1,0 +1,2088 @@
+16|Mata|Christian|01/09/2022|8:00|17:00
+7|San Jose|Brad|01/09/2022|8:00|17:00
+11|Salcedo|Anthony|01/09/2022|8:00|17:00
+8|Romualdez|Alice|01/09/2022|8:00|17:00
+9|Atienza|Rosie|01/09/2022|8:00|17:00
+13|Farala|Martha|01/09/2022|8:27|17:00
+14|Martinez|Leila|01/09/2022|8:01|17:00
+18|San Jose|Allison|01/09/2022|8:05|17:00
+19|Rosario|Cydney|01/09/2022|8:00|17:00
+12|Lopez|Josie|01/09/2022|8:00|17:00
+17|De Leon|Selena|01/09/2022|8:00|17:00
+15|Romualdez|Fredrick|01/09/2022|8:00|17:00
+20|Bautista|Mark|01/09/2022|8:00|17:00
+21|Lazaro|Darlene|01/09/2022|8:00|17:00
+22|Delos Santos|Kolby|01/09/2022|8:28|17:00
+23|Santos|Vella|01/09/2022|8:00|17:00
+24|Del Rosario|Tomas|01/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|01/09/2022|8:00|17:00
+26|Gutierrez|Percival|01/09/2022|8:00|17:00
+27|Manalaysay|Garfield|01/09/2022|8:11|17:00
+28|Villegas|Lizeth|01/09/2022|8:00|17:00
+29|Ramos|Carol|01/09/2022|8:00|17:00
+30|Maceda|Emelia|01/09/2022|8:21|17:00
+31|Aguilar|Delia|01/09/2022|8:00|17:00
+16|Mata|Christian|01/11/2022|8:00|17:00
+7|San Jose|Brad|01/11/2022|8:00|17:00
+11|Salcedo|Anthony|01/11/2022|8:00|17:00
+8|Romualdez|Alice|01/11/2022|8:00|17:00
+9|Atienza|Rosie|01/11/2022|8:00|17:00
+13|Farala|Martha|01/11/2022|8:00|17:00
+14|Martinez|Leila|01/11/2022|8:00|17:00
+18|San Jose|Allison|01/11/2022|8:00|17:00
+19|Rosario|Cydney|01/11/2022|8:00|17:00
+12|Lopez|Josie|01/11/2022|8:00|17:00
+17|De Leon|Selena|01/11/2022|8:00|17:00
+15|Romualdez|Fredrick|01/11/2022|8:00|17:00
+20|Bautista|Mark|01/11/2022|8:00|17:00
+21|Lazaro|Darlene|01/11/2022|8:00|17:00
+22|Delos Santos|Kolby|01/11/2022|8:00|17:00
+23|Santos|Vella|01/11/2022|8:00|17:00
+24|Del Rosario|Tomas|01/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|01/11/2022|8:00|17:00
+26|Gutierrez|Percival|01/11/2022|8:00|17:00
+27|Manalaysay|Garfield|01/11/2022|8:00|17:00
+28|Villegas|Lizeth|01/11/2022|8:00|17:00
+29|Ramos|Carol|01/11/2022|8:00|17:00
+30|Maceda|Emelia|01/11/2022|8:00|17:00
+31|Aguilar|Delia|01/11/2022|8:00|17:00
+16|Mata|Christian|01/12/2022|8:00|17:00
+7|San Jose|Brad|01/12/2022|8:00|17:00
+11|Salcedo|Anthony|01/12/2022|8:00|17:00
+8|Romualdez|Alice|01/12/2022|8:15|17:00
+9|Atienza|Rosie|01/12/2022|8:00|17:00
+13|Farala|Martha|01/12/2022|8:00|17:00
+14|Martinez|Leila|01/12/2022|8:00|17:00
+18|San Jose|Allison|01/12/2022|8:00|17:00
+19|Rosario|Cydney|01/12/2022|8:00|17:00
+12|Lopez|Josie|01/12/2022|10:30|17:00
+17|De Leon|Selena|01/12/2022|8:00|17:00
+15|Romualdez|Fredrick|01/12/2022|8:00|17:00
+20|Bautista|Mark|01/12/2022|8:00|17:00
+21|Lazaro|Darlene|01/12/2022|8:00|17:00
+22|Delos Santos|Kolby|01/12/2022|8:00|17:00
+23|Santos|Vella|01/12/2022|8:00|17:00
+24|Del Rosario|Tomas|01/12/2022|8:00|17:00
+25|Tolentino|Jacklyn|01/12/2022|8:00|17:00
+26|Gutierrez|Percival|01/12/2022|8:00|17:00
+27|Manalaysay|Garfield|01/12/2022|13:00|17:00
+28|Villegas|Lizeth|01/12/2022|8:00|17:00
+29|Ramos|Carol|01/12/2022|8:00|17:00
+30|Maceda|Emelia|01/12/2022|8:00|17:00
+31|Aguilar|Delia|01/12/2022|8:00|17:00
+16|Mata|Christian|02/09/2022|8:00|17:00
+7|San Jose|Brad|02/09/2022|11:30|17:00
+11|Salcedo|Anthony|02/09/2022|8:00|17:00
+8|Romualdez|Alice|02/09/2022|8:00|17:00
+9|Atienza|Rosie|02/09/2022|8:00|17:00
+13|Farala|Martha|02/09/2022|8:00|17:00
+14|Martinez|Leila|02/09/2022|8:10|17:00
+18|San Jose|Allison|02/09/2022|0:00|0:00
+19|Rosario|Cydney|02/09/2022|8:00|17:00
+12|Lopez|Josie|02/09/2022|8:00|17:00
+17|De Leon|Selena|02/09/2022|8:00|17:00
+15|Romualdez|Fredrick|02/09/2022|8:00|17:00
+20|Bautista|Mark|02/09/2022|8:00|17:00
+21|Lazaro|Darlene|02/09/2022|8:00|17:00
+22|Delos Santos|Kolby|02/09/2022|8:00|17:00
+23|Santos|Vella|02/09/2022|8:05|17:00
+24|Del Rosario|Tomas|02/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|02/09/2022|8:00|17:00
+26|Gutierrez|Percival|02/09/2022|8:00|17:00
+27|Manalaysay|Garfield|02/09/2022|8:00|17:00
+28|Villegas|Lizeth|02/09/2022|8:00|17:00
+29|Ramos|Carol|02/09/2022|9:00|17:00
+30|Maceda|Emelia|02/09/2022|8:00|17:00
+31|Aguilar|Delia|02/09/2022|8:00|17:00
+16|Mata|Christian|02/11/2022|8:00|17:00
+7|San Jose|Brad|02/11/2022|8:00|17:00
+11|Salcedo|Anthony|02/11/2022|8:00|17:00
+8|Romualdez|Alice|02/11/2022|8:00|17:00
+9|Atienza|Rosie|02/11/2022|8:00|17:00
+13|Farala|Martha|02/11/2022|8:00|17:00
+14|Martinez|Leila|02/11/2022|8:00|17:00
+18|San Jose|Allison|02/11/2022|0:00|0:00
+19|Rosario|Cydney|02/11/2022|8:00|17:00
+12|Lopez|Josie|02/11/2022|8:00|17:00
+17|De Leon|Selena|02/11/2022|8:00|17:00
+15|Romualdez|Fredrick|02/11/2022|8:00|17:00
+20|Bautista|Mark|02/11/2022|8:00|17:00
+21|Lazaro|Darlene|02/11/2022|8:00|17:00
+22|Delos Santos|Kolby|02/11/2022|8:00|17:00
+23|Santos|Vella|02/11/2022|8:00|17:00
+24|Del Rosario|Tomas|02/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|02/11/2022|8:00|17:00
+26|Gutierrez|Percival|02/11/2022|8:00|17:00
+27|Manalaysay|Garfield|02/11/2022|8:00|17:00
+28|Villegas|Lizeth|02/11/2022|8:00|17:00
+29|Ramos|Carol|02/11/2022|8:00|17:00
+30|Maceda|Emelia|02/11/2022|8:00|17:00
+31|Aguilar|Delia|02/11/2022|8:00|17:00
+16|Mata|Christian|02/12/2022|8:00|17:00
+7|San Jose|Brad|02/12/2022|8:00|17:00
+11|Salcedo|Anthony|02/12/2022|8:00|17:00
+8|Romualdez|Alice|02/12/2022|8:00|17:00
+9|Atienza|Rosie|02/12/2022|8:00|17:00
+13|Farala|Martha|02/12/2022|8:00|17:00
+14|Martinez|Leila|02/12/2022|8:00|17:00
+18|San Jose|Allison|02/12/2022|0:00|0:00
+19|Rosario|Cydney|02/12/2022|8:00|17:00
+12|Lopez|Josie|02/12/2022|8:00|17:00
+17|De Leon|Selena|02/12/2022|8:00|17:00
+15|Romualdez|Fredrick|02/12/2022|10:00|17:00
+20|Bautista|Mark|02/12/2022|10:00|17:00
+21|Lazaro|Darlene|02/12/2022|10:00|17:00
+22|Delos Santos|Kolby|02/12/2022|10:00|17:00
+23|Santos|Vella|02/12/2022|10:00|17:00
+24|Del Rosario|Tomas|02/12/2022|10:00|17:00
+25|Tolentino|Jacklyn|02/12/2022|10:00|17:00
+26|Gutierrez|Percival|02/12/2022|10:00|17:00
+27|Manalaysay|Garfield|02/12/2022|10:00|17:00
+28|Villegas|Lizeth|02/12/2022|10:00|17:00
+29|Ramos|Carol|02/12/2022|10:00|17:00
+30|Maceda|Emelia|02/12/2022|10:00|17:00
+31|Aguilar|Delia|02/12/2022|10:00|17:00
+16|Mata|Christian|03/10/2022|8:00|17:00
+7|San Jose|Brad|03/10/2022|8:00|17:00
+11|Salcedo|Anthony|03/10/2022|8:00|17:00
+8|Romualdez|Alice|03/10/2022|8:00|17:00
+9|Atienza|Rosie|03/10/2022|8:00|17:00
+13|Farala|Martha|03/10/2022|8:00|17:00
+14|Martinez|Leila|03/10/2022|8:00|17:00
+18|San Jose|Allison|03/10/2022|0:00|0:00
+19|Rosario|Cydney|03/10/2022|8:00|17:00
+12|Lopez|Josie|03/10/2022|8:00|17:00
+17|De Leon|Selena|03/10/2022|8:00|17:00
+15|Romualdez|Fredrick|03/10/2022|8:00|17:00
+20|Bautista|Mark|03/10/2022|8:00|17:00
+21|Lazaro|Darlene|03/10/2022|8:00|17:00
+22|Delos Santos|Kolby|03/10/2022|8:00|17:00
+23|Santos|Vella|03/10/2022|8:00|17:00
+24|Del Rosario|Tomas|03/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|03/10/2022|8:00|17:00
+26|Gutierrez|Percival|03/10/2022|8:00|17:00
+27|Manalaysay|Garfield|03/10/2022|8:00|17:00
+28|Villegas|Lizeth|03/10/2022|8:00|17:00
+29|Ramos|Carol|03/10/2022|8:00|17:00
+30|Maceda|Emelia|03/10/2022|8:00|17:00
+31|Aguilar|Delia|03/10/2022|8:00|17:00
+16|Mata|Christian|03/11/2022|8:00|17:00
+7|San Jose|Brad|03/11/2022|8:00|17:00
+11|Salcedo|Anthony|03/11/2022|8:00|17:00
+8|Romualdez|Alice|03/11/2022|8:00|17:00
+9|Atienza|Rosie|03/11/2022|8:00|17:00
+13|Farala|Martha|03/11/2022|8:27|17:00
+14|Martinez|Leila|03/11/2022|8:01|17:00
+18|San Jose|Allison|03/11/2022|0:00|0:00
+19|Rosario|Cydney|03/11/2022|8:00|17:00
+12|Lopez|Josie|03/11/2022|8:00|17:00
+17|De Leon|Selena|03/11/2022|8:00|17:00
+15|Romualdez|Fredrick|03/11/2022|8:00|17:00
+20|Bautista|Mark|03/11/2022|8:00|17:00
+21|Lazaro|Darlene|03/11/2022|8:00|17:00
+22|Delos Santos|Kolby|03/11/2022|8:28|17:00
+23|Santos|Vella|03/11/2022|8:00|17:00
+24|Del Rosario|Tomas|03/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|03/11/2022|8:00|17:00
+26|Gutierrez|Percival|03/11/2022|8:00|17:00
+27|Manalaysay|Garfield|03/11/2022|8:11|17:00
+28|Villegas|Lizeth|03/11/2022|8:00|17:00
+29|Ramos|Carol|03/11/2022|8:00|17:00
+30|Maceda|Emelia|03/11/2022|8:21|17:00
+31|Aguilar|Delia|03/11/2022|8:00|17:00
+16|Mata|Christian|04/10/2022|8:00|17:00
+7|San Jose|Brad|04/10/2022|8:00|17:00
+11|Salcedo|Anthony|04/10/2022|8:00|17:00
+8|Romualdez|Alice|04/10/2022|8:00|17:00
+9|Atienza|Rosie|04/10/2022|8:00|17:00
+13|Farala|Martha|04/10/2022|8:00|17:00
+14|Martinez|Leila|04/10/2022|8:00|17:00
+18|San Jose|Allison|04/10/2022|8:00|17:00
+19|Rosario|Cydney|04/10/2022|8:00|17:00
+12|Lopez|Josie|04/10/2022|8:00|17:00
+17|De Leon|Selena|04/10/2022|8:00|17:00
+15|Romualdez|Fredrick|04/10/2022|8:00|17:00
+20|Bautista|Mark|04/10/2022|8:00|17:00
+21|Lazaro|Darlene|04/10/2022|8:00|17:00
+22|Delos Santos|Kolby|04/10/2022|8:00|17:00
+23|Santos|Vella|04/10/2022|0:00|0:00
+24|Del Rosario|Tomas|04/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|04/10/2022|8:00|17:00
+26|Gutierrez|Percival|04/10/2022|8:00|17:00
+27|Manalaysay|Garfield|04/10/2022|8:00|17:00
+28|Villegas|Lizeth|04/10/2022|8:00|17:00
+29|Ramos|Carol|04/10/2022|8:00|17:00
+30|Maceda|Emelia|04/10/2022|8:00|17:00
+31|Aguilar|Delia|04/10/2022|8:00|17:00
+16|Mata|Christian|04/11/2022|8:00|17:00
+7|San Jose|Brad|04/11/2022|8:00|17:00
+11|Salcedo|Anthony|04/11/2022|8:00|17:00
+8|Romualdez|Alice|04/11/2022|8:15|17:00
+9|Atienza|Rosie|04/11/2022|8:00|17:00
+13|Farala|Martha|04/11/2022|8:00|17:00
+14|Martinez|Leila|04/11/2022|8:00|17:00
+18|San Jose|Allison|04/11/2022|8:00|17:00
+19|Rosario|Cydney|04/11/2022|8:00|17:00
+12|Lopez|Josie|04/11/2022|10:30|17:00
+17|De Leon|Selena|04/11/2022|8:00|17:00
+15|Romualdez|Fredrick|04/11/2022|8:00|17:00
+20|Bautista|Mark|04/11/2022|8:00|17:00
+21|Lazaro|Darlene|04/11/2022|8:00|17:00
+22|Delos Santos|Kolby|04/11/2022|8:00|17:00
+23|Santos|Vella|04/11/2022|8:00|17:00
+24|Del Rosario|Tomas|04/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|04/11/2022|8:00|17:00
+26|Gutierrez|Percival|04/11/2022|8:00|17:00
+27|Manalaysay|Garfield|04/11/2022|13:00|17:00
+28|Villegas|Lizeth|04/11/2022|8:00|17:00
+29|Ramos|Carol|04/11/2022|8:00|17:00
+30|Maceda|Emelia|04/11/2022|8:00|17:00
+31|Aguilar|Delia|04/11/2022|8:00|17:00
+16|Mata|Christian|05/09/2022|8:00|17:00
+7|San Jose|Brad|05/09/2022|11:30|17:00
+11|Salcedo|Anthony|05/09/2022|8:00|17:00
+8|Romualdez|Alice|05/09/2022|8:00|17:00
+9|Atienza|Rosie|05/09/2022|8:00|17:00
+13|Farala|Martha|05/09/2022|8:00|17:00
+14|Martinez|Leila|05/09/2022|8:10|17:00
+18|San Jose|Allison|05/09/2022|8:00|17:00
+19|Rosario|Cydney|05/09/2022|8:00|17:00
+12|Lopez|Josie|05/09/2022|8:00|17:00
+17|De Leon|Selena|05/09/2022|8:00|17:00
+15|Romualdez|Fredrick|05/09/2022|8:00|17:00
+20|Bautista|Mark|05/09/2022|8:00|17:00
+21|Lazaro|Darlene|05/09/2022|8:00|17:00
+22|Delos Santos|Kolby|05/09/2022|8:00|17:00
+23|Santos|Vella|05/09/2022|8:05|17:00
+24|Del Rosario|Tomas|05/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|05/09/2022|8:00|17:00
+26|Gutierrez|Percival|05/09/2022|8:00|17:00
+27|Manalaysay|Garfield|05/09/2022|8:00|17:00
+28|Villegas|Lizeth|05/09/2022|8:00|17:00
+29|Ramos|Carol|05/09/2022|9:00|17:00
+30|Maceda|Emelia|05/09/2022|0:00|0:00
+31|Aguilar|Delia|05/09/2022|8:00|17:00
+16|Mata|Christian|05/10/2022|8:00|17:00
+7|San Jose|Brad|05/10/2022|8:00|17:00
+11|Salcedo|Anthony|05/10/2022|8:00|17:00
+8|Romualdez|Alice|05/10/2022|8:00|17:00
+9|Atienza|Rosie|05/10/2022|8:00|17:00
+13|Farala|Martha|05/10/2022|8:00|17:00
+14|Martinez|Leila|05/10/2022|8:00|17:00
+18|San Jose|Allison|05/10/2022|8:00|17:00
+19|Rosario|Cydney|05/10/2022|8:00|17:00
+12|Lopez|Josie|05/10/2022|8:00|17:00
+17|De Leon|Selena|05/10/2022|8:00|17:00
+15|Romualdez|Fredrick|05/10/2022|8:00|17:00
+20|Bautista|Mark|05/10/2022|8:00|17:00
+21|Lazaro|Darlene|05/10/2022|8:00|17:00
+22|Delos Santos|Kolby|05/10/2022|8:00|17:00
+23|Santos|Vella|05/10/2022|8:00|17:00
+24|Del Rosario|Tomas|05/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|05/10/2022|8:00|17:00
+26|Gutierrez|Percival|05/10/2022|8:00|17:00
+27|Manalaysay|Garfield|05/10/2022|8:00|17:00
+28|Villegas|Lizeth|05/10/2022|8:00|17:00
+29|Ramos|Carol|05/10/2022|8:00|17:00
+30|Maceda|Emelia|05/10/2022|8:00|17:00
+31|Aguilar|Delia|05/10/2022|8:00|17:00
+16|Mata|Christian|05/12/2022|8:00|17:00
+7|San Jose|Brad|05/12/2022|8:00|17:00
+11|Salcedo|Anthony|05/12/2022|8:00|17:00
+8|Romualdez|Alice|05/12/2022|8:00|17:00
+9|Atienza|Rosie|05/12/2022|8:00|17:00
+13|Farala|Martha|05/12/2022|8:00|17:00
+14|Martinez|Leila|05/12/2022|8:00|17:00
+18|San Jose|Allison|05/12/2022|8:00|17:00
+19|Rosario|Cydney|05/12/2022|8:00|17:00
+12|Lopez|Josie|05/12/2022|8:00|17:00
+17|De Leon|Selena|05/12/2022|8:00|17:00
+15|Romualdez|Fredrick|05/12/2022|10:00|17:00
+20|Bautista|Mark|05/12/2022|10:00|17:00
+21|Lazaro|Darlene|05/12/2022|10:00|17:00
+22|Delos Santos|Kolby|05/12/2022|10:00|17:00
+23|Santos|Vella|05/12/2022|0:00|0:00
+24|Del Rosario|Tomas|05/12/2022|10:00|17:00
+25|Tolentino|Jacklyn|05/12/2022|10:00|17:00
+26|Gutierrez|Percival|05/12/2022|10:00|17:00
+27|Manalaysay|Garfield|05/12/2022|10:00|17:00
+28|Villegas|Lizeth|05/12/2022|10:00|17:00
+29|Ramos|Carol|05/12/2022|10:00|17:00
+30|Maceda|Emelia|05/12/2022|10:00|17:00
+31|Aguilar|Delia|05/12/2022|10:00|17:00
+16|Mata|Christian|06/09/2022|8:00|17:00
+7|San Jose|Brad|06/09/2022|8:00|17:00
+11|Salcedo|Anthony|06/09/2022|8:00|17:00
+8|Romualdez|Alice|06/09/2022|8:00|17:00
+9|Atienza|Rosie|06/09/2022|8:00|17:00
+13|Farala|Martha|06/09/2022|8:00|17:00
+14|Martinez|Leila|06/09/2022|8:00|17:00
+18|San Jose|Allison|06/09/2022|8:00|17:00
+19|Rosario|Cydney|06/09/2022|8:00|17:00
+12|Lopez|Josie|06/09/2022|8:00|17:00
+17|De Leon|Selena|06/09/2022|8:00|17:00
+15|Romualdez|Fredrick|06/09/2022|8:00|17:00
+20|Bautista|Mark|06/09/2022|8:00|17:00
+21|Lazaro|Darlene|06/09/2022|8:00|17:00
+22|Delos Santos|Kolby|06/09/2022|8:00|17:00
+23|Santos|Vella|06/09/2022|8:00|17:00
+24|Del Rosario|Tomas|06/09/2022|0:00|0:00
+25|Tolentino|Jacklyn|06/09/2022|8:00|17:00
+26|Gutierrez|Percival|06/09/2022|8:00|17:00
+27|Manalaysay|Garfield|06/09/2022|8:00|17:00
+28|Villegas|Lizeth|06/09/2022|8:00|17:00
+29|Ramos|Carol|06/09/2022|8:00|17:00
+30|Maceda|Emelia|06/09/2022|8:00|17:00
+31|Aguilar|Delia|06/09/2022|8:00|17:00
+16|Mata|Christian|06/10/2022|8:00|17:00
+7|San Jose|Brad|06/10/2022|8:00|17:00
+11|Salcedo|Anthony|06/10/2022|8:00|17:00
+8|Romualdez|Alice|06/10/2022|8:00|17:00
+9|Atienza|Rosie|06/10/2022|8:00|17:00
+13|Farala|Martha|06/10/2022|8:27|17:00
+14|Martinez|Leila|06/10/2022|8:01|17:00
+18|San Jose|Allison|06/10/2022|8:05|17:00
+19|Rosario|Cydney|06/10/2022|8:00|17:00
+12|Lopez|Josie|06/10/2022|8:00|17:00
+17|De Leon|Selena|06/10/2022|8:00|17:00
+15|Romualdez|Fredrick|06/10/2022|8:00|17:00
+20|Bautista|Mark|06/10/2022|8:00|17:00
+21|Lazaro|Darlene|06/10/2022|8:00|17:00
+22|Delos Santos|Kolby|06/10/2022|8:28|17:00
+23|Santos|Vella|06/10/2022|8:00|17:00
+24|Del Rosario|Tomas|06/10/2022|0:00|0:00
+25|Tolentino|Jacklyn|06/10/2022|8:00|17:00
+26|Gutierrez|Percival|06/10/2022|8:00|17:00
+27|Manalaysay|Garfield|06/10/2022|8:11|17:00
+28|Villegas|Lizeth|06/10/2022|8:00|17:00
+29|Ramos|Carol|06/10/2022|8:00|17:00
+30|Maceda|Emelia|06/10/2022|8:21|17:00
+31|Aguilar|Delia|06/10/2022|8:00|17:00
+16|Mata|Christian|06/12/2022|8:00|17:00
+7|San Jose|Brad|06/12/2022|8:00|17:00
+11|Salcedo|Anthony|06/12/2022|8:00|17:00
+8|Romualdez|Alice|06/12/2022|8:00|17:00
+9|Atienza|Rosie|06/12/2022|8:00|17:00
+13|Farala|Martha|06/12/2022|8:00|17:00
+14|Martinez|Leila|06/12/2022|8:00|17:00
+18|San Jose|Allison|06/12/2022|8:00|17:00
+19|Rosario|Cydney|06/12/2022|8:00|17:00
+12|Lopez|Josie|06/12/2022|8:00|17:00
+17|De Leon|Selena|06/12/2022|8:00|17:00
+15|Romualdez|Fredrick|06/12/2022|8:00|17:00
+20|Bautista|Mark|06/12/2022|8:00|17:00
+21|Lazaro|Darlene|06/12/2022|8:00|17:00
+22|Delos Santos|Kolby|06/12/2022|8:00|17:00
+23|Santos|Vella|06/12/2022|8:00|17:00
+24|Del Rosario|Tomas|06/12/2022|8:00|17:00
+25|Tolentino|Jacklyn|06/12/2022|8:00|17:00
+26|Gutierrez|Percival|06/12/2022|8:00|17:00
+27|Manalaysay|Garfield|06/12/2022|8:00|17:00
+28|Villegas|Lizeth|06/12/2022|8:00|17:00
+29|Ramos|Carol|06/12/2022|8:00|17:00
+30|Maceda|Emelia|06/12/2022|8:00|17:00
+31|Aguilar|Delia|06/12/2022|8:00|17:00
+16|Mata|Christian|07/09/2022|8:00|17:00
+7|San Jose|Brad|07/09/2022|8:00|17:00
+11|Salcedo|Anthony|07/09/2022|8:00|17:00
+8|Romualdez|Alice|07/09/2022|8:15|17:00
+9|Atienza|Rosie|07/09/2022|8:00|17:00
+13|Farala|Martha|07/09/2022|8:00|17:00
+14|Martinez|Leila|07/09/2022|8:00|17:00
+18|San Jose|Allison|07/09/2022|8:00|17:00
+19|Rosario|Cydney|07/09/2022|8:00|17:00
+12|Lopez|Josie|07/09/2022|10:30|17:00
+17|De Leon|Selena|07/09/2022|8:00|17:00
+15|Romualdez|Fredrick|07/09/2022|8:00|17:00
+20|Bautista|Mark|07/09/2022|8:00|17:00
+21|Lazaro|Darlene|07/09/2022|8:00|17:00
+22|Delos Santos|Kolby|07/09/2022|8:00|17:00
+23|Santos|Vella|07/09/2022|8:00|17:00
+24|Del Rosario|Tomas|07/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|07/09/2022|8:00|17:00
+26|Gutierrez|Percival|07/09/2022|8:00|17:00
+27|Manalaysay|Garfield|07/09/2022|13:00|17:00
+28|Villegas|Lizeth|07/09/2022|8:00|17:00
+29|Ramos|Carol|07/09/2022|8:00|17:00
+30|Maceda|Emelia|07/09/2022|8:00|17:00
+31|Aguilar|Delia|07/09/2022|8:00|17:00
+16|Mata|Christian|07/10/2022|8:00|17:00
+7|San Jose|Brad|07/10/2022|11:30|17:00
+11|Salcedo|Anthony|07/10/2022|8:00|17:00
+8|Romualdez|Alice|07/10/2022|8:00|17:00
+9|Atienza|Rosie|07/10/2022|8:00|17:00
+13|Farala|Martha|07/10/2022|8:00|17:00
+14|Martinez|Leila|07/10/2022|8:10|17:00
+18|San Jose|Allison|07/10/2022|8:00|17:00
+19|Rosario|Cydney|07/10/2022|8:00|17:00
+12|Lopez|Josie|07/10/2022|8:00|17:00
+17|De Leon|Selena|07/10/2022|8:00|17:00
+15|Romualdez|Fredrick|07/10/2022|8:00|17:00
+20|Bautista|Mark|07/10/2022|8:00|17:00
+21|Lazaro|Darlene|07/10/2022|8:00|17:00
+22|Delos Santos|Kolby|07/10/2022|8:00|17:00
+23|Santos|Vella|07/10/2022|8:05|17:00
+24|Del Rosario|Tomas|07/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|07/10/2022|8:00|17:00
+26|Gutierrez|Percival|07/10/2022|8:00|17:00
+27|Manalaysay|Garfield|07/10/2022|8:00|17:00
+28|Villegas|Lizeth|07/10/2022|8:00|17:00
+29|Ramos|Carol|07/10/2022|9:00|17:00
+30|Maceda|Emelia|07/10/2022|8:00|17:00
+31|Aguilar|Delia|07/10/2022|8:00|17:00
+16|Mata|Christian|07/11/2022|8:00|17:00
+7|San Jose|Brad|07/11/2022|8:00|17:00
+11|Salcedo|Anthony|07/11/2022|8:00|17:00
+8|Romualdez|Alice|07/11/2022|8:00|17:00
+9|Atienza|Rosie|07/11/2022|8:00|17:00
+13|Farala|Martha|07/11/2022|8:00|17:00
+14|Martinez|Leila|07/11/2022|8:00|17:00
+18|San Jose|Allison|07/11/2022|8:00|17:00
+19|Rosario|Cydney|07/11/2022|8:00|17:00
+12|Lopez|Josie|07/11/2022|8:00|17:00
+17|De Leon|Selena|07/11/2022|8:00|17:00
+15|Romualdez|Fredrick|07/11/2022|8:00|17:00
+20|Bautista|Mark|07/11/2022|8:00|17:00
+21|Lazaro|Darlene|07/11/2022|8:00|17:00
+22|Delos Santos|Kolby|07/11/2022|8:00|17:00
+23|Santos|Vella|07/11/2022|0:00|0:00
+24|Del Rosario|Tomas|07/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|07/11/2022|8:00|17:00
+26|Gutierrez|Percival|07/11/2022|8:00|17:00
+27|Manalaysay|Garfield|07/11/2022|8:00|17:00
+28|Villegas|Lizeth|07/11/2022|8:00|17:00
+29|Ramos|Carol|07/11/2022|8:00|17:00
+30|Maceda|Emelia|07/11/2022|8:00|17:00
+31|Aguilar|Delia|07/11/2022|8:00|17:00
+16|Mata|Christian|07/12/2022|8:00|17:00
+7|San Jose|Brad|07/12/2022|8:00|17:00
+11|Salcedo|Anthony|07/12/2022|8:00|17:00
+8|Romualdez|Alice|07/12/2022|8:00|17:00
+9|Atienza|Rosie|07/12/2022|8:00|17:00
+13|Farala|Martha|07/12/2022|8:00|17:00
+14|Martinez|Leila|07/12/2022|8:00|17:00
+18|San Jose|Allison|07/12/2022|8:00|17:00
+19|Rosario|Cydney|07/12/2022|8:00|17:00
+12|Lopez|Josie|07/12/2022|8:00|17:00
+17|De Leon|Selena|07/12/2022|8:00|17:00
+15|Romualdez|Fredrick|07/12/2022|10:00|17:00
+20|Bautista|Mark|07/12/2022|10:00|17:00
+21|Lazaro|Darlene|07/12/2022|10:00|17:00
+22|Delos Santos|Kolby|07/12/2022|10:00|17:00
+23|Santos|Vella|07/12/2022|10:00|17:00
+24|Del Rosario|Tomas|07/12/2022|10:00|17:00
+25|Tolentino|Jacklyn|07/12/2022|10:00|17:00
+26|Gutierrez|Percival|07/12/2022|10:00|17:00
+27|Manalaysay|Garfield|07/12/2022|10:00|17:00
+28|Villegas|Lizeth|07/12/2022|10:00|17:00
+29|Ramos|Carol|07/12/2022|10:00|17:00
+30|Maceda|Emelia|07/12/2022|10:00|17:00
+31|Aguilar|Delia|07/12/2022|10:00|17:00
+16|Mata|Christian|08/09/2022|8:00|17:00
+7|San Jose|Brad|08/09/2022|8:00|17:00
+11|Salcedo|Anthony|08/09/2022|8:00|17:00
+8|Romualdez|Alice|08/09/2022|8:00|17:00
+9|Atienza|Rosie|08/09/2022|8:00|17:00
+13|Farala|Martha|08/09/2022|8:00|17:00
+14|Martinez|Leila|08/09/2022|8:00|17:00
+18|San Jose|Allison|08/09/2022|8:00|17:00
+19|Rosario|Cydney|08/09/2022|8:00|17:00
+12|Lopez|Josie|08/09/2022|8:00|17:00
+17|De Leon|Selena|08/09/2022|8:00|17:00
+15|Romualdez|Fredrick|08/09/2022|8:00|17:00
+20|Bautista|Mark|08/09/2022|8:00|17:00
+21|Lazaro|Darlene|08/09/2022|8:00|17:00
+22|Delos Santos|Kolby|08/09/2022|8:00|17:00
+23|Santos|Vella|08/09/2022|8:00|17:00
+24|Del Rosario|Tomas|08/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|08/09/2022|8:00|17:00
+26|Gutierrez|Percival|08/09/2022|8:00|17:00
+27|Manalaysay|Garfield|08/09/2022|8:00|17:00
+28|Villegas|Lizeth|08/09/2022|8:00|17:00
+29|Ramos|Carol|08/09/2022|8:00|17:00
+30|Maceda|Emelia|08/09/2022|8:00|17:00
+31|Aguilar|Delia|08/09/2022|8:00|17:00
+16|Mata|Christian|08/11/2022|8:00|17:00
+7|San Jose|Brad|08/11/2022|8:00|17:00
+11|Salcedo|Anthony|08/11/2022|8:00|17:00
+8|Romualdez|Alice|08/11/2022|8:00|17:00
+9|Atienza|Rosie|08/11/2022|8:00|17:00
+13|Farala|Martha|08/11/2022|8:27|17:00
+14|Martinez|Leila|08/11/2022|8:01|17:00
+18|San Jose|Allison|08/11/2022|8:05|17:00
+19|Rosario|Cydney|08/11/2022|8:00|17:00
+12|Lopez|Josie|08/11/2022|8:00|17:00
+17|De Leon|Selena|08/11/2022|8:00|17:00
+15|Romualdez|Fredrick|08/11/2022|8:00|17:00
+20|Bautista|Mark|08/11/2022|8:00|17:00
+21|Lazaro|Darlene|08/11/2022|8:00|17:00
+22|Delos Santos|Kolby|08/11/2022|8:28|17:00
+23|Santos|Vella|08/11/2022|8:00|17:00
+24|Del Rosario|Tomas|08/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|08/11/2022|8:00|17:00
+26|Gutierrez|Percival|08/11/2022|8:00|17:00
+27|Manalaysay|Garfield|08/11/2022|8:11|17:00
+28|Villegas|Lizeth|08/11/2022|8:00|17:00
+29|Ramos|Carol|08/11/2022|8:00|17:00
+30|Maceda|Emelia|08/11/2022|8:21|17:00
+31|Aguilar|Delia|08/11/2022|8:00|17:00
+16|Mata|Christian|08/12/2022|8:00|17:00
+7|San Jose|Brad|08/12/2022|8:00|17:00
+11|Salcedo|Anthony|08/12/2022|8:00|17:00
+8|Romualdez|Alice|08/12/2022|8:00|17:00
+9|Atienza|Rosie|08/12/2022|8:00|17:00
+13|Farala|Martha|08/12/2022|8:00|17:00
+14|Martinez|Leila|08/12/2022|8:00|17:00
+18|San Jose|Allison|08/12/2022|8:00|17:00
+19|Rosario|Cydney|08/12/2022|8:00|17:00
+12|Lopez|Josie|08/12/2022|8:00|17:00
+17|De Leon|Selena|08/12/2022|8:00|17:00
+15|Romualdez|Fredrick|08/12/2022|8:00|17:00
+20|Bautista|Mark|08/12/2022|8:00|17:00
+21|Lazaro|Darlene|08/12/2022|8:00|17:00
+22|Delos Santos|Kolby|08/12/2022|8:00|17:00
+23|Santos|Vella|08/12/2022|8:00|17:00
+24|Del Rosario|Tomas|08/12/2022|8:00|17:00
+25|Tolentino|Jacklyn|08/12/2022|8:00|17:00
+26|Gutierrez|Percival|08/12/2022|8:00|17:00
+27|Manalaysay|Garfield|08/12/2022|8:00|17:00
+28|Villegas|Lizeth|08/12/2022|8:00|17:00
+29|Ramos|Carol|08/12/2022|8:00|17:00
+30|Maceda|Emelia|08/12/2022|8:00|17:00
+31|Aguilar|Delia|08/12/2022|8:00|17:00
+16|Mata|Christian|09/09/2022|8:00|17:00
+7|San Jose|Brad|09/09/2022|8:00|17:00
+11|Salcedo|Anthony|09/09/2022|8:00|17:00
+8|Romualdez|Alice|09/09/2022|8:15|17:00
+9|Atienza|Rosie|09/09/2022|8:00|17:00
+13|Farala|Martha|09/09/2022|8:00|17:00
+14|Martinez|Leila|09/09/2022|8:00|17:00
+18|San Jose|Allison|09/09/2022|8:00|17:00
+19|Rosario|Cydney|09/09/2022|8:00|17:00
+12|Lopez|Josie|09/09/2022|10:30|17:00
+17|De Leon|Selena|09/09/2022|8:00|17:00
+15|Romualdez|Fredrick|09/09/2022|8:00|17:00
+20|Bautista|Mark|09/09/2022|8:00|17:00
+21|Lazaro|Darlene|09/09/2022|8:00|17:00
+22|Delos Santos|Kolby|09/09/2022|8:00|17:00
+23|Santos|Vella|09/09/2022|8:00|17:00
+24|Del Rosario|Tomas|09/09/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/09/2022|8:00|17:00
+26|Gutierrez|Percival|09/09/2022|8:00|17:00
+27|Manalaysay|Garfield|09/09/2022|13:00|17:00
+28|Villegas|Lizeth|09/09/2022|8:00|17:00
+29|Ramos|Carol|09/09/2022|8:00|17:00
+30|Maceda|Emelia|09/09/2022|8:00|17:00
+31|Aguilar|Delia|09/09/2022|8:00|17:00
+16|Mata|Christian|09/11/2022|8:00|17:00
+7|San Jose|Brad|09/11/2022|11:30|17:00
+11|Salcedo|Anthony|09/11/2022|8:00|17:00
+8|Romualdez|Alice|09/11/2022|8:00|17:00
+9|Atienza|Rosie|09/11/2022|8:00|17:00
+13|Farala|Martha|09/11/2022|8:00|17:00
+14|Martinez|Leila|09/11/2022|8:10|17:00
+18|San Jose|Allison|09/11/2022|0:00|0:00
+19|Rosario|Cydney|09/11/2022|8:00|17:00
+12|Lopez|Josie|09/11/2022|8:00|17:00
+17|De Leon|Selena|09/11/2022|8:00|17:00
+15|Romualdez|Fredrick|09/11/2022|8:00|17:00
+20|Bautista|Mark|09/11/2022|8:00|17:00
+21|Lazaro|Darlene|09/11/2022|8:00|17:00
+22|Delos Santos|Kolby|09/11/2022|8:00|17:00
+23|Santos|Vella|09/11/2022|8:05|17:00
+24|Del Rosario|Tomas|09/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/11/2022|8:00|17:00
+26|Gutierrez|Percival|09/11/2022|8:00|17:00
+27|Manalaysay|Garfield|09/11/2022|8:00|17:00
+28|Villegas|Lizeth|09/11/2022|8:00|17:00
+29|Ramos|Carol|09/11/2022|9:00|17:00
+30|Maceda|Emelia|09/11/2022|8:00|17:00
+31|Aguilar|Delia|09/11/2022|8:00|17:00
+16|Mata|Christian|09/12/2022|8:00|17:00
+7|San Jose|Brad|09/12/2022|8:00|17:00
+11|Salcedo|Anthony|09/12/2022|8:00|17:00
+8|Romualdez|Alice|09/12/2022|8:00|17:00
+9|Atienza|Rosie|09/12/2022|8:00|17:00
+13|Farala|Martha|09/12/2022|8:00|17:00
+14|Martinez|Leila|09/12/2022|8:00|17:00
+18|San Jose|Allison|09/12/2022|8:00|17:00
+19|Rosario|Cydney|09/12/2022|8:00|17:00
+12|Lopez|Josie|09/12/2022|8:00|17:00
+17|De Leon|Selena|09/12/2022|8:00|17:00
+15|Romualdez|Fredrick|09/12/2022|8:00|17:00
+20|Bautista|Mark|09/12/2022|8:00|17:00
+21|Lazaro|Darlene|09/12/2022|8:00|17:00
+22|Delos Santos|Kolby|09/12/2022|8:00|17:00
+23|Santos|Vella|09/12/2022|8:00|17:00
+24|Del Rosario|Tomas|09/12/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/12/2022|8:00|17:00
+26|Gutierrez|Percival|09/12/2022|8:00|17:00
+27|Manalaysay|Garfield|09/12/2022|8:00|17:00
+28|Villegas|Lizeth|09/12/2022|8:00|17:00
+29|Ramos|Carol|09/12/2022|8:00|17:00
+30|Maceda|Emelia|09/12/2022|8:00|17:00
+31|Aguilar|Delia|09/12/2022|8:00|17:00
+16|Mata|Christian|09/13/2022|8:00|17:00
+7|San Jose|Brad|09/13/2022|8:00|17:00
+11|Salcedo|Anthony|09/13/2022|8:00|17:00
+8|Romualdez|Alice|09/13/2022|8:00|17:00
+9|Atienza|Rosie|09/13/2022|8:00|17:00
+13|Farala|Martha|09/13/2022|8:00|17:00
+14|Martinez|Leila|09/13/2022|8:00|17:00
+18|San Jose|Allison|09/13/2022|8:00|17:00
+19|Rosario|Cydney|09/13/2022|8:00|17:00
+12|Lopez|Josie|09/13/2022|8:00|17:00
+17|De Leon|Selena|09/13/2022|8:00|17:00
+15|Romualdez|Fredrick|09/13/2022|10:00|17:00
+20|Bautista|Mark|09/13/2022|0:00|0:00
+21|Lazaro|Darlene|09/13/2022|10:00|17:00
+22|Delos Santos|Kolby|09/13/2022|10:00|17:00
+23|Santos|Vella|09/13/2022|10:00|17:00
+24|Del Rosario|Tomas|09/13/2022|10:00|17:00
+25|Tolentino|Jacklyn|09/13/2022|10:00|17:00
+26|Gutierrez|Percival|09/13/2022|10:00|17:00
+27|Manalaysay|Garfield|09/13/2022|10:00|17:00
+28|Villegas|Lizeth|09/13/2022|10:00|17:00
+29|Ramos|Carol|09/13/2022|10:00|17:00
+30|Maceda|Emelia|09/13/2022|10:00|17:00
+31|Aguilar|Delia|09/13/2022|10:00|17:00
+16|Mata|Christian|09/14/2022|8:00|17:00
+7|San Jose|Brad|09/14/2022|8:00|17:00
+11|Salcedo|Anthony|09/14/2022|8:00|17:00
+8|Romualdez|Alice|09/14/2022|8:00|17:00
+9|Atienza|Rosie|09/14/2022|8:00|17:00
+13|Farala|Martha|09/14/2022|8:00|17:00
+14|Martinez|Leila|09/14/2022|8:00|17:00
+18|San Jose|Allison|09/14/2022|8:00|17:00
+19|Rosario|Cydney|09/14/2022|8:00|17:00
+12|Lopez|Josie|09/14/2022|8:00|17:00
+17|De Leon|Selena|09/14/2022|8:00|17:00
+15|Romualdez|Fredrick|09/14/2022|8:00|17:00
+20|Bautista|Mark|09/14/2022|8:00|17:00
+21|Lazaro|Darlene|09/14/2022|8:00|17:00
+22|Delos Santos|Kolby|09/14/2022|8:00|17:00
+23|Santos|Vella|09/14/2022|8:00|17:00
+24|Del Rosario|Tomas|09/14/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/14/2022|8:00|17:00
+26|Gutierrez|Percival|09/14/2022|8:00|17:00
+27|Manalaysay|Garfield|09/14/2022|8:00|17:00
+28|Villegas|Lizeth|09/14/2022|8:00|17:00
+29|Ramos|Carol|09/14/2022|8:00|17:00
+30|Maceda|Emelia|09/14/2022|8:00|17:00
+31|Aguilar|Delia|09/14/2022|8:00|17:00
+16|Mata|Christian|09/15/2022|8:00|17:00
+7|San Jose|Brad|09/15/2022|8:00|17:00
+11|Salcedo|Anthony|09/15/2022|8:00|17:00
+8|Romualdez|Alice|09/15/2022|8:00|17:00
+9|Atienza|Rosie|09/15/2022|8:00|17:00
+13|Farala|Martha|09/15/2022|8:27|17:00
+14|Martinez|Leila|09/15/2022|8:01|17:00
+18|San Jose|Allison|09/15/2022|8:05|17:00
+19|Rosario|Cydney|09/15/2022|0:00|0:00
+12|Lopez|Josie|09/15/2022|8:00|17:00
+17|De Leon|Selena|09/15/2022|8:00|17:00
+15|Romualdez|Fredrick|09/15/2022|8:00|17:00
+20|Bautista|Mark|09/15/2022|8:00|17:00
+21|Lazaro|Darlene|09/15/2022|8:00|17:00
+22|Delos Santos|Kolby|09/15/2022|8:28|17:00
+23|Santos|Vella|09/15/2022|8:00|17:00
+24|Del Rosario|Tomas|09/15/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/15/2022|8:00|17:00
+26|Gutierrez|Percival|09/15/2022|8:00|17:00
+27|Manalaysay|Garfield|09/15/2022|8:11|17:00
+28|Villegas|Lizeth|09/15/2022|8:00|17:00
+29|Ramos|Carol|09/15/2022|8:00|17:00
+30|Maceda|Emelia|09/15/2022|8:21|17:00
+31|Aguilar|Delia|09/15/2022|8:00|17:00
+16|Mata|Christian|09/16/2022|8:00|17:00
+7|San Jose|Brad|09/16/2022|8:00|17:00
+11|Salcedo|Anthony|09/16/2022|8:00|17:00
+8|Romualdez|Alice|09/16/2022|8:00|17:00
+9|Atienza|Rosie|09/16/2022|8:00|17:00
+13|Farala|Martha|09/16/2022|8:00|17:00
+14|Martinez|Leila|09/16/2022|8:00|17:00
+18|San Jose|Allison|09/16/2022|8:00|17:00
+19|Rosario|Cydney|09/16/2022|8:00|17:00
+12|Lopez|Josie|09/16/2022|8:00|17:00
+17|De Leon|Selena|09/16/2022|8:00|17:00
+15|Romualdez|Fredrick|09/16/2022|8:00|17:00
+20|Bautista|Mark|09/16/2022|8:00|17:00
+21|Lazaro|Darlene|09/16/2022|8:00|17:00
+22|Delos Santos|Kolby|09/16/2022|8:00|17:00
+23|Santos|Vella|09/16/2022|8:00|17:00
+24|Del Rosario|Tomas|09/16/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/16/2022|8:00|17:00
+26|Gutierrez|Percival|09/16/2022|8:00|17:00
+27|Manalaysay|Garfield|09/16/2022|8:00|17:00
+28|Villegas|Lizeth|09/16/2022|8:00|17:00
+29|Ramos|Carol|09/16/2022|8:00|17:00
+30|Maceda|Emelia|09/16/2022|8:00|17:00
+31|Aguilar|Delia|09/16/2022|8:00|17:00
+16|Mata|Christian|09/19/2022|8:00|17:00
+7|San Jose|Brad|09/19/2022|8:00|17:00
+11|Salcedo|Anthony|09/19/2022|8:00|17:00
+8|Romualdez|Alice|09/19/2022|8:15|17:00
+9|Atienza|Rosie|09/19/2022|8:00|17:00
+13|Farala|Martha|09/19/2022|8:00|17:00
+14|Martinez|Leila|09/19/2022|8:00|17:00
+18|San Jose|Allison|09/19/2022|8:00|17:00
+19|Rosario|Cydney|09/19/2022|8:00|17:00
+12|Lopez|Josie|09/19/2022|10:30|17:00
+17|De Leon|Selena|09/19/2022|8:00|17:00
+15|Romualdez|Fredrick|09/19/2022|8:00|17:00
+20|Bautista|Mark|09/19/2022|8:00|17:00
+21|Lazaro|Darlene|09/19/2022|8:00|17:00
+22|Delos Santos|Kolby|09/19/2022|8:00|17:00
+23|Santos|Vella|09/19/2022|8:00|17:00
+24|Del Rosario|Tomas|09/19/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/19/2022|8:00|17:00
+26|Gutierrez|Percival|09/19/2022|8:00|17:00
+27|Manalaysay|Garfield|09/19/2022|13:00|17:00
+28|Villegas|Lizeth|09/19/2022|8:00|17:00
+29|Ramos|Carol|09/19/2022|8:00|17:00
+30|Maceda|Emelia|09/19/2022|8:00|17:00
+31|Aguilar|Delia|09/19/2022|8:00|17:00
+16|Mata|Christian|09/20/2022|8:00|17:00
+7|San Jose|Brad|09/20/2022|11:30|17:00
+11|Salcedo|Anthony|09/20/2022|8:00|17:00
+8|Romualdez|Alice|09/20/2022|8:00|17:00
+9|Atienza|Rosie|09/20/2022|8:00|17:00
+13|Farala|Martha|09/20/2022|8:00|17:00
+14|Martinez|Leila|09/20/2022|8:10|17:00
+18|San Jose|Allison|09/20/2022|8:00|17:00
+19|Rosario|Cydney|09/20/2022|8:00|17:00
+12|Lopez|Josie|09/20/2022|8:00|17:00
+17|De Leon|Selena|09/20/2022|8:00|17:00
+15|Romualdez|Fredrick|09/20/2022|8:00|17:00
+20|Bautista|Mark|09/20/2022|8:00|17:00
+21|Lazaro|Darlene|09/20/2022|8:00|17:00
+22|Delos Santos|Kolby|09/20/2022|8:00|17:00
+23|Santos|Vella|09/20/2022|8:05|17:00
+24|Del Rosario|Tomas|09/20/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/20/2022|8:00|17:00
+26|Gutierrez|Percival|09/20/2022|8:00|17:00
+27|Manalaysay|Garfield|09/20/2022|8:00|17:00
+28|Villegas|Lizeth|09/20/2022|8:00|17:00
+29|Ramos|Carol|09/20/2022|9:00|17:00
+30|Maceda|Emelia|09/20/2022|8:00|17:00
+31|Aguilar|Delia|09/20/2022|8:00|17:00
+16|Mata|Christian|09/21/2022|8:00|17:00
+7|San Jose|Brad|09/21/2022|8:00|17:00
+11|Salcedo|Anthony|09/21/2022|8:00|17:00
+8|Romualdez|Alice|09/21/2022|8:00|17:00
+9|Atienza|Rosie|09/21/2022|8:00|17:00
+13|Farala|Martha|09/21/2022|8:00|17:00
+14|Martinez|Leila|09/21/2022|8:00|17:00
+18|San Jose|Allison|09/21/2022|8:00|17:00
+19|Rosario|Cydney|09/21/2022|8:00|17:00
+12|Lopez|Josie|09/21/2022|8:00|17:00
+17|De Leon|Selena|09/21/2022|8:00|17:00
+15|Romualdez|Fredrick|09/21/2022|8:00|17:00
+20|Bautista|Mark|09/21/2022|8:00|17:00
+21|Lazaro|Darlene|09/21/2022|8:00|17:00
+22|Delos Santos|Kolby|09/21/2022|8:00|17:00
+23|Santos|Vella|09/21/2022|8:00|17:00
+24|Del Rosario|Tomas|09/21/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/21/2022|8:00|17:00
+26|Gutierrez|Percival|09/21/2022|8:00|17:00
+27|Manalaysay|Garfield|09/21/2022|8:00|17:00
+28|Villegas|Lizeth|09/21/2022|8:00|17:00
+29|Ramos|Carol|09/21/2022|8:00|17:00
+30|Maceda|Emelia|09/21/2022|8:00|17:00
+31|Aguilar|Delia|09/21/2022|8:00|17:00
+16|Mata|Christian|09/22/2022|8:00|17:00
+7|San Jose|Brad|09/22/2022|8:00|17:00
+11|Salcedo|Anthony|09/22/2022|8:00|17:00
+8|Romualdez|Alice|09/22/2022|8:00|17:00
+9|Atienza|Rosie|09/22/2022|8:00|17:00
+13|Farala|Martha|09/22/2022|8:00|17:00
+14|Martinez|Leila|09/22/2022|8:00|17:00
+18|San Jose|Allison|09/22/2022|8:00|17:00
+19|Rosario|Cydney|09/22/2022|8:00|17:00
+12|Lopez|Josie|09/22/2022|8:00|17:00
+17|De Leon|Selena|09/22/2022|8:00|17:00
+15|Romualdez|Fredrick|09/22/2022|10:00|17:00
+20|Bautista|Mark|09/22/2022|10:00|17:00
+21|Lazaro|Darlene|09/22/2022|10:00|17:00
+22|Delos Santos|Kolby|09/22/2022|0:00|0:00
+23|Santos|Vella|09/22/2022|10:00|17:00
+24|Del Rosario|Tomas|09/22/2022|10:00|17:00
+25|Tolentino|Jacklyn|09/22/2022|10:00|17:00
+26|Gutierrez|Percival|09/22/2022|10:00|17:00
+27|Manalaysay|Garfield|09/22/2022|10:00|17:00
+28|Villegas|Lizeth|09/22/2022|10:00|17:00
+29|Ramos|Carol|09/22/2022|10:00|17:00
+30|Maceda|Emelia|09/22/2022|10:00|17:00
+31|Aguilar|Delia|09/22/2022|10:00|17:00
+16|Mata|Christian|09/23/2022|8:00|17:00
+7|San Jose|Brad|09/23/2022|8:00|17:00
+11|Salcedo|Anthony|09/23/2022|8:00|17:00
+8|Romualdez|Alice|09/23/2022|8:00|17:00
+9|Atienza|Rosie|09/23/2022|8:00|17:00
+13|Farala|Martha|09/23/2022|8:00|17:00
+14|Martinez|Leila|09/23/2022|8:00|17:00
+18|San Jose|Allison|09/23/2022|8:00|17:00
+19|Rosario|Cydney|09/23/2022|8:00|17:00
+12|Lopez|Josie|09/23/2022|8:00|17:00
+17|De Leon|Selena|09/23/2022|8:00|17:00
+15|Romualdez|Fredrick|09/23/2022|8:00|17:00
+20|Bautista|Mark|09/23/2022|8:00|17:00
+21|Lazaro|Darlene|09/23/2022|8:00|17:00
+22|Delos Santos|Kolby|09/23/2022|8:00|17:00
+23|Santos|Vella|09/23/2022|8:00|17:00
+24|Del Rosario|Tomas|09/23/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/23/2022|8:00|17:00
+26|Gutierrez|Percival|09/23/2022|8:00|17:00
+27|Manalaysay|Garfield|09/23/2022|8:00|17:00
+28|Villegas|Lizeth|09/23/2022|8:00|17:00
+29|Ramos|Carol|09/23/2022|8:00|17:00
+30|Maceda|Emelia|09/23/2022|8:00|17:00
+31|Aguilar|Delia|09/23/2022|8:00|17:00
+16|Mata|Christian|09/26/2022|8:00|17:00
+7|San Jose|Brad|09/26/2022|8:00|17:00
+11|Salcedo|Anthony|09/26/2022|8:00|17:00
+8|Romualdez|Alice|09/26/2022|8:00|17:00
+9|Atienza|Rosie|09/26/2022|8:00|17:00
+13|Farala|Martha|09/26/2022|8:27|17:00
+14|Martinez|Leila|09/26/2022|8:01|17:00
+18|San Jose|Allison|09/26/2022|8:05|17:00
+19|Rosario|Cydney|09/26/2022|8:00|17:00
+12|Lopez|Josie|09/26/2022|8:00|17:00
+17|De Leon|Selena|09/26/2022|8:00|17:00
+15|Romualdez|Fredrick|09/26/2022|8:00|17:00
+20|Bautista|Mark|09/26/2022|8:00|17:00
+21|Lazaro|Darlene|09/26/2022|8:00|17:00
+22|Delos Santos|Kolby|09/26/2022|8:28|17:00
+23|Santos|Vella|09/26/2022|8:00|17:00
+24|Del Rosario|Tomas|09/26/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/26/2022|8:00|17:00
+26|Gutierrez|Percival|09/26/2022|8:00|17:00
+27|Manalaysay|Garfield|09/26/2022|8:11|17:00
+28|Villegas|Lizeth|09/26/2022|8:00|17:00
+29|Ramos|Carol|09/26/2022|8:00|17:00
+30|Maceda|Emelia|09/26/2022|8:21|17:00
+31|Aguilar|Delia|09/26/2022|8:00|17:00
+16|Mata|Christian|09/27/2022|8:00|17:00
+7|San Jose|Brad|09/27/2022|8:00|17:00
+11|Salcedo|Anthony|09/27/2022|8:00|17:00
+8|Romualdez|Alice|09/27/2022|8:00|17:00
+9|Atienza|Rosie|09/27/2022|8:00|17:00
+13|Farala|Martha|09/27/2022|8:00|17:00
+14|Martinez|Leila|09/27/2022|8:00|17:00
+18|San Jose|Allison|09/27/2022|8:00|17:00
+19|Rosario|Cydney|09/27/2022|0:00|0:00
+12|Lopez|Josie|09/27/2022|8:00|17:00
+17|De Leon|Selena|09/27/2022|8:00|17:00
+15|Romualdez|Fredrick|09/27/2022|8:00|17:00
+20|Bautista|Mark|09/27/2022|8:00|17:00
+21|Lazaro|Darlene|09/27/2022|8:00|17:00
+22|Delos Santos|Kolby|09/27/2022|8:00|17:00
+23|Santos|Vella|09/27/2022|8:00|17:00
+24|Del Rosario|Tomas|09/27/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/27/2022|8:00|17:00
+26|Gutierrez|Percival|09/27/2022|8:00|17:00
+27|Manalaysay|Garfield|09/27/2022|8:00|17:00
+28|Villegas|Lizeth|09/27/2022|8:00|17:00
+29|Ramos|Carol|09/27/2022|8:00|17:00
+30|Maceda|Emelia|09/27/2022|8:00|17:00
+31|Aguilar|Delia|09/27/2022|8:00|17:00
+16|Mata|Christian|09/28/2022|8:00|17:00
+7|San Jose|Brad|09/28/2022|8:00|17:00
+11|Salcedo|Anthony|09/28/2022|8:00|17:00
+8|Romualdez|Alice|09/28/2022|8:15|17:00
+9|Atienza|Rosie|09/28/2022|8:00|17:00
+13|Farala|Martha|09/28/2022|8:00|17:00
+14|Martinez|Leila|09/28/2022|8:00|17:00
+18|San Jose|Allison|09/28/2022|8:00|17:00
+19|Rosario|Cydney|09/28/2022|8:00|17:00
+12|Lopez|Josie|09/28/2022|10:30|17:00
+17|De Leon|Selena|09/28/2022|8:00|17:00
+15|Romualdez|Fredrick|09/28/2022|8:00|17:00
+20|Bautista|Mark|09/28/2022|8:00|17:00
+21|Lazaro|Darlene|09/28/2022|8:00|17:00
+22|Delos Santos|Kolby|09/28/2022|8:00|17:00
+23|Santos|Vella|09/28/2022|8:00|17:00
+24|Del Rosario|Tomas|09/28/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/28/2022|8:00|17:00
+26|Gutierrez|Percival|09/28/2022|8:00|17:00
+27|Manalaysay|Garfield|09/28/2022|13:00|17:00
+28|Villegas|Lizeth|09/28/2022|8:00|17:00
+29|Ramos|Carol|09/28/2022|8:00|17:00
+30|Maceda|Emelia|09/28/2022|8:00|17:00
+31|Aguilar|Delia|09/28/2022|8:00|17:00
+16|Mata|Christian|09/29/2022|8:00|17:00
+7|San Jose|Brad|09/29/2022|11:30|17:00
+11|Salcedo|Anthony|09/29/2022|8:00|17:00
+8|Romualdez|Alice|09/29/2022|8:00|17:00
+9|Atienza|Rosie|09/29/2022|8:00|17:00
+13|Farala|Martha|09/29/2022|8:00|17:00
+14|Martinez|Leila|09/29/2022|8:10|17:00
+18|San Jose|Allison|09/29/2022|8:00|17:00
+19|Rosario|Cydney|09/29/2022|8:00|17:00
+12|Lopez|Josie|09/29/2022|8:00|17:00
+17|De Leon|Selena|09/29/2022|8:00|17:00
+15|Romualdez|Fredrick|09/29/2022|8:00|17:00
+20|Bautista|Mark|09/29/2022|8:00|17:00
+21|Lazaro|Darlene|09/29/2022|8:00|17:00
+22|Delos Santos|Kolby|09/29/2022|8:00|17:00
+23|Santos|Vella|09/29/2022|8:05|17:00
+24|Del Rosario|Tomas|09/29/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/29/2022|8:00|17:00
+26|Gutierrez|Percival|09/29/2022|8:00|17:00
+27|Manalaysay|Garfield|09/29/2022|8:00|17:00
+28|Villegas|Lizeth|09/29/2022|8:00|17:00
+29|Ramos|Carol|09/29/2022|9:00|17:00
+30|Maceda|Emelia|09/29/2022|8:00|17:00
+31|Aguilar|Delia|09/29/2022|8:00|17:00
+16|Mata|Christian|09/30/2022|8:00|17:00
+7|San Jose|Brad|09/30/2022|8:00|17:00
+11|Salcedo|Anthony|09/30/2022|8:00|17:00
+8|Romualdez|Alice|09/30/2022|8:00|17:00
+9|Atienza|Rosie|09/30/2022|8:00|17:00
+13|Farala|Martha|09/30/2022|8:00|17:00
+14|Martinez|Leila|09/30/2022|8:00|17:00
+18|San Jose|Allison|09/30/2022|8:00|17:00
+19|Rosario|Cydney|09/30/2022|8:00|17:00
+12|Lopez|Josie|09/30/2022|8:00|17:00
+17|De Leon|Selena|09/30/2022|8:00|17:00
+15|Romualdez|Fredrick|09/30/2022|8:00|17:00
+20|Bautista|Mark|09/30/2022|8:00|17:00
+21|Lazaro|Darlene|09/30/2022|8:00|17:00
+22|Delos Santos|Kolby|09/30/2022|8:00|17:00
+23|Santos|Vella|09/30/2022|8:00|17:00
+24|Del Rosario|Tomas|09/30/2022|8:00|17:00
+25|Tolentino|Jacklyn|09/30/2022|8:00|17:00
+26|Gutierrez|Percival|09/30/2022|8:00|17:00
+27|Manalaysay|Garfield|09/30/2022|8:00|17:00
+28|Villegas|Lizeth|09/30/2022|8:00|17:00
+29|Ramos|Carol|09/30/2022|8:00|17:00
+30|Maceda|Emelia|09/30/2022|8:00|17:00
+31|Aguilar|Delia|09/30/2022|8:00|17:00
+16|Mata|Christian|10/10/2022|8:00|17:00
+7|San Jose|Brad|10/10/2022|8:00|17:00
+11|Salcedo|Anthony|10/10/2022|8:00|17:00
+8|Romualdez|Alice|10/10/2022|8:00|17:00
+9|Atienza|Rosie|10/10/2022|8:00|17:00
+13|Farala|Martha|10/10/2022|8:00|17:00
+14|Martinez|Leila|10/10/2022|8:00|17:00
+18|San Jose|Allison|10/10/2022|8:00|17:00
+19|Rosario|Cydney|10/10/2022|8:00|17:00
+12|Lopez|Josie|10/10/2022|8:00|17:00
+17|De Leon|Selena|10/10/2022|8:00|17:00
+15|Romualdez|Fredrick|10/10/2022|10:00|17:00
+20|Bautista|Mark|10/10/2022|10:00|17:00
+21|Lazaro|Darlene|10/10/2022|10:00|17:00
+22|Delos Santos|Kolby|10/10/2022|10:00|17:00
+23|Santos|Vella|10/10/2022|10:00|17:00
+24|Del Rosario|Tomas|10/10/2022|0:00|0:00
+25|Tolentino|Jacklyn|10/10/2022|10:00|17:00
+26|Gutierrez|Percival|10/10/2022|10:00|17:00
+27|Manalaysay|Garfield|10/10/2022|10:00|17:00
+28|Villegas|Lizeth|10/10/2022|10:00|17:00
+29|Ramos|Carol|10/10/2022|10:00|17:00
+30|Maceda|Emelia|10/10/2022|10:00|17:00
+31|Aguilar|Delia|10/10/2022|10:00|17:00
+16|Mata|Christian|10/11/2022|8:00|17:00
+7|San Jose|Brad|10/11/2022|8:00|17:00
+11|Salcedo|Anthony|10/11/2022|8:00|17:00
+8|Romualdez|Alice|10/11/2022|8:00|17:00
+9|Atienza|Rosie|10/11/2022|8:00|17:00
+13|Farala|Martha|10/11/2022|8:00|17:00
+14|Martinez|Leila|10/11/2022|8:00|17:00
+18|San Jose|Allison|10/11/2022|8:00|17:00
+19|Rosario|Cydney|10/11/2022|8:00|17:00
+12|Lopez|Josie|10/11/2022|8:00|17:00
+17|De Leon|Selena|10/11/2022|8:00|17:00
+15|Romualdez|Fredrick|10/11/2022|8:00|17:00
+20|Bautista|Mark|10/11/2022|8:00|17:00
+21|Lazaro|Darlene|10/11/2022|8:00|17:00
+22|Delos Santos|Kolby|10/11/2022|8:00|17:00
+23|Santos|Vella|10/11/2022|8:00|17:00
+24|Del Rosario|Tomas|10/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/11/2022|8:00|17:00
+26|Gutierrez|Percival|10/11/2022|8:00|17:00
+27|Manalaysay|Garfield|10/11/2022|8:00|17:00
+28|Villegas|Lizeth|10/11/2022|8:00|17:00
+29|Ramos|Carol|10/11/2022|8:00|17:00
+30|Maceda|Emelia|10/11/2022|8:00|17:00
+31|Aguilar|Delia|10/11/2022|8:00|17:00
+16|Mata|Christian|10/13/2022|8:00|17:00
+7|San Jose|Brad|10/13/2022|8:00|17:00
+11|Salcedo|Anthony|10/13/2022|8:00|17:00
+8|Romualdez|Alice|10/13/2022|8:00|17:00
+9|Atienza|Rosie|10/13/2022|8:00|17:00
+13|Farala|Martha|10/13/2022|8:27|17:00
+14|Martinez|Leila|10/13/2022|8:01|17:00
+18|San Jose|Allison|10/13/2022|8:05|17:00
+19|Rosario|Cydney|10/13/2022|8:00|17:00
+12|Lopez|Josie|10/13/2022|8:00|17:00
+17|De Leon|Selena|10/13/2022|8:00|17:00
+15|Romualdez|Fredrick|10/13/2022|8:00|17:00
+20|Bautista|Mark|10/13/2022|8:00|17:00
+21|Lazaro|Darlene|10/13/2022|8:00|17:00
+22|Delos Santos|Kolby|10/13/2022|8:28|17:00
+23|Santos|Vella|10/13/2022|8:00|17:00
+24|Del Rosario|Tomas|10/13/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/13/2022|8:00|17:00
+26|Gutierrez|Percival|10/13/2022|8:00|17:00
+27|Manalaysay|Garfield|10/13/2022|8:11|17:00
+28|Villegas|Lizeth|10/13/2022|8:00|17:00
+29|Ramos|Carol|10/13/2022|8:00|17:00
+30|Maceda|Emelia|10/13/2022|8:21|17:00
+31|Aguilar|Delia|10/13/2022|8:00|17:00
+16|Mata|Christian|10/14/2022|0:00|0:00
+7|San Jose|Brad|10/14/2022|0:00|0:00
+11|Salcedo|Anthony|10/14/2022|0:00|0:00
+8|Romualdez|Alice|10/14/2022|0:00|0:00
+9|Atienza|Rosie|10/14/2022|0:00|0:00
+13|Farala|Martha|10/14/2022|0:00|0:00
+14|Martinez|Leila|10/14/2022|0:00|0:00
+18|San Jose|Allison|10/14/2022|0:00|0:00
+19|Rosario|Cydney|10/14/2022|0:00|0:00
+12|Lopez|Josie|10/14/2022|0:00|0:00
+17|De Leon|Selena|10/14/2022|0:00|0:00
+15|Romualdez|Fredrick|10/14/2022|0:00|0:00
+20|Bautista|Mark|10/14/2022|0:00|0:00
+21|Lazaro|Darlene|10/14/2022|0:00|0:00
+22|Delos Santos|Kolby|10/14/2022|0:00|0:00
+23|Santos|Vella|10/14/2022|0:00|0:00
+24|Del Rosario|Tomas|10/14/2022|0:00|0:00
+25|Tolentino|Jacklyn|10/14/2022|0:00|0:00
+26|Gutierrez|Percival|10/14/2022|0:00|0:00
+27|Manalaysay|Garfield|10/14/2022|0:00|0:00
+28|Villegas|Lizeth|10/14/2022|0:00|0:00
+29|Ramos|Carol|10/14/2022|0:00|0:00
+30|Maceda|Emelia|10/14/2022|0:00|0:00
+31|Aguilar|Delia|10/14/2022|0:00|0:00
+16|Mata|Christian|10/17/2022|8:00|17:00
+7|San Jose|Brad|10/17/2022|8:00|17:00
+11|Salcedo|Anthony|10/17/2022|8:00|17:00
+8|Romualdez|Alice|10/17/2022|8:15|17:00
+9|Atienza|Rosie|10/17/2022|8:00|17:00
+13|Farala|Martha|10/17/2022|8:00|17:00
+14|Martinez|Leila|10/17/2022|8:00|17:00
+18|San Jose|Allison|10/17/2022|8:00|17:00
+19|Rosario|Cydney|10/17/2022|8:00|17:00
+12|Lopez|Josie|10/17/2022|10:30|17:00
+17|De Leon|Selena|10/17/2022|8:00|17:00
+15|Romualdez|Fredrick|10/17/2022|8:00|17:00
+20|Bautista|Mark|10/17/2022|8:00|17:00
+21|Lazaro|Darlene|10/17/2022|8:00|17:00
+22|Delos Santos|Kolby|10/17/2022|8:00|17:00
+23|Santos|Vella|10/17/2022|8:00|17:00
+24|Del Rosario|Tomas|10/17/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/17/2022|8:00|17:00
+26|Gutierrez|Percival|10/17/2022|8:00|17:00
+27|Manalaysay|Garfield|10/17/2022|13:00|17:00
+28|Villegas|Lizeth|10/17/2022|8:00|17:00
+29|Ramos|Carol|10/17/2022|8:00|17:00
+30|Maceda|Emelia|10/17/2022|8:00|17:00
+31|Aguilar|Delia|10/17/2022|8:00|17:00
+16|Mata|Christian|10/18/2022|8:00|17:00
+7|San Jose|Brad|10/18/2022|11:30|17:00
+11|Salcedo|Anthony|10/18/2022|8:00|17:00
+8|Romualdez|Alice|10/18/2022|8:00|17:00
+9|Atienza|Rosie|10/18/2022|8:00|17:00
+13|Farala|Martha|10/18/2022|8:00|17:00
+14|Martinez|Leila|10/18/2022|8:10|17:00
+18|San Jose|Allison|10/18/2022|8:00|17:00
+19|Rosario|Cydney|10/18/2022|8:00|17:00
+12|Lopez|Josie|10/18/2022|8:00|17:00
+17|De Leon|Selena|10/18/2022|8:00|17:00
+15|Romualdez|Fredrick|10/18/2022|8:00|17:00
+20|Bautista|Mark|10/18/2022|8:00|17:00
+21|Lazaro|Darlene|10/18/2022|8:00|17:00
+22|Delos Santos|Kolby|10/18/2022|8:00|17:00
+23|Santos|Vella|10/18/2022|8:05|17:00
+24|Del Rosario|Tomas|10/18/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/18/2022|8:00|17:00
+26|Gutierrez|Percival|10/18/2022|8:00|17:00
+27|Manalaysay|Garfield|10/18/2022|8:00|17:00
+28|Villegas|Lizeth|10/18/2022|8:00|17:00
+29|Ramos|Carol|10/18/2022|9:00|17:00
+30|Maceda|Emelia|10/18/2022|8:00|17:00
+31|Aguilar|Delia|10/18/2022|8:00|17:00
+16|Mata|Christian|10/19/2022|8:00|17:00
+7|San Jose|Brad|10/19/2022|8:00|17:00
+11|Salcedo|Anthony|10/19/2022|8:00|17:00
+8|Romualdez|Alice|10/19/2022|8:00|17:00
+9|Atienza|Rosie|10/19/2022|8:00|17:00
+13|Farala|Martha|10/19/2022|8:00|17:00
+14|Martinez|Leila|10/19/2022|8:00|17:00
+18|San Jose|Allison|10/19/2022|8:00|17:00
+19|Rosario|Cydney|10/19/2022|8:00|17:00
+12|Lopez|Josie|10/19/2022|8:00|17:00
+17|De Leon|Selena|10/19/2022|8:00|17:00
+15|Romualdez|Fredrick|10/19/2022|8:00|17:00
+20|Bautista|Mark|10/19/2022|8:00|17:00
+21|Lazaro|Darlene|10/19/2022|8:00|17:00
+22|Delos Santos|Kolby|10/19/2022|8:00|17:00
+23|Santos|Vella|10/19/2022|8:00|17:00
+24|Del Rosario|Tomas|10/19/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/19/2022|8:00|17:00
+26|Gutierrez|Percival|10/19/2022|8:00|17:00
+27|Manalaysay|Garfield|10/19/2022|8:00|17:00
+28|Villegas|Lizeth|10/19/2022|8:00|17:00
+29|Ramos|Carol|10/19/2022|0:00|0:00
+30|Maceda|Emelia|10/19/2022|8:00|17:00
+31|Aguilar|Delia|10/19/2022|8:00|17:00
+16|Mata|Christian|10/20/2022|8:00|17:00
+7|San Jose|Brad|10/20/2022|8:00|17:00
+11|Salcedo|Anthony|10/20/2022|8:00|17:00
+8|Romualdez|Alice|10/20/2022|8:00|17:00
+9|Atienza|Rosie|10/20/2022|8:00|17:00
+13|Farala|Martha|10/20/2022|8:00|17:00
+14|Martinez|Leila|10/20/2022|8:00|17:00
+18|San Jose|Allison|10/20/2022|8:00|17:00
+19|Rosario|Cydney|10/20/2022|8:00|17:00
+12|Lopez|Josie|10/20/2022|8:00|17:00
+17|De Leon|Selena|10/20/2022|8:00|17:00
+15|Romualdez|Fredrick|10/20/2022|10:00|17:00
+20|Bautista|Mark|10/20/2022|10:00|17:00
+21|Lazaro|Darlene|10/20/2022|10:00|17:00
+22|Delos Santos|Kolby|10/20/2022|10:00|17:00
+23|Santos|Vella|10/20/2022|10:00|17:00
+24|Del Rosario|Tomas|10/20/2022|10:00|17:00
+25|Tolentino|Jacklyn|10/20/2022|10:00|17:00
+26|Gutierrez|Percival|10/20/2022|10:00|17:00
+27|Manalaysay|Garfield|10/20/2022|10:00|17:00
+28|Villegas|Lizeth|10/20/2022|10:00|17:00
+29|Ramos|Carol|10/20/2022|10:00|17:00
+30|Maceda|Emelia|10/20/2022|10:00|17:00
+31|Aguilar|Delia|10/20/2022|10:00|17:00
+16|Mata|Christian|10/21/2022|8:00|17:00
+7|San Jose|Brad|10/21/2022|8:00|17:00
+11|Salcedo|Anthony|10/21/2022|8:00|17:00
+8|Romualdez|Alice|10/21/2022|8:00|17:00
+9|Atienza|Rosie|10/21/2022|8:00|17:00
+13|Farala|Martha|10/21/2022|8:00|17:00
+14|Martinez|Leila|10/21/2022|8:00|17:00
+18|San Jose|Allison|10/21/2022|8:00|17:00
+19|Rosario|Cydney|10/21/2022|8:00|17:00
+12|Lopez|Josie|10/21/2022|8:00|17:00
+17|De Leon|Selena|10/21/2022|8:00|17:00
+15|Romualdez|Fredrick|10/21/2022|8:00|17:00
+20|Bautista|Mark|10/21/2022|8:00|17:00
+21|Lazaro|Darlene|10/21/2022|8:00|17:00
+22|Delos Santos|Kolby|10/21/2022|8:00|17:00
+23|Santos|Vella|10/21/2022|8:00|17:00
+24|Del Rosario|Tomas|10/21/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/21/2022|8:00|17:00
+26|Gutierrez|Percival|10/21/2022|8:00|17:00
+27|Manalaysay|Garfield|10/21/2022|8:00|17:00
+28|Villegas|Lizeth|10/21/2022|8:00|17:00
+29|Ramos|Carol|10/21/2022|8:00|17:00
+30|Maceda|Emelia|10/21/2022|8:00|17:00
+31|Aguilar|Delia|10/21/2022|8:00|17:00
+16|Mata|Christian|10/24/2022|8:00|17:00
+7|San Jose|Brad|10/24/2022|8:00|17:00
+11|Salcedo|Anthony|10/24/2022|8:00|17:00
+8|Romualdez|Alice|10/24/2022|8:00|17:00
+9|Atienza|Rosie|10/24/2022|8:00|17:00
+13|Farala|Martha|10/24/2022|8:27|17:00
+14|Martinez|Leila|10/24/2022|8:01|17:00
+18|San Jose|Allison|10/24/2022|8:05|17:00
+19|Rosario|Cydney|10/24/2022|8:00|17:00
+12|Lopez|Josie|10/24/2022|8:00|17:00
+17|De Leon|Selena|10/24/2022|8:00|17:00
+15|Romualdez|Fredrick|10/24/2022|8:00|17:00
+20|Bautista|Mark|10/24/2022|8:00|17:00
+21|Lazaro|Darlene|10/24/2022|8:00|17:00
+22|Delos Santos|Kolby|10/24/2022|8:28|17:00
+23|Santos|Vella|10/24/2022|8:00|17:00
+24|Del Rosario|Tomas|10/24/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/24/2022|8:00|17:00
+26|Gutierrez|Percival|10/24/2022|8:00|17:00
+27|Manalaysay|Garfield|10/24/2022|8:11|17:00
+28|Villegas|Lizeth|10/24/2022|8:00|17:00
+29|Ramos|Carol|10/24/2022|8:00|17:00
+30|Maceda|Emelia|10/24/2022|8:21|17:00
+31|Aguilar|Delia|10/24/2022|8:00|17:00
+16|Mata|Christian|10/25/2022|8:00|17:00
+7|San Jose|Brad|10/25/2022|8:00|17:00
+11|Salcedo|Anthony|10/25/2022|8:00|17:00
+8|Romualdez|Alice|10/25/2022|8:00|17:00
+9|Atienza|Rosie|10/25/2022|8:00|17:00
+13|Farala|Martha|10/25/2022|8:00|17:00
+14|Martinez|Leila|10/25/2022|8:00|17:00
+18|San Jose|Allison|10/25/2022|8:00|17:00
+19|Rosario|Cydney|10/25/2022|8:00|17:00
+12|Lopez|Josie|10/25/2022|8:00|17:00
+17|De Leon|Selena|10/25/2022|8:00|17:00
+15|Romualdez|Fredrick|10/25/2022|8:00|17:00
+20|Bautista|Mark|10/25/2022|8:00|17:00
+21|Lazaro|Darlene|10/25/2022|8:00|17:00
+22|Delos Santos|Kolby|10/25/2022|8:00|17:00
+23|Santos|Vella|10/25/2022|8:00|17:00
+24|Del Rosario|Tomas|10/25/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/25/2022|8:00|17:00
+26|Gutierrez|Percival|10/25/2022|8:00|17:00
+27|Manalaysay|Garfield|10/25/2022|8:00|17:00
+28|Villegas|Lizeth|10/25/2022|8:00|17:00
+29|Ramos|Carol|10/25/2022|8:00|17:00
+30|Maceda|Emelia|10/25/2022|8:00|17:00
+31|Aguilar|Delia|10/25/2022|8:00|17:00
+16|Mata|Christian|10/26/2022|8:00|17:00
+7|San Jose|Brad|10/26/2022|8:00|17:00
+11|Salcedo|Anthony|10/26/2022|8:00|17:00
+8|Romualdez|Alice|10/26/2022|8:15|17:00
+9|Atienza|Rosie|10/26/2022|8:00|17:00
+13|Farala|Martha|10/26/2022|8:00|17:00
+14|Martinez|Leila|10/26/2022|8:00|17:00
+18|San Jose|Allison|10/26/2022|8:00|17:00
+19|Rosario|Cydney|10/26/2022|8:00|17:00
+12|Lopez|Josie|10/26/2022|10:30|17:00
+17|De Leon|Selena|10/26/2022|8:00|17:00
+15|Romualdez|Fredrick|10/26/2022|8:00|17:00
+20|Bautista|Mark|10/26/2022|8:00|17:00
+21|Lazaro|Darlene|10/26/2022|8:00|17:00
+22|Delos Santos|Kolby|10/26/2022|8:00|17:00
+23|Santos|Vella|10/26/2022|8:00|17:00
+24|Del Rosario|Tomas|10/26/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/26/2022|8:00|17:00
+26|Gutierrez|Percival|10/26/2022|8:00|17:00
+27|Manalaysay|Garfield|10/26/2022|13:00|17:00
+28|Villegas|Lizeth|10/26/2022|8:00|17:00
+29|Ramos|Carol|10/26/2022|8:00|17:00
+30|Maceda|Emelia|10/26/2022|8:00|17:00
+31|Aguilar|Delia|10/26/2022|8:00|17:00
+16|Mata|Christian|10/27/2022|8:00|17:00
+7|San Jose|Brad|10/27/2022|11:30|17:00
+11|Salcedo|Anthony|10/27/2022|8:00|17:00
+8|Romualdez|Alice|10/27/2022|8:00|17:00
+9|Atienza|Rosie|10/27/2022|8:00|17:00
+13|Farala|Martha|10/27/2022|8:00|17:00
+14|Martinez|Leila|10/27/2022|8:10|17:00
+18|San Jose|Allison|10/27/2022|8:00|17:00
+19|Rosario|Cydney|10/27/2022|8:00|17:00
+12|Lopez|Josie|10/27/2022|8:00|17:00
+17|De Leon|Selena|10/27/2022|8:00|17:00
+15|Romualdez|Fredrick|10/27/2022|8:00|17:00
+20|Bautista|Mark|10/27/2022|8:00|17:00
+21|Lazaro|Darlene|10/27/2022|8:00|17:00
+22|Delos Santos|Kolby|10/27/2022|8:00|17:00
+23|Santos|Vella|10/27/2022|8:05|17:00
+24|Del Rosario|Tomas|10/27/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/27/2022|8:00|17:00
+26|Gutierrez|Percival|10/27/2022|8:00|17:00
+27|Manalaysay|Garfield|10/27/2022|8:00|17:00
+28|Villegas|Lizeth|10/27/2022|8:00|17:00
+29|Ramos|Carol|10/27/2022|9:00|17:00
+30|Maceda|Emelia|10/27/2022|8:00|17:00
+31|Aguilar|Delia|10/27/2022|8:00|17:00
+16|Mata|Christian|10/28/2022|8:00|17:00
+7|San Jose|Brad|10/28/2022|8:00|17:00
+11|Salcedo|Anthony|10/28/2022|8:00|17:00
+8|Romualdez|Alice|10/28/2022|8:00|17:00
+9|Atienza|Rosie|10/28/2022|8:00|17:00
+13|Farala|Martha|10/28/2022|8:00|17:00
+14|Martinez|Leila|10/28/2022|8:00|17:00
+18|San Jose|Allison|10/28/2022|8:00|17:00
+19|Rosario|Cydney|10/28/2022|8:00|17:00
+12|Lopez|Josie|10/28/2022|8:00|17:00
+17|De Leon|Selena|10/28/2022|8:00|17:00
+15|Romualdez|Fredrick|10/28/2022|8:00|17:00
+20|Bautista|Mark|10/28/2022|8:00|17:00
+21|Lazaro|Darlene|10/28/2022|8:00|17:00
+22|Delos Santos|Kolby|10/28/2022|8:00|17:00
+23|Santos|Vella|10/28/2022|8:00|17:00
+24|Del Rosario|Tomas|10/28/2022|8:00|17:00
+25|Tolentino|Jacklyn|10/28/2022|8:00|17:00
+26|Gutierrez|Percival|10/28/2022|8:00|17:00
+27|Manalaysay|Garfield|10/28/2022|8:00|17:00
+28|Villegas|Lizeth|10/28/2022|8:00|17:00
+29|Ramos|Carol|10/28/2022|8:00|17:00
+30|Maceda|Emelia|10/28/2022|8:00|17:00
+31|Aguilar|Delia|10/28/2022|8:00|17:00
+16|Mata|Christian|10/31/2022|8:00|17:00
+7|San Jose|Brad|10/31/2022|8:00|17:00
+11|Salcedo|Anthony|10/31/2022|8:00|17:00
+8|Romualdez|Alice|10/31/2022|8:00|17:00
+9|Atienza|Rosie|10/31/2022|8:00|17:00
+13|Farala|Martha|10/31/2022|8:00|17:00
+14|Martinez|Leila|10/31/2022|8:00|17:00
+18|San Jose|Allison|10/31/2022|8:00|17:00
+19|Rosario|Cydney|10/31/2022|8:00|17:00
+12|Lopez|Josie|10/31/2022|8:00|17:00
+17|De Leon|Selena|10/31/2022|8:00|17:00
+15|Romualdez|Fredrick|10/31/2022|10:00|17:00
+20|Bautista|Mark|10/31/2022|10:00|17:00
+21|Lazaro|Darlene|10/31/2022|10:00|17:00
+22|Delos Santos|Kolby|10/31/2022|10:00|17:00
+23|Santos|Vella|10/31/2022|10:00|17:00
+24|Del Rosario|Tomas|10/31/2022|10:00|17:00
+25|Tolentino|Jacklyn|10/31/2022|10:00|17:00
+26|Gutierrez|Percival|10/31/2022|10:00|17:00
+27|Manalaysay|Garfield|10/31/2022|10:00|17:00
+28|Villegas|Lizeth|10/31/2022|10:00|17:00
+29|Ramos|Carol|10/31/2022|10:00|17:00
+30|Maceda|Emelia|10/31/2022|10:00|17:00
+31|Aguilar|Delia|10/31/2022|10:00|17:00
+16|Mata|Christian|11/10/2022|8:00|17:00
+7|San Jose|Brad|11/10/2022|8:00|17:00
+11|Salcedo|Anthony|11/10/2022|8:00|17:00
+8|Romualdez|Alice|11/10/2022|8:00|17:00
+9|Atienza|Rosie|11/10/2022|8:00|17:00
+13|Farala|Martha|11/10/2022|8:00|17:00
+14|Martinez|Leila|11/10/2022|8:00|17:00
+18|San Jose|Allison|11/10/2022|8:00|17:00
+19|Rosario|Cydney|11/10/2022|8:00|17:00
+12|Lopez|Josie|11/10/2022|8:00|17:00
+17|De Leon|Selena|11/10/2022|8:00|17:00
+15|Romualdez|Fredrick|11/10/2022|8:00|17:00
+20|Bautista|Mark|11/10/2022|8:00|17:00
+21|Lazaro|Darlene|11/10/2022|8:00|17:00
+22|Delos Santos|Kolby|11/10/2022|8:00|17:00
+23|Santos|Vella|11/10/2022|8:00|17:00
+24|Del Rosario|Tomas|11/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/10/2022|8:00|17:00
+26|Gutierrez|Percival|11/10/2022|8:00|17:00
+27|Manalaysay|Garfield|11/10/2022|8:00|17:00
+28|Villegas|Lizeth|11/10/2022|8:00|17:00
+29|Ramos|Carol|11/10/2022|8:00|17:00
+30|Maceda|Emelia|11/10/2022|8:00|17:00
+31|Aguilar|Delia|11/10/2022|8:00|17:00
+16|Mata|Christian|11/11/2022|8:00|17:00
+7|San Jose|Brad|11/11/2022|8:00|17:00
+11|Salcedo|Anthony|11/11/2022|8:00|17:00
+8|Romualdez|Alice|11/11/2022|8:00|17:00
+9|Atienza|Rosie|11/11/2022|8:00|17:00
+13|Farala|Martha|11/11/2022|8:27|17:00
+14|Martinez|Leila|11/11/2022|8:01|17:00
+18|San Jose|Allison|11/11/2022|8:05|17:00
+19|Rosario|Cydney|11/11/2022|8:00|17:00
+12|Lopez|Josie|11/11/2022|8:00|17:00
+17|De Leon|Selena|11/11/2022|8:00|17:00
+15|Romualdez|Fredrick|11/11/2022|8:00|17:00
+20|Bautista|Mark|11/11/2022|8:00|17:00
+21|Lazaro|Darlene|11/11/2022|8:00|17:00
+22|Delos Santos|Kolby|11/11/2022|8:28|17:00
+23|Santos|Vella|11/11/2022|8:00|17:00
+24|Del Rosario|Tomas|11/11/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/11/2022|8:00|17:00
+26|Gutierrez|Percival|11/11/2022|8:00|17:00
+27|Manalaysay|Garfield|11/11/2022|8:11|17:00
+28|Villegas|Lizeth|11/11/2022|8:00|17:00
+29|Ramos|Carol|11/11/2022|8:00|17:00
+30|Maceda|Emelia|11/11/2022|8:21|17:00
+31|Aguilar|Delia|11/11/2022|8:00|17:00
+16|Mata|Christian|11/14/2022|8:00|17:00
+7|San Jose|Brad|11/14/2022|8:00|17:00
+11|Salcedo|Anthony|11/14/2022|8:00|17:00
+8|Romualdez|Alice|11/14/2022|8:00|17:00
+9|Atienza|Rosie|11/14/2022|8:00|17:00
+13|Farala|Martha|11/14/2022|8:00|17:00
+14|Martinez|Leila|11/14/2022|8:00|17:00
+18|San Jose|Allison|11/14/2022|8:00|17:00
+19|Rosario|Cydney|11/14/2022|8:00|17:00
+12|Lopez|Josie|11/14/2022|8:00|17:00
+17|De Leon|Selena|11/14/2022|8:00|17:00
+15|Romualdez|Fredrick|11/14/2022|8:00|17:00
+20|Bautista|Mark|11/14/2022|8:00|17:00
+21|Lazaro|Darlene|11/14/2022|8:00|17:00
+22|Delos Santos|Kolby|11/14/2022|8:00|17:00
+23|Santos|Vella|11/14/2022|8:00|17:00
+24|Del Rosario|Tomas|11/14/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/14/2022|8:00|17:00
+26|Gutierrez|Percival|11/14/2022|8:00|17:00
+27|Manalaysay|Garfield|11/14/2022|8:00|17:00
+28|Villegas|Lizeth|11/14/2022|8:00|17:00
+29|Ramos|Carol|11/14/2022|8:00|17:00
+30|Maceda|Emelia|11/14/2022|8:00|17:00
+31|Aguilar|Delia|11/14/2022|8:00|17:00
+16|Mata|Christian|11/15/2022|8:00|17:00
+7|San Jose|Brad|11/15/2022|8:00|17:00
+11|Salcedo|Anthony|11/15/2022|8:00|17:00
+8|Romualdez|Alice|11/15/2022|8:15|17:00
+9|Atienza|Rosie|11/15/2022|8:00|17:00
+13|Farala|Martha|11/15/2022|8:00|17:00
+14|Martinez|Leila|11/15/2022|8:00|17:00
+18|San Jose|Allison|11/15/2022|8:00|17:00
+19|Rosario|Cydney|11/15/2022|8:00|17:00
+12|Lopez|Josie|11/15/2022|10:30|17:00
+17|De Leon|Selena|11/15/2022|8:00|17:00
+15|Romualdez|Fredrick|11/15/2022|8:00|17:00
+20|Bautista|Mark|11/15/2022|8:00|17:00
+21|Lazaro|Darlene|11/15/2022|8:00|17:00
+22|Delos Santos|Kolby|11/15/2022|8:00|17:00
+23|Santos|Vella|11/15/2022|8:00|17:00
+24|Del Rosario|Tomas|11/15/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/15/2022|8:00|17:00
+26|Gutierrez|Percival|11/15/2022|8:00|17:00
+27|Manalaysay|Garfield|11/15/2022|13:00|17:00
+28|Villegas|Lizeth|11/15/2022|8:00|17:00
+29|Ramos|Carol|11/15/2022|8:00|17:00
+30|Maceda|Emelia|11/15/2022|8:00|17:00
+31|Aguilar|Delia|11/15/2022|8:00|17:00
+16|Mata|Christian|11/16/2022|8:00|17:00
+7|San Jose|Brad|11/16/2022|11:30|17:00
+11|Salcedo|Anthony|11/16/2022|8:00|17:00
+8|Romualdez|Alice|11/16/2022|8:00|17:00
+9|Atienza|Rosie|11/16/2022|8:00|17:00
+13|Farala|Martha|11/16/2022|8:00|17:00
+14|Martinez|Leila|11/16/2022|8:10|17:00
+18|San Jose|Allison|11/16/2022|8:00|17:00
+19|Rosario|Cydney|11/16/2022|8:00|17:00
+12|Lopez|Josie|11/16/2022|8:00|17:00
+17|De Leon|Selena|11/16/2022|8:00|17:00
+15|Romualdez|Fredrick|11/16/2022|8:00|17:00
+20|Bautista|Mark|11/16/2022|8:00|17:00
+21|Lazaro|Darlene|11/16/2022|8:00|17:00
+22|Delos Santos|Kolby|11/16/2022|8:00|17:00
+23|Santos|Vella|11/16/2022|8:05|17:00
+24|Del Rosario|Tomas|11/16/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/16/2022|8:00|17:00
+26|Gutierrez|Percival|11/16/2022|8:00|17:00
+27|Manalaysay|Garfield|11/16/2022|8:00|17:00
+28|Villegas|Lizeth|11/16/2022|8:00|17:00
+29|Ramos|Carol|11/16/2022|9:00|17:00
+30|Maceda|Emelia|11/16/2022|8:00|17:00
+31|Aguilar|Delia|11/16/2022|8:00|17:00
+16|Mata|Christian|11/17/2022|8:00|17:00
+7|San Jose|Brad|11/17/2022|8:00|17:00
+11|Salcedo|Anthony|11/17/2022|8:00|17:00
+8|Romualdez|Alice|11/17/2022|8:00|17:00
+9|Atienza|Rosie|11/17/2022|8:00|17:00
+13|Farala|Martha|11/17/2022|8:00|17:00
+14|Martinez|Leila|11/17/2022|8:00|17:00
+18|San Jose|Allison|11/17/2022|8:00|17:00
+19|Rosario|Cydney|11/17/2022|8:00|17:00
+12|Lopez|Josie|11/17/2022|8:00|17:00
+17|De Leon|Selena|11/17/2022|8:00|17:00
+15|Romualdez|Fredrick|11/17/2022|8:00|17:00
+20|Bautista|Mark|11/17/2022|8:00|17:00
+21|Lazaro|Darlene|11/17/2022|8:00|17:00
+22|Delos Santos|Kolby|11/17/2022|8:00|17:00
+23|Santos|Vella|11/17/2022|8:00|17:00
+24|Del Rosario|Tomas|11/17/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/17/2022|8:00|17:00
+26|Gutierrez|Percival|11/17/2022|8:00|17:00
+27|Manalaysay|Garfield|11/17/2022|8:00|17:00
+28|Villegas|Lizeth|11/17/2022|8:00|17:00
+29|Ramos|Carol|11/17/2022|8:00|17:00
+30|Maceda|Emelia|11/17/2022|8:00|17:00
+31|Aguilar|Delia|11/17/2022|8:00|17:00
+16|Mata|Christian|11/18/2022|8:00|17:00
+7|San Jose|Brad|11/18/2022|8:00|17:00
+11|Salcedo|Anthony|11/18/2022|8:00|17:00
+8|Romualdez|Alice|11/18/2022|8:00|17:00
+9|Atienza|Rosie|11/18/2022|8:00|17:00
+13|Farala|Martha|11/18/2022|8:00|17:00
+14|Martinez|Leila|11/18/2022|8:00|17:00
+18|San Jose|Allison|11/18/2022|8:00|17:00
+19|Rosario|Cydney|11/18/2022|8:00|17:00
+12|Lopez|Josie|11/18/2022|8:00|17:00
+17|De Leon|Selena|11/18/2022|8:00|17:00
+15|Romualdez|Fredrick|11/18/2022|10:00|17:00
+20|Bautista|Mark|11/18/2022|10:00|17:00
+21|Lazaro|Darlene|11/18/2022|10:00|17:00
+22|Delos Santos|Kolby|11/18/2022|10:00|17:00
+23|Santos|Vella|11/18/2022|10:00|17:00
+24|Del Rosario|Tomas|11/18/2022|10:00|17:00
+25|Tolentino|Jacklyn|11/18/2022|10:00|17:00
+26|Gutierrez|Percival|11/18/2022|10:00|17:00
+27|Manalaysay|Garfield|11/18/2022|10:00|17:00
+28|Villegas|Lizeth|11/18/2022|10:00|17:00
+29|Ramos|Carol|11/18/2022|10:00|17:00
+30|Maceda|Emelia|11/18/2022|10:00|17:00
+31|Aguilar|Delia|11/18/2022|10:00|17:00
+16|Mata|Christian|11/21/2022|8:00|17:00
+7|San Jose|Brad|11/21/2022|8:00|17:00
+11|Salcedo|Anthony|11/21/2022|8:00|17:00
+8|Romualdez|Alice|11/21/2022|8:00|17:00
+9|Atienza|Rosie|11/21/2022|8:00|17:00
+13|Farala|Martha|11/21/2022|8:00|17:00
+14|Martinez|Leila|11/21/2022|8:00|17:00
+18|San Jose|Allison|11/21/2022|8:00|17:00
+19|Rosario|Cydney|11/21/2022|8:00|17:00
+12|Lopez|Josie|11/21/2022|8:00|17:00
+17|De Leon|Selena|11/21/2022|8:00|17:00
+15|Romualdez|Fredrick|11/21/2022|8:00|17:00
+20|Bautista|Mark|11/21/2022|8:00|17:00
+21|Lazaro|Darlene|11/21/2022|8:00|17:00
+22|Delos Santos|Kolby|11/21/2022|8:00|17:00
+23|Santos|Vella|11/21/2022|8:00|17:00
+24|Del Rosario|Tomas|11/21/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/21/2022|8:00|17:00
+26|Gutierrez|Percival|11/21/2022|8:00|17:00
+27|Manalaysay|Garfield|11/21/2022|8:00|17:00
+28|Villegas|Lizeth|11/21/2022|8:00|17:00
+29|Ramos|Carol|11/21/2022|8:00|17:00
+30|Maceda|Emelia|11/21/2022|8:00|17:00
+31|Aguilar|Delia|11/21/2022|8:00|17:00
+16|Mata|Christian|11/22/2022|8:00|17:00
+7|San Jose|Brad|11/22/2022|8:00|17:00
+11|Salcedo|Anthony|11/22/2022|8:00|17:00
+8|Romualdez|Alice|11/22/2022|8:00|17:00
+9|Atienza|Rosie|11/22/2022|8:00|17:00
+13|Farala|Martha|11/22/2022|8:27|17:00
+14|Martinez|Leila|11/22/2022|8:01|17:00
+18|San Jose|Allison|11/22/2022|8:05|17:00
+19|Rosario|Cydney|11/22/2022|8:00|17:00
+12|Lopez|Josie|11/22/2022|8:00|17:00
+17|De Leon|Selena|11/22/2022|8:00|17:00
+15|Romualdez|Fredrick|11/22/2022|8:00|17:00
+20|Bautista|Mark|11/22/2022|8:00|17:00
+21|Lazaro|Darlene|11/22/2022|8:00|17:00
+22|Delos Santos|Kolby|11/22/2022|8:28|17:00
+23|Santos|Vella|11/22/2022|8:00|17:00
+24|Del Rosario|Tomas|11/22/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/22/2022|8:00|17:00
+26|Gutierrez|Percival|11/22/2022|8:00|17:00
+27|Manalaysay|Garfield|11/22/2022|8:11|17:00
+28|Villegas|Lizeth|11/22/2022|8:00|17:00
+29|Ramos|Carol|11/22/2022|8:00|17:00
+30|Maceda|Emelia|11/22/2022|8:21|17:00
+31|Aguilar|Delia|11/22/2022|8:00|17:00
+16|Mata|Christian|11/23/2022|0:00|0:00
+7|San Jose|Brad|11/23/2022|0:00|0:00
+11|Salcedo|Anthony|11/23/2022|0:00|0:00
+8|Romualdez|Alice|11/23/2022|0:00|0:00
+9|Atienza|Rosie|11/23/2022|0:00|0:00
+13|Farala|Martha|11/23/2022|0:00|0:00
+14|Martinez|Leila|11/23/2022|0:00|0:00
+18|San Jose|Allison|11/23/2022|0:00|0:00
+19|Rosario|Cydney|11/23/2022|0:00|0:00
+12|Lopez|Josie|11/23/2022|0:00|0:00
+17|De Leon|Selena|11/23/2022|0:00|0:00
+15|Romualdez|Fredrick|11/23/2022|0:00|0:00
+20|Bautista|Mark|11/23/2022|0:00|0:00
+21|Lazaro|Darlene|11/23/2022|0:00|0:00
+22|Delos Santos|Kolby|11/23/2022|0:00|0:00
+23|Santos|Vella|11/23/2022|0:00|0:00
+24|Del Rosario|Tomas|11/23/2022|0:00|0:00
+25|Tolentino|Jacklyn|11/23/2022|0:00|0:00
+26|Gutierrez|Percival|11/23/2022|0:00|0:00
+27|Manalaysay|Garfield|11/23/2022|0:00|0:00
+28|Villegas|Lizeth|11/23/2022|0:00|0:00
+29|Ramos|Carol|11/23/2022|0:00|0:00
+30|Maceda|Emelia|11/23/2022|0:00|0:00
+31|Aguilar|Delia|11/23/2022|0:00|0:00
+16|Mata|Christian|11/24/2022|8:00|17:00
+7|San Jose|Brad|11/24/2022|8:00|17:00
+11|Salcedo|Anthony|11/24/2022|8:00|17:00
+8|Romualdez|Alice|11/24/2022|8:15|17:00
+9|Atienza|Rosie|11/24/2022|8:00|17:00
+13|Farala|Martha|11/24/2022|8:00|17:00
+14|Martinez|Leila|11/24/2022|8:00|17:00
+18|San Jose|Allison|11/24/2022|8:00|17:00
+19|Rosario|Cydney|11/24/2022|8:00|17:00
+12|Lopez|Josie|11/24/2022|10:30|17:00
+17|De Leon|Selena|11/24/2022|8:00|17:00
+15|Romualdez|Fredrick|11/24/2022|8:00|17:00
+20|Bautista|Mark|11/24/2022|8:00|17:00
+21|Lazaro|Darlene|11/24/2022|8:00|17:00
+22|Delos Santos|Kolby|11/24/2022|8:00|17:00
+23|Santos|Vella|11/24/2022|8:00|17:00
+24|Del Rosario|Tomas|11/24/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/24/2022|8:00|17:00
+26|Gutierrez|Percival|11/24/2022|8:00|17:00
+27|Manalaysay|Garfield|11/24/2022|13:00|17:00
+28|Villegas|Lizeth|11/24/2022|8:00|17:00
+29|Ramos|Carol|11/24/2022|8:00|17:00
+30|Maceda|Emelia|11/24/2022|8:00|17:00
+31|Aguilar|Delia|11/24/2022|8:00|17:00
+16|Mata|Christian|11/25/2022|8:00|17:00
+7|San Jose|Brad|11/25/2022|11:30|17:00
+11|Salcedo|Anthony|11/25/2022|8:00|17:00
+8|Romualdez|Alice|11/25/2022|8:00|17:00
+9|Atienza|Rosie|11/25/2022|8:00|17:00
+13|Farala|Martha|11/25/2022|8:00|17:00
+14|Martinez|Leila|11/25/2022|8:10|17:00
+18|San Jose|Allison|11/25/2022|8:00|17:00
+19|Rosario|Cydney|11/25/2022|8:00|17:00
+12|Lopez|Josie|11/25/2022|8:00|17:00
+17|De Leon|Selena|11/25/2022|8:00|17:00
+15|Romualdez|Fredrick|11/25/2022|8:00|17:00
+20|Bautista|Mark|11/25/2022|8:00|17:00
+21|Lazaro|Darlene|11/25/2022|8:00|17:00
+22|Delos Santos|Kolby|11/25/2022|8:00|17:00
+23|Santos|Vella|11/25/2022|8:05|17:00
+24|Del Rosario|Tomas|11/25/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/25/2022|8:00|17:00
+26|Gutierrez|Percival|11/25/2022|8:00|17:00
+27|Manalaysay|Garfield|11/25/2022|8:00|17:00
+28|Villegas|Lizeth|11/25/2022|8:00|17:00
+29|Ramos|Carol|11/25/2022|9:00|17:00
+30|Maceda|Emelia|11/25/2022|8:00|17:00
+31|Aguilar|Delia|11/25/2022|8:00|17:00
+16|Mata|Christian|11/28/2022|8:00|17:00
+7|San Jose|Brad|11/28/2022|8:00|17:00
+11|Salcedo|Anthony|11/28/2022|8:00|17:00
+8|Romualdez|Alice|11/28/2022|8:00|17:00
+9|Atienza|Rosie|11/28/2022|8:00|17:00
+13|Farala|Martha|11/28/2022|8:00|17:00
+14|Martinez|Leila|11/28/2022|8:00|17:00
+18|San Jose|Allison|11/28/2022|8:00|17:00
+19|Rosario|Cydney|11/28/2022|8:00|17:00
+12|Lopez|Josie|11/28/2022|8:00|17:00
+17|De Leon|Selena|11/28/2022|8:00|17:00
+15|Romualdez|Fredrick|11/28/2022|8:00|17:00
+20|Bautista|Mark|11/28/2022|8:00|17:00
+21|Lazaro|Darlene|11/28/2022|8:00|17:00
+22|Delos Santos|Kolby|11/28/2022|8:00|17:00
+23|Santos|Vella|11/28/2022|8:00|17:00
+24|Del Rosario|Tomas|11/28/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/28/2022|8:00|17:00
+26|Gutierrez|Percival|11/28/2022|8:00|17:00
+27|Manalaysay|Garfield|11/28/2022|8:00|17:00
+28|Villegas|Lizeth|11/28/2022|8:00|17:00
+29|Ramos|Carol|11/28/2022|8:00|17:00
+30|Maceda|Emelia|11/28/2022|8:00|17:00
+31|Aguilar|Delia|11/28/2022|8:00|17:00
+16|Mata|Christian|11/29/2022|8:00|17:00
+7|San Jose|Brad|11/29/2022|8:00|17:00
+11|Salcedo|Anthony|11/29/2022|8:00|17:00
+8|Romualdez|Alice|11/29/2022|8:00|17:00
+9|Atienza|Rosie|11/29/2022|8:00|17:00
+13|Farala|Martha|11/29/2022|8:00|17:00
+14|Martinez|Leila|11/29/2022|8:00|17:00
+18|San Jose|Allison|11/29/2022|8:00|17:00
+19|Rosario|Cydney|11/29/2022|8:00|17:00
+12|Lopez|Josie|11/29/2022|8:00|17:00
+17|De Leon|Selena|11/29/2022|8:00|17:00
+15|Romualdez|Fredrick|11/29/2022|10:00|17:00
+20|Bautista|Mark|11/29/2022|10:00|17:00
+21|Lazaro|Darlene|11/29/2022|10:00|17:00
+22|Delos Santos|Kolby|11/29/2022|10:00|17:00
+23|Santos|Vella|11/29/2022|10:00|17:00
+24|Del Rosario|Tomas|11/29/2022|10:00|17:00
+25|Tolentino|Jacklyn|11/29/2022|10:00|17:00
+26|Gutierrez|Percival|11/29/2022|10:00|17:00
+27|Manalaysay|Garfield|11/29/2022|10:00|17:00
+28|Villegas|Lizeth|11/29/2022|10:00|17:00
+29|Ramos|Carol|11/29/2022|10:00|17:00
+30|Maceda|Emelia|11/29/2022|10:00|17:00
+31|Aguilar|Delia|11/29/2022|10:00|17:00
+16|Mata|Christian|11/30/2022|8:00|17:00
+7|San Jose|Brad|11/30/2022|8:00|17:00
+11|Salcedo|Anthony|11/30/2022|8:00|17:00
+8|Romualdez|Alice|11/30/2022|8:00|17:00
+9|Atienza|Rosie|11/30/2022|8:00|17:00
+13|Farala|Martha|11/30/2022|8:00|17:00
+14|Martinez|Leila|11/30/2022|8:00|17:00
+18|San Jose|Allison|11/30/2022|8:00|17:00
+19|Rosario|Cydney|11/30/2022|8:00|17:00
+12|Lopez|Josie|11/30/2022|8:00|17:00
+17|De Leon|Selena|11/30/2022|8:00|17:00
+15|Romualdez|Fredrick|11/30/2022|8:00|17:00
+20|Bautista|Mark|11/30/2022|8:00|17:00
+21|Lazaro|Darlene|11/30/2022|8:00|17:00
+22|Delos Santos|Kolby|11/30/2022|8:00|17:00
+23|Santos|Vella|11/30/2022|8:00|17:00
+24|Del Rosario|Tomas|11/30/2022|8:00|17:00
+25|Tolentino|Jacklyn|11/30/2022|8:00|17:00
+26|Gutierrez|Percival|11/30/2022|8:00|17:00
+27|Manalaysay|Garfield|11/30/2022|8:00|17:00
+28|Villegas|Lizeth|11/30/2022|8:00|17:00
+29|Ramos|Carol|11/30/2022|8:00|17:00
+30|Maceda|Emelia|11/30/2022|8:00|17:00
+31|Aguilar|Delia|11/30/2022|8:00|17:00
+16|Mata|Christian|12/09/2022|0:00|0:00
+7|San Jose|Brad|12/09/2022|0:00|0:00
+11|Salcedo|Anthony|12/09/2022|0:00|0:00
+8|Romualdez|Alice|12/09/2022|0:00|0:00
+9|Atienza|Rosie|12/09/2022|0:00|0:00
+13|Farala|Martha|12/09/2022|0:00|0:00
+14|Martinez|Leila|12/09/2022|0:00|0:00
+18|San Jose|Allison|12/09/2022|0:00|0:00
+19|Rosario|Cydney|12/09/2022|0:00|0:00
+12|Lopez|Josie|12/09/2022|0:00|0:00
+17|De Leon|Selena|12/09/2022|0:00|0:00
+15|Romualdez|Fredrick|12/09/2022|0:00|0:00
+20|Bautista|Mark|12/09/2022|0:00|0:00
+21|Lazaro|Darlene|12/09/2022|0:00|0:00
+22|Delos Santos|Kolby|12/09/2022|0:00|0:00
+23|Santos|Vella|12/09/2022|0:00|0:00
+24|Del Rosario|Tomas|12/09/2022|0:00|0:00
+25|Tolentino|Jacklyn|12/09/2022|0:00|0:00
+26|Gutierrez|Percival|12/09/2022|0:00|0:00
+27|Manalaysay|Garfield|12/09/2022|0:00|0:00
+28|Villegas|Lizeth|12/09/2022|0:00|0:00
+29|Ramos|Carol|12/09/2022|0:00|0:00
+30|Maceda|Emelia|12/09/2022|0:00|0:00
+31|Aguilar|Delia|12/09/2022|0:00|0:00
+16|Mata|Christian|12/10/2022|8:00|17:00
+7|San Jose|Brad|12/10/2022|8:00|17:00
+11|Salcedo|Anthony|12/10/2022|8:00|17:00
+8|Romualdez|Alice|12/10/2022|8:00|17:00
+9|Atienza|Rosie|12/10/2022|8:00|17:00
+13|Farala|Martha|12/10/2022|8:00|17:00
+14|Martinez|Leila|12/10/2022|8:00|17:00
+18|San Jose|Allison|12/10/2022|8:00|17:00
+19|Rosario|Cydney|12/10/2022|8:00|17:00
+12|Lopez|Josie|12/10/2022|8:00|17:00
+17|De Leon|Selena|12/10/2022|8:00|17:00
+15|Romualdez|Fredrick|12/10/2022|8:00|17:00
+20|Bautista|Mark|12/10/2022|8:00|17:00
+21|Lazaro|Darlene|12/10/2022|8:00|17:00
+22|Delos Santos|Kolby|12/10/2022|8:00|17:00
+23|Santos|Vella|12/10/2022|8:00|17:00
+24|Del Rosario|Tomas|12/10/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/10/2022|8:00|17:00
+26|Gutierrez|Percival|12/10/2022|8:00|17:00
+27|Manalaysay|Garfield|12/10/2022|8:00|17:00
+28|Villegas|Lizeth|12/10/2022|8:00|17:00
+29|Ramos|Carol|12/10/2022|8:00|17:00
+30|Maceda|Emelia|12/10/2022|8:00|17:00
+31|Aguilar|Delia|12/10/2022|8:00|17:00
+16|Mata|Christian|12/12/2022|8:00|17:00
+7|San Jose|Brad|12/12/2022|8:00|17:00
+11|Salcedo|Anthony|12/12/2022|8:00|17:00
+8|Romualdez|Alice|12/12/2022|8:15|17:00
+9|Atienza|Rosie|12/12/2022|8:00|17:00
+13|Farala|Martha|12/12/2022|8:00|17:00
+14|Martinez|Leila|12/12/2022|8:00|17:00
+18|San Jose|Allison|12/12/2022|8:00|17:00
+19|Rosario|Cydney|12/12/2022|8:00|17:00
+12|Lopez|Josie|12/12/2022|10:30|17:00
+17|De Leon|Selena|12/12/2022|8:00|17:00
+15|Romualdez|Fredrick|12/12/2022|8:00|17:00
+20|Bautista|Mark|12/12/2022|8:00|17:00
+21|Lazaro|Darlene|12/12/2022|8:00|17:00
+22|Delos Santos|Kolby|12/12/2022|8:00|17:00
+23|Santos|Vella|12/12/2022|8:00|17:00
+24|Del Rosario|Tomas|12/12/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/12/2022|8:00|17:00
+26|Gutierrez|Percival|12/12/2022|8:00|17:00
+27|Manalaysay|Garfield|12/12/2022|13:00|17:00
+28|Villegas|Lizeth|12/12/2022|8:00|17:00
+29|Ramos|Carol|12/12/2022|8:00|17:00
+30|Maceda|Emelia|12/12/2022|8:00|17:00
+31|Aguilar|Delia|12/12/2022|8:00|17:00
+16|Mata|Christian|12/13/2022|8:00|17:00
+7|San Jose|Brad|12/13/2022|11:30|17:00
+11|Salcedo|Anthony|12/13/2022|8:00|17:00
+8|Romualdez|Alice|12/13/2022|8:00|17:00
+9|Atienza|Rosie|12/13/2022|8:00|17:00
+13|Farala|Martha|12/13/2022|8:00|17:00
+14|Martinez|Leila|12/13/2022|8:10|17:00
+18|San Jose|Allison|12/13/2022|8:00|17:00
+19|Rosario|Cydney|12/13/2022|8:00|17:00
+12|Lopez|Josie|12/13/2022|8:00|17:00
+17|De Leon|Selena|12/13/2022|8:00|17:00
+15|Romualdez|Fredrick|12/13/2022|8:00|17:00
+20|Bautista|Mark|12/13/2022|8:00|17:00
+21|Lazaro|Darlene|12/13/2022|8:00|17:00
+22|Delos Santos|Kolby|12/13/2022|8:00|17:00
+23|Santos|Vella|12/13/2022|8:05|17:00
+24|Del Rosario|Tomas|12/13/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/13/2022|8:00|17:00
+26|Gutierrez|Percival|12/13/2022|8:00|17:00
+27|Manalaysay|Garfield|12/13/2022|8:00|17:00
+28|Villegas|Lizeth|12/13/2022|8:00|17:00
+29|Ramos|Carol|12/13/2022|9:00|17:00
+30|Maceda|Emelia|12/13/2022|8:00|17:00
+31|Aguilar|Delia|12/13/2022|8:00|17:00
+16|Mata|Christian|12/14/2022|8:00|17:00
+7|San Jose|Brad|12/14/2022|8:00|17:00
+11|Salcedo|Anthony|12/14/2022|8:00|17:00
+8|Romualdez|Alice|12/14/2022|8:00|17:00
+9|Atienza|Rosie|12/14/2022|8:00|17:00
+13|Farala|Martha|12/14/2022|8:00|17:00
+14|Martinez|Leila|12/14/2022|8:00|17:00
+18|San Jose|Allison|12/14/2022|8:00|17:00
+19|Rosario|Cydney|12/14/2022|8:00|17:00
+12|Lopez|Josie|12/14/2022|8:00|17:00
+17|De Leon|Selena|12/14/2022|8:00|17:00
+15|Romualdez|Fredrick|12/14/2022|8:00|17:00
+20|Bautista|Mark|12/14/2022|8:00|17:00
+21|Lazaro|Darlene|12/14/2022|8:00|17:00
+22|Delos Santos|Kolby|12/14/2022|8:00|17:00
+23|Santos|Vella|12/14/2022|8:00|17:00
+24|Del Rosario|Tomas|12/14/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/14/2022|8:00|17:00
+26|Gutierrez|Percival|12/14/2022|8:00|17:00
+27|Manalaysay|Garfield|12/14/2022|8:00|17:00
+28|Villegas|Lizeth|12/14/2022|8:00|17:00
+29|Ramos|Carol|12/14/2022|8:00|17:00
+30|Maceda|Emelia|12/14/2022|8:00|17:00
+31|Aguilar|Delia|12/14/2022|8:00|17:00
+16|Mata|Christian|12/15/2022|0:00|0:00
+7|San Jose|Brad|12/15/2022|0:00|0:00
+11|Salcedo|Anthony|12/15/2022|0:00|0:00
+8|Romualdez|Alice|12/15/2022|0:00|0:00
+9|Atienza|Rosie|12/15/2022|0:00|0:00
+13|Farala|Martha|12/15/2022|8:00|17:00
+14|Martinez|Leila|12/15/2022|8:00|17:00
+18|San Jose|Allison|12/15/2022|8:00|17:00
+19|Rosario|Cydney|12/15/2022|8:00|17:00
+12|Lopez|Josie|12/15/2022|8:00|17:00
+17|De Leon|Selena|12/15/2022|8:00|17:00
+15|Romualdez|Fredrick|12/15/2022|10:00|17:00
+20|Bautista|Mark|12/15/2022|10:00|17:00
+21|Lazaro|Darlene|12/15/2022|10:00|17:00
+22|Delos Santos|Kolby|12/15/2022|10:00|17:00
+23|Santos|Vella|12/15/2022|10:00|17:00
+24|Del Rosario|Tomas|12/15/2022|10:00|17:00
+25|Tolentino|Jacklyn|12/15/2022|10:00|17:00
+26|Gutierrez|Percival|12/15/2022|10:00|17:00
+27|Manalaysay|Garfield|12/15/2022|10:00|17:00
+28|Villegas|Lizeth|12/15/2022|10:00|17:00
+29|Ramos|Carol|12/15/2022|10:00|17:00
+30|Maceda|Emelia|12/15/2022|10:00|17:00
+31|Aguilar|Delia|12/15/2022|10:00|17:00
+16|Mata|Christian|12/16/2022|0:00|0:00
+7|San Jose|Brad|12/16/2022|0:00|0:00
+11|Salcedo|Anthony|12/16/2022|0:00|0:00
+8|Romualdez|Alice|12/16/2022|0:00|0:00
+9|Atienza|Rosie|12/16/2022|0:00|0:00
+13|Farala|Martha|12/16/2022|8:00|17:00
+14|Martinez|Leila|12/16/2022|8:00|17:00
+18|San Jose|Allison|12/16/2022|8:00|17:00
+19|Rosario|Cydney|12/16/2022|8:00|17:00
+12|Lopez|Josie|12/16/2022|8:00|17:00
+17|De Leon|Selena|12/16/2022|8:00|17:00
+15|Romualdez|Fredrick|12/16/2022|8:00|17:00
+20|Bautista|Mark|12/16/2022|8:00|17:00
+21|Lazaro|Darlene|12/16/2022|8:00|17:00
+22|Delos Santos|Kolby|12/16/2022|8:00|17:00
+23|Santos|Vella|12/16/2022|8:00|17:00
+24|Del Rosario|Tomas|12/16/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/16/2022|8:00|17:00
+26|Gutierrez|Percival|12/16/2022|8:00|17:00
+27|Manalaysay|Garfield|12/16/2022|8:00|17:00
+28|Villegas|Lizeth|12/16/2022|8:00|17:00
+29|Ramos|Carol|12/16/2022|8:00|17:00
+30|Maceda|Emelia|12/16/2022|8:00|17:00
+31|Aguilar|Delia|12/16/2022|8:00|17:00
+16|Mata|Christian|12/19/2022|0:00|0:00
+7|San Jose|Brad|12/19/2022|0:00|0:00
+11|Salcedo|Anthony|12/19/2022|0:00|0:00
+8|Romualdez|Alice|12/19/2022|0:00|0:00
+9|Atienza|Rosie|12/19/2022|0:00|0:00
+13|Farala|Martha|12/19/2022|8:27|17:00
+14|Martinez|Leila|12/19/2022|8:01|17:00
+18|San Jose|Allison|12/19/2022|8:05|17:00
+19|Rosario|Cydney|12/19/2022|8:00|17:00
+12|Lopez|Josie|12/19/2022|8:00|17:00
+17|De Leon|Selena|12/19/2022|8:00|17:00
+15|Romualdez|Fredrick|12/19/2022|8:00|17:00
+20|Bautista|Mark|12/19/2022|8:00|17:00
+21|Lazaro|Darlene|12/19/2022|8:00|17:00
+22|Delos Santos|Kolby|12/19/2022|8:28|17:00
+23|Santos|Vella|12/19/2022|8:00|17:00
+24|Del Rosario|Tomas|12/19/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/19/2022|8:00|17:00
+26|Gutierrez|Percival|12/19/2022|8:00|17:00
+27|Manalaysay|Garfield|12/19/2022|8:11|17:00
+28|Villegas|Lizeth|12/19/2022|8:00|17:00
+29|Ramos|Carol|12/19/2022|8:00|17:00
+30|Maceda|Emelia|12/19/2022|8:21|17:00
+31|Aguilar|Delia|12/19/2022|8:00|17:00
+16|Mata|Christian|12/20/2022|0:00|0:00
+7|San Jose|Brad|12/20/2022|0:00|0:00
+11|Salcedo|Anthony|12/20/2022|0:00|0:00
+8|Romualdez|Alice|12/20/2022|0:00|0:00
+9|Atienza|Rosie|12/20/2022|0:00|0:00
+13|Farala|Martha|12/20/2022|8:00|17:00
+14|Martinez|Leila|12/20/2022|8:00|17:00
+18|San Jose|Allison|12/20/2022|8:00|17:00
+19|Rosario|Cydney|12/20/2022|8:00|17:00
+12|Lopez|Josie|12/20/2022|8:00|17:00
+17|De Leon|Selena|12/20/2022|8:00|17:00
+15|Romualdez|Fredrick|12/20/2022|8:00|17:00
+20|Bautista|Mark|12/20/2022|8:00|17:00
+21|Lazaro|Darlene|12/20/2022|8:00|17:00
+22|Delos Santos|Kolby|12/20/2022|8:00|17:00
+23|Santos|Vella|12/20/2022|8:00|17:00
+24|Del Rosario|Tomas|12/20/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/20/2022|8:00|17:00
+26|Gutierrez|Percival|12/20/2022|8:00|17:00
+27|Manalaysay|Garfield|12/20/2022|8:00|17:00
+28|Villegas|Lizeth|12/20/2022|8:00|17:00
+29|Ramos|Carol|12/20/2022|8:00|17:00
+30|Maceda|Emelia|12/20/2022|8:00|17:00
+31|Aguilar|Delia|12/20/2022|8:00|17:00
+16|Mata|Christian|12/21/2022|0:00|0:00
+7|San Jose|Brad|12/21/2022|0:00|0:00
+11|Salcedo|Anthony|12/21/2022|0:00|0:00
+8|Romualdez|Alice|12/21/2022|0:00|0:00
+9|Atienza|Rosie|12/21/2022|0:00|0:00
+13|Farala|Martha|12/21/2022|8:00|17:00
+14|Martinez|Leila|12/21/2022|8:00|17:00
+18|San Jose|Allison|12/21/2022|8:00|17:00
+19|Rosario|Cydney|12/21/2022|8:00|17:00
+12|Lopez|Josie|12/21/2022|10:30|17:00
+17|De Leon|Selena|12/21/2022|8:00|17:00
+15|Romualdez|Fredrick|12/21/2022|8:00|17:00
+20|Bautista|Mark|12/21/2022|8:00|17:00
+21|Lazaro|Darlene|12/21/2022|8:00|17:00
+22|Delos Santos|Kolby|12/21/2022|8:00|17:00
+23|Santos|Vella|12/21/2022|8:00|17:00
+24|Del Rosario|Tomas|12/21/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/21/2022|8:00|17:00
+26|Gutierrez|Percival|12/21/2022|8:00|17:00
+27|Manalaysay|Garfield|12/21/2022|13:00|17:00
+28|Villegas|Lizeth|12/21/2022|8:00|17:00
+29|Ramos|Carol|12/21/2022|8:00|17:00
+30|Maceda|Emelia|12/21/2022|8:00|17:00
+31|Aguilar|Delia|12/21/2022|8:00|17:00
+16|Mata|Christian|12/22/2022|0:00|0:00
+7|San Jose|Brad|12/22/2022|0:00|0:00
+11|Salcedo|Anthony|12/22/2022|0:00|0:00
+8|Romualdez|Alice|12/22/2022|0:00|0:00
+9|Atienza|Rosie|12/22/2022|0:00|0:00
+13|Farala|Martha|12/22/2022|8:00|17:00
+14|Martinez|Leila|12/22/2022|8:10|17:00
+18|San Jose|Allison|12/22/2022|8:00|17:00
+19|Rosario|Cydney|12/22/2022|8:00|17:00
+12|Lopez|Josie|12/22/2022|8:00|17:00
+17|De Leon|Selena|12/22/2022|8:00|17:00
+15|Romualdez|Fredrick|12/22/2022|8:00|17:00
+20|Bautista|Mark|12/22/2022|8:00|17:00
+21|Lazaro|Darlene|12/22/2022|8:00|17:00
+22|Delos Santos|Kolby|12/22/2022|8:00|17:00
+23|Santos|Vella|12/22/2022|8:05|17:00
+24|Del Rosario|Tomas|12/22/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/22/2022|8:00|17:00
+26|Gutierrez|Percival|12/22/2022|8:00|17:00
+27|Manalaysay|Garfield|12/22/2022|8:00|17:00
+28|Villegas|Lizeth|12/22/2022|8:00|17:00
+29|Ramos|Carol|12/22/2022|9:00|17:00
+30|Maceda|Emelia|12/22/2022|8:00|17:00
+31|Aguilar|Delia|12/22/2022|8:00|17:00
+16|Mata|Christian|12/23/2022|0:00|0:00
+7|San Jose|Brad|12/23/2022|0:00|0:00
+11|Salcedo|Anthony|12/23/2022|0:00|0:00
+8|Romualdez|Alice|12/23/2022|0:00|0:00
+9|Atienza|Rosie|12/23/2022|0:00|0:00
+13|Farala|Martha|12/23/2022|8:00|17:00
+14|Martinez|Leila|12/23/2022|8:00|17:00
+18|San Jose|Allison|12/23/2022|8:00|17:00
+19|Rosario|Cydney|12/23/2022|8:00|17:00
+12|Lopez|Josie|12/23/2022|8:00|17:00
+17|De Leon|Selena|12/23/2022|8:00|17:00
+15|Romualdez|Fredrick|12/23/2022|8:00|17:00
+20|Bautista|Mark|12/23/2022|8:00|17:00
+21|Lazaro|Darlene|12/23/2022|8:00|17:00
+22|Delos Santos|Kolby|12/23/2022|8:00|17:00
+23|Santos|Vella|12/23/2022|8:00|17:00
+24|Del Rosario|Tomas|12/23/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/23/2022|8:00|17:00
+26|Gutierrez|Percival|12/23/2022|8:00|17:00
+27|Manalaysay|Garfield|12/23/2022|8:00|17:00
+28|Villegas|Lizeth|12/23/2022|8:00|17:00
+29|Ramos|Carol|12/23/2022|8:00|17:00
+30|Maceda|Emelia|12/23/2022|8:00|17:00
+31|Aguilar|Delia|12/23/2022|8:00|17:00
+16|Mata|Christian|12/26/2022|0:00|0:00
+7|San Jose|Brad|12/26/2022|0:00|0:00
+11|Salcedo|Anthony|12/26/2022|0:00|0:00
+8|Romualdez|Alice|12/26/2022|0:00|0:00
+9|Atienza|Rosie|12/26/2022|0:00|0:00
+13|Farala|Martha|12/26/2022|8:00|17:00
+14|Martinez|Leila|12/26/2022|8:00|17:00
+18|San Jose|Allison|12/26/2022|8:00|17:00
+19|Rosario|Cydney|12/26/2022|8:00|17:00
+12|Lopez|Josie|12/26/2022|8:00|17:00
+17|De Leon|Selena|12/26/2022|8:00|17:00
+15|Romualdez|Fredrick|12/26/2022|10:00|17:00
+20|Bautista|Mark|12/26/2022|10:00|17:00
+21|Lazaro|Darlene|12/26/2022|10:00|17:00
+22|Delos Santos|Kolby|12/26/2022|10:00|17:00
+23|Santos|Vella|12/26/2022|10:00|17:00
+24|Del Rosario|Tomas|12/26/2022|10:00|17:00
+25|Tolentino|Jacklyn|12/26/2022|10:00|17:00
+26|Gutierrez|Percival|12/26/2022|10:00|17:00
+27|Manalaysay|Garfield|12/26/2022|10:00|17:00
+28|Villegas|Lizeth|12/26/2022|10:00|17:00
+29|Ramos|Carol|12/26/2022|10:00|17:00
+30|Maceda|Emelia|12/26/2022|10:00|17:00
+31|Aguilar|Delia|12/26/2022|10:00|17:00
+16|Mata|Christian|12/27/2022|0:00|0:00
+7|San Jose|Brad|12/27/2022|0:00|0:00
+11|Salcedo|Anthony|12/27/2022|0:00|0:00
+8|Romualdez|Alice|12/27/2022|0:00|0:00
+9|Atienza|Rosie|12/27/2022|0:00|0:00
+13|Farala|Martha|12/27/2022|8:00|17:00
+14|Martinez|Leila|12/27/2022|8:00|17:00
+18|San Jose|Allison|12/27/2022|8:00|17:00
+19|Rosario|Cydney|12/27/2022|8:00|17:00
+12|Lopez|Josie|12/27/2022|8:00|17:00
+17|De Leon|Selena|12/27/2022|8:00|17:00
+15|Romualdez|Fredrick|12/27/2022|8:00|17:00
+20|Bautista|Mark|12/27/2022|8:00|17:00
+21|Lazaro|Darlene|12/27/2022|8:00|17:00
+22|Delos Santos|Kolby|12/27/2022|8:00|17:00
+23|Santos|Vella|12/27/2022|8:00|17:00
+24|Del Rosario|Tomas|12/27/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/27/2022|8:00|17:00
+26|Gutierrez|Percival|12/27/2022|8:00|17:00
+27|Manalaysay|Garfield|12/27/2022|8:00|17:00
+28|Villegas|Lizeth|12/27/2022|8:00|17:00
+29|Ramos|Carol|12/27/2022|8:00|17:00
+30|Maceda|Emelia|12/27/2022|8:00|17:00
+31|Aguilar|Delia|12/27/2022|8:00|17:00
+16|Mata|Christian|12/28/2022|0:00|0:00
+7|San Jose|Brad|12/28/2022|0:00|0:00
+11|Salcedo|Anthony|12/28/2022|0:00|0:00
+8|Romualdez|Alice|12/28/2022|0:00|0:00
+9|Atienza|Rosie|12/28/2022|0:00|0:00
+13|Farala|Martha|12/28/2022|8:27|17:00
+14|Martinez|Leila|12/28/2022|8:01|17:00
+18|San Jose|Allison|12/28/2022|8:05|17:00
+19|Rosario|Cydney|12/28/2022|8:00|17:00
+12|Lopez|Josie|12/28/2022|8:00|17:00
+17|De Leon|Selena|12/28/2022|8:00|17:00
+15|Romualdez|Fredrick|12/28/2022|8:00|17:00
+20|Bautista|Mark|12/28/2022|8:00|17:00
+21|Lazaro|Darlene|12/28/2022|8:00|17:00
+22|Delos Santos|Kolby|12/28/2022|8:28|17:00
+23|Santos|Vella|12/28/2022|8:00|17:00
+24|Del Rosario|Tomas|12/28/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/28/2022|8:00|17:00
+26|Gutierrez|Percival|12/28/2022|8:00|17:00
+27|Manalaysay|Garfield|12/28/2022|8:11|17:00
+28|Villegas|Lizeth|12/28/2022|8:00|17:00
+29|Ramos|Carol|12/28/2022|8:00|17:00
+30|Maceda|Emelia|12/28/2022|8:21|17:00
+31|Aguilar|Delia|12/28/2022|8:00|17:00
+16|Mata|Christian|12/29/2022|0:00|0:00
+7|San Jose|Brad|12/29/2022|0:00|0:00
+11|Salcedo|Anthony|12/29/2022|0:00|0:00
+8|Romualdez|Alice|12/29/2022|0:00|0:00
+9|Atienza|Rosie|12/29/2022|0:00|0:00
+13|Farala|Martha|12/29/2022|8:00|17:00
+14|Martinez|Leila|12/29/2022|8:00|17:00
+18|San Jose|Allison|12/29/2022|8:00|17:00
+19|Rosario|Cydney|12/29/2022|8:00|17:00
+12|Lopez|Josie|12/29/2022|8:00|17:00
+17|De Leon|Selena|12/29/2022|8:00|17:00
+15|Romualdez|Fredrick|12/29/2022|8:00|17:00
+20|Bautista|Mark|12/29/2022|8:00|17:00
+21|Lazaro|Darlene|12/29/2022|8:00|17:00
+22|Delos Santos|Kolby|12/29/2022|8:00|17:00
+23|Santos|Vella|12/29/2022|8:00|17:00
+24|Del Rosario|Tomas|12/29/2022|8:00|17:00
+25|Tolentino|Jacklyn|12/29/2022|8:00|17:00
+26|Gutierrez|Percival|12/29/2022|8:00|17:00
+27|Manalaysay|Garfield|12/29/2022|8:00|17:00
+28|Villegas|Lizeth|12/29/2022|8:00|17:00
+29|Ramos|Carol|12/29/2022|8:00|17:00
+30|Maceda|Emelia|12/29/2022|8:00|17:00
+31|Aguilar|Delia|12/29/2022|8:00|17:00
+16|Mata|Christian|12/30/2022|0:00|0:00
+7|San Jose|Brad|12/30/2022|0:00|0:00
+11|Salcedo|Anthony|12/30/2022|0:00|0:00
+8|Romualdez|Alice|12/30/2022|0:00|0:00
+9|Atienza|Rosie|12/30/2022|0:00|0:00
+13|Farala|Martha|12/30/2022|0:00|0:00
+14|Martinez|Leila|12/30/2022|0:00|0:00
+18|San Jose|Allison|12/30/2022|0:00|0:00
+19|Rosario|Cydney|12/30/2022|0:00|0:00
+12|Lopez|Josie|12/30/2022|0:00|0:00
+17|De Leon|Selena|12/30/2022|0:00|0:00
+15|Romualdez|Fredrick|12/30/2022|0:00|0:00
+20|Bautista|Mark|12/30/2022|0:00|0:00
+21|Lazaro|Darlene|12/30/2022|0:00|0:00
+22|Delos Santos|Kolby|12/30/2022|0:00|0:00
+23|Santos|Vella|12/30/2022|0:00|0:00
+24|Del Rosario|Tomas|12/30/2022|0:00|0:00
+25|Tolentino|Jacklyn|12/30/2022|0:00|0:00
+26|Gutierrez|Percival|12/30/2022|0:00|0:00
+27|Manalaysay|Garfield|12/30/2022|0:00|0:00
+28|Villegas|Lizeth|12/30/2022|0:00|0:00
+29|Ramos|Carol|12/30/2022|0:00|0:00
+30|Maceda|Emelia|12/30/2022|0:00|0:00
+31|Aguilar|Delia|12/30/2022|0:00|0:00

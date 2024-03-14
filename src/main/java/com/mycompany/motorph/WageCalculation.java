@@ -10,9 +10,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 /**
  * An abstract class that calculates wage based on hours worked.
@@ -21,11 +19,22 @@ import java.util.concurrent.TimeUnit;
  */
 public abstract class WageCalculation {
 
-    private static final String EMPLOYEES_DATA_PATH = "/home/lance/projects/java/MotorPH/src/main/resources/data/employee_information";
-    private static final String ATTENDANCE_DATA_PATH = "/home/lance/projects/java/MotorPH/src/main/resources/data/employee_attendance";
-    private static final SimpleDateFormat TIME_FORMAT = new SimpleDateFormat("HH:mm");
-    private static final int ATTENDANCE_DATA_LENGTH = 6;
+    private final TimeCalculation timeCalculation;
+
+    // File paths
+    private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
+    private static final String ATTENDANCE_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_attendance.txt";
+
     private static final int EMPLOYEE_DATA_LENGTH = 18;
+
+    /**
+     * Constructor for WageCalculation.
+     *
+     */
+    public WageCalculation() {
+        // Initialize time calculations
+        this.timeCalculation = new TimeCalculation();
+    }
 
     /**
      * Calculates and displays wage of an employee.
@@ -33,82 +42,110 @@ public abstract class WageCalculation {
      * @param employeeNumber Inputted employee number for which wage is
      * calculated
      * @param dateRange Date range inputted
-     * @param assumedHoursWorked Calculated assumed hours worked if employee's
-     * number is not found in the attendance data
      * @throws IOException If an I/O error happen
      * @throws ParseException If date parsing error happen
      */
-    public void showWage(int employeeNumber, DateRange dateRange, double assumedHoursWorked) throws IOException, ParseException {
-        List<String> attendanceDataList = readAttendanceData();
+    public void showWage(int employeeNumber, DateRange dateRange) throws IOException, ParseException {
+        // Read attendance data
+        List<String> attendanceDataInList = readAttendanceData();
 
-        double hoursWorked = calculateTotalHoursWorked(attendanceDataList, employeeNumber, dateRange);
+        // Calculate total hours worked 
+        double hoursWorked = calculateTotalHoursWorked(attendanceDataInList, employeeNumber, dateRange);
 
+        // Calculate the assumed hours worked based on the provided date range
+        double assumedHoursWorked = calculateAssumedHoursWorked(dateRange);
+
+        // If employee with the inputted employee number is found in the attendance data
         if (hoursWorked > 0) {
+            System.out.println(hoursWorked);
             double hourlyRate = getHourlyRate(employeeNumber);
+            // Calculate wage based on hours worked from the attendance data
             double wage = calculateWage(hourlyRate, hoursWorked);
             displayWage(employeeNumber, wage);
 
-            // Else, employee number is not found in the attendance data
+            // Else employee is not found in attendance data
         } else {
             double hourlyRate = getHourlyRate(employeeNumber);
-            // Use the calculated assumed hours worked
+            // Use assumed hours worked of 9.0 per day to calculate wage
             double wage = calculateWage(hourlyRate, assumedHoursWorked);
             displayWage(employeeNumber, wage);
         }
     }
 
-    private List<String> readAttendanceData() throws IOException {
-        List<String> attendanceDataList = new ArrayList<>();
+    /**
+     * Calculates the total hours worked by the employee who exists in the
+     * attendance data within the inputted date range.
+     *
+     * @param attendanceDataInList A list containing attendance data
+     * @param employeeNumber Inputted employee number for which hours are to be
+     * calculated
+     * @param dateRange Date range inputted to calculate total hours worked.
+     * @return The total hours worked by the employee within the inputted date
+     * range.
+     * @throws ParseException If date parsing error happen. dateRa
+     */
+    private double calculateTotalHoursWorked(List<String> attendanceDataInList, int employeeNumber, DateRange dateRange) throws ParseException {
+        return timeCalculation.calculateTotalHoursWorked(attendanceDataInList, employeeNumber, dateRange);
+    }
 
+    /**
+     * Calculates assumed hours worked based on the date range inputted.
+     *
+     * Gets used when employee number is not found on the attendance data
+     *
+     * @param dateRange Date range inputted
+     * @return Assumed hours worked
+     */
+    private double calculateAssumedHoursWorked(DateRange dateRange) {
+        return timeCalculation.calculateAssumedHoursWorked(dateRange);
+    }
+
+    /**
+     * Reads attendance data from the data file and returns it as a list of
+     * strings.
+     *
+     * @return A list of attendance data
+     * @throws IOException If an I/O error happen
+     */
+    private List<String> readAttendanceData() throws IOException {
+        // Initialize a list
+        List<String> attendanceDataInList = new ArrayList<>();
+
+        // Read attendance data from the file
         try (BufferedReader attendanceReader = new BufferedReader(new FileReader(ATTENDANCE_DATA_PATH))) {
             String attendanceLine;
             while ((attendanceLine = attendanceReader.readLine()) != null) {
-                attendanceDataList.add(attendanceLine);
+                // Add each line of attendance data to the list
+                attendanceDataInList.add(attendanceLine);
             }
         }
 
-        return attendanceDataList;
+        return attendanceDataInList;
     }
 
-    private double calculateTotalHoursWorked(List<String> attendanceDataList, int employeeNumber, DateRange dateRange) throws ParseException {
-        double totalHours = 0.0;
-
-        for (String attendanceLine : attendanceDataList) {
-            String[] attendanceData = attendanceLine.split("  ");
-
-            if (attendanceData.length == ATTENDANCE_DATA_LENGTH && Integer.parseInt(attendanceData[0]) == employeeNumber) {
-                Date attendanceDate = new SimpleDateFormat("MM/dd/yyyy").parse(attendanceData[3]);
-
-                if (dateRange.isWithinDateRange(attendanceDate)) {
-                    totalHours += calculateHoursWorked(attendanceData[4], attendanceData[5]);
-                }
-            }
-        }
-
-        return totalHours;
-    }
-
+    /**
+     * Gets the hourly rate of an employee from the employee data file.
+     *
+     * @param employeeNumber Inputted employee number
+     * @return Hourly rate of the employee with the inputted employee number
+     * @throws IOException If an I/O error happen
+     */
     protected double getHourlyRate(int employeeNumber) throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(EMPLOYEES_DATA_PATH))) {
             String line;
+            // Iterate through each line of the employee information data file
             while ((line = reader.readLine()) != null) {
-                String[] employeeData = line.split("  ");
+                // Split the attendance data using "|" as delimiter
+                String[] employeeData = line.split("\\|");
+                // If the data field has the expected length and matches the inputted employee number
                 if (employeeData.length >= EMPLOYEE_DATA_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
+                    // Return the hourly rate of the employee
                     return Double.parseDouble(employeeData[EMPLOYEE_DATA_LENGTH]);
                 }
             }
         }
-        throw new RuntimeException("Employee not found in the employees database");
-    }
-
-    protected double calculateHoursWorked(String timeIn, String timeOut) throws ParseException {
-        Date startTime = TIME_FORMAT.parse(timeIn);
-        Date endTime = TIME_FORMAT.parse(timeOut);
-
-        long timeDifferenceMillis = endTime.getTime() - startTime.getTime();
-
-        // Convert milliseconds to hours
-        return TimeUnit.MILLISECONDS.toHours(timeDifferenceMillis);
+        // Throw an exception if the employee with the inputted employee number is not found in the employee database
+        throw new RuntimeException("Employee not found in the employee information database");
     }
 
     /**

@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class MotorPHApplication {
 
-    private MotorPHManager motorPhManager;
+    private final MotorPHManager motorPhManager;
 
     /**
      * Constructor for MotorPHApplication.

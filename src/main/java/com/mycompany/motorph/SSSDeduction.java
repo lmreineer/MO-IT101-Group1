@@ -15,7 +15,8 @@ import java.util.List;
  */
 public class SSSDeduction {
 
-    private static final String SSS_DEDUCTIONS_PATH = "/home/lance/projects/java/MotorPH/src/main/resources/data/sss_deduction";
+    private static final String SSS_DEDUCTIONS_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\sss_deduction.txt";
+
     private static final double MIN_COMPENSATION_RANGE = 3250.00;
     private static final double MAX_COMPENSATION_RANGE = 24750.00;
     private static final double MIN_DEDUCTION = 135.00;
@@ -74,7 +75,7 @@ public class SSSDeduction {
 
             // Read each line from the data file
             while ((line = reader.readLine()) != null) {
-                String[] parts = line.split("  ");
+                String[] parts = line.split("\\|");
 
                 // If the line has the normal length
                 if (parts.length == SSS_DEDUCTION_DATA_LENGTH) {

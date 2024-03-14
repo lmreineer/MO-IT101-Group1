@@ -13,7 +13,6 @@ package com.mycompany.motorph;
  */
 public class GrossWageCalculation extends WageCalculation {
 
-    private final int employeeNumber;
     private final String lastName;
     private final String firstName;
     private final String birthdate;
@@ -28,7 +27,6 @@ public class GrossWageCalculation extends WageCalculation {
      */
     public GrossWageCalculation(int employeeNumber, String lastName, String firstName, String birthdate) {
         // Initialize employee details
-        this.employeeNumber = employeeNumber;
         this.lastName = lastName;
         this.firstName = firstName;
         this.birthdate = birthdate;

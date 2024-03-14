@@ -13,7 +13,6 @@ package com.mycompany.motorph;
  */
 public class NetWageCalculation extends WageCalculation {
 
-    private final int employeeNumber;
     private final String lastName;
     private final String firstName;
     private final String birthdate;
@@ -36,7 +35,6 @@ public class NetWageCalculation extends WageCalculation {
             SSSDeduction sssDeduction, HealthInsurancesDeduction healthInsurancesDeduction,
             WithholdingTaxCalculation withholdingTaxCalculation) {
         // Initialize employee details
-        this.employeeNumber = employeeNumber;
         this.lastName = lastName;
         this.firstName = firstName;
         this.birthdate = birthdate;
@@ -139,5 +137,6 @@ public class NetWageCalculation extends WageCalculation {
         System.out.println("Total Deductions: PHP " + formatCurrency(calculateTotalDeductions(wage)));
         System.out.println("--------------------------------");
         System.out.println("Net Wage: PHP " + formatCurrency(wage));
+        System.out.println("================================");
     }
 }

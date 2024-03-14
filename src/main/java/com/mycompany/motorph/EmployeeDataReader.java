@@ -18,6 +18,7 @@ import java.util.List;
 public class EmployeeDataReader {
 
     private static final int EMPLOYEE_DATA_LENGTH = 19;
+
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
 
     /**
@@ -36,9 +37,9 @@ public class EmployeeDataReader {
             String line;
             // Read each line from the file
             while ((line = reader.readLine()) != null) {
-                // Split the line in employee data using double space as delimiter
-                String[] employeeData = line.split("  ");
-                // Check if the line contains enough length
+                // Split the line in employee data using "|" as delimiter
+                String[] employeeData = line.split("\\|");
+                // If the line has the expected length of total values
                 if (employeeData.length >= EMPLOYEE_DATA_LENGTH) {
                     // Create an employee object from the data and add it to the list
                     employees.add(createEmployeeFromData(employeeData));
@@ -67,8 +68,8 @@ public class EmployeeDataReader {
             String line;
             // Read each line from the file
             while ((line = reader.readLine()) != null) {
-                // Split the line in employee data using double space as delimiter
-                String[] employeeData = line.split("  ");
+                // Split the line in employee data using "|" as delimiter
+                String[] employeeData = line.split("\\|");
                 // Check if the line contains enough length and matches the inputted employee number
                 if (employeeData.length >= EMPLOYEE_DATA_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
                     // Create an employee object from the data and return it
