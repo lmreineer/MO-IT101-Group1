@@ -11,5 +11,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.motorph.MotorPH</exec.mainClass>
     </properties>
-    <name>motorph-phase-1</name>
+    <name>MO-IT101-Group11</name>
 </project>
