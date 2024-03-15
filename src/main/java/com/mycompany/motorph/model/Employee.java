@@ -2,13 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.motorph;
+package com.mycompany.motorph.model;
 
+import com.mycompany.motorph.util.CurrencyUtil;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Represents an employee.
+ *
+ * Contains employee information and methods to access and display it. This
+ * class also provides methods for formatting and displaying employee
+ * information.
+ *
+ * @author Lance
  */
 public class Employee {
 
@@ -186,9 +193,9 @@ public class Employee {
     }
 
     /**
-     * Formats birthdate to a string.
+     * Get the birthdate of the employee formatted as a string.
      *
-     * @return The birthdate as a string
+     * @return The birthdate as a string in "mm/dd/yyyy" format
      */
     public String getBirthdateAsString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
@@ -196,7 +203,7 @@ public class Employee {
     }
 
     /**
-     * Displays employee information.
+     * Display employee information.
      */
     public void displayEmployeeInformation() {
         System.out.println("================================");
@@ -213,23 +220,12 @@ public class Employee {
         System.out.println("Status: " + status);
         System.out.println("Position: " + position);
         System.out.println("Immediate Supervisor: " + immediateSupervisor);
-        System.out.println("Basic Salary: PHP " + formatCurrency(basicSalary));
-        System.out.println("Rice Subsidy: PHP " + formatCurrency(riceSubsidy));
-        System.out.println("Phone Allowance: PHP " + formatCurrency(phoneAllowance));
-        System.out.println("Clothing Allowance: PHP " + formatCurrency(clothingAllowance));
-        System.out.println("Gross Semi-monthly Rate: PHP " + formatCurrency(grossSemimonthlyRate));
-        System.out.println("Hourly Rate: PHP " + formatCurrency(hourlyRate));
+        System.out.println("Basic Salary: PHP " + CurrencyUtil.formatCurrency(basicSalary));
+        System.out.println("Rice Subsidy: PHP " + CurrencyUtil.formatCurrency(riceSubsidy));
+        System.out.println("Phone Allowance: PHP " + CurrencyUtil.formatCurrency(phoneAllowance));
+        System.out.println("Clothing Allowance: PHP " + CurrencyUtil.formatCurrency(clothingAllowance));
+        System.out.println("Gross Semi-monthly Rate: PHP " + CurrencyUtil.formatCurrency(grossSemimonthlyRate));
+        System.out.println("Hourly Rate: PHP " + CurrencyUtil.formatCurrency(hourlyRate));
         System.out.println("================================");
-    }
-
-    /**
-     * Formats a currency value.
-     *
-     * @param value Currency value to be formatted
-     * @return Formatted currency in String
-     */
-    private String formatCurrency(double value) {
-        // Format the value with commas for thousands separator and two decimal places
-        return String.format("%,.2f", value);
     }
 }

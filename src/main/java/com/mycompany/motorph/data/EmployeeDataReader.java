@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.motorph;
+package com.mycompany.motorph.data;
 
+import com.mycompany.motorph.model.Employee;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,12 +15,14 @@ import java.util.List;
 
 /**
  * A class that reads employee data from the data file.
+ *
+ * @author Lance
  */
 public class EmployeeDataReader {
 
-    private static final int EMPLOYEE_DATA_LENGTH = 19;
+    private static final SimpleDateFormat BIRTHDATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
 
-    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
+    private static final int EXPECTED_DATA_LENGTH = 19;
 
     /**
      * Reads employee data from the data file and returns list of employees.
@@ -32,46 +35,45 @@ public class EmployeeDataReader {
     public List<Employee> readEmployees(String filePath) throws IOException, ParseException {
         List<Employee> employees = new ArrayList<>();
 
-        // Open the file to read
+        // Open the file for reading
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             // Read each line from the file
             while ((line = reader.readLine()) != null) {
-                // Split the line in employee data using "|" as delimiter
+                // Split the line into employee data using "|" as delimiter
                 String[] employeeData = line.split("\\|");
-                // If the line has the expected length of total values
-                if (employeeData.length >= EMPLOYEE_DATA_LENGTH) {
+                // If the line has the expected length
+                if (employeeData.length >= EXPECTED_DATA_LENGTH) {
                     // Create an employee object from the data and add it to the list
                     employees.add(createEmployeeFromData(employeeData));
                 }
             }
         }
 
-        // Return the list of employees read
+        // Return the list of employees
         return employees;
     }
 
     /**
      * Gets information for the employee with the inputted employee number.
      *
-     * @param employeeNumber Inputted employee number to search for in the data
-     * file
+     * @param employeeNumber Employee number to search for in the data file
      * @param filePath Path to the employee_information data file
-     * @return Employee object containing the information of employee with the
-     * inputted employee number. Null if no employee is found
-     * @throws IOException If I/O error happen while reading the file
-     * @throws ParseException If parsing error happen while parsing
+     * @return Employee object containing the information of the employee with
+     * the inputted employee number. Null if no employee is found
+     * @throws IOException If an I/O error occurs while reading the file
+     * @throws ParseException If a parsing error occurs
      */
     public Employee getEmployeeInfo(int employeeNumber, String filePath) throws IOException, ParseException {
-        // Open the file to read
+        // Open the file for reading
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             // Read each line from the file
             while ((line = reader.readLine()) != null) {
-                // Split the line in employee data using "|" as delimiter
+                // Split the line into employee data using "|" as delimiter
                 String[] employeeData = line.split("\\|");
-                // Check if the line contains enough length and matches the inputted employee number
-                if (employeeData.length >= EMPLOYEE_DATA_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
+                // Check if the line has the expected length and matches the inputted employee number
+                if (employeeData.length == EXPECTED_DATA_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
                     // Create an employee object from the data and return it
                     return createEmployeeFromData(employeeData);
                 }
@@ -87,14 +89,14 @@ public class EmployeeDataReader {
      *
      * @param employeeData Array containing employee data
      * @return Employee object created with the data
-     * @throws ParseException If parsing error happen
+     * @throws ParseException If a parsing error occurs
      */
     private Employee createEmployeeFromData(String[] employeeData) throws ParseException {
         Employee employee = new Employee();
         employee.setEmployeeNumber(Integer.parseInt(employeeData[0]));
         employee.setLastName(employeeData[1]);
         employee.setFirstName(employeeData[2]);
-        employee.setBirthdate(DATE_FORMAT.parse(employeeData[3]));
+        employee.setBirthdate(BIRTHDATE_FORMAT.parse(employeeData[3]));
         employee.setAddress(employeeData[4]);
         employee.setPhoneNumber(employeeData[5]);
         employee.setSssNumber(employeeData[6]);

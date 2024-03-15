@@ -11,5 +11,13 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.motorph.MotorPH</exec.mainClass>
     </properties>
-    <name>MO-IT101-Group11</name>
+    <name>MO-IT101-Group1</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.motorph;
+package com.mycompany.motorph.calculation;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,9 +12,12 @@ import java.util.List;
 
 /**
  * A class that calculates SSS deductions based on gross wage.
+ *
+ * @author Lance
  */
 public class SSSDeduction {
 
+    // Path to the SSS deductions data file
     private static final String SSS_DEDUCTIONS_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\sss_deduction.txt";
 
     private static final double MIN_COMPENSATION_RANGE = 3250.00;
@@ -23,19 +26,20 @@ public class SSSDeduction {
     private static final double MAX_DEDUCTION = 1125.00;
     private static final double SSS_DEDUCTION_DATA_LENGTH = 3;
 
-    private List<double[]> sssCompensationRanges = new ArrayList<>();
-    private List<Double> sssDeductions = new ArrayList<>();
+    private final List<double[]> sssCompensationRanges = new ArrayList<>();
+    private final List<Double> sssDeductions = new ArrayList<>();
 
     /**
      * Constructor for SSSDeduction.
+     *
+     * Reads SSS deductions data from the data file.
      */
     public SSSDeduction() {
-        // Read SSS compensation ranges and deductions data from file
         readSSSDeductions();
     }
 
     /**
-     * Calculates SSS sssDeduction.
+     * Calculates SSS deduction.
      *
      * @param grossWage Gross wage
      * @return SSS deduction amount
@@ -66,8 +70,7 @@ public class SSSDeduction {
     }
 
     /**
-     * Reads SSS compensation ranges and deductions from the data file and
-     * populates
+     * Reads SSS deductions data from the data file and populates.
      */
     private void readSSSDeductions() {
         try (BufferedReader reader = new BufferedReader(new FileReader(SSS_DEDUCTIONS_PATH))) {

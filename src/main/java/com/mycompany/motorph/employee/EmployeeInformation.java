@@ -1,26 +1,34 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+     * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+     * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.motorph;
+package com.mycompany.motorph.employee;
 
+import com.mycompany.motorph.model.Employee;
+import com.mycompany.motorph.data.EmployeeDataReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 
 /**
  * A class for managing employee information.
+ *
+ * It allows displaying employee information using employee numbers, and
+ * provides methods for finding employees.
+ *
+ * @author Lance
  */
 public class EmployeeInformation {
 
+    // Path to the employee data file
     private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
 
     /**
      * Displays employee information with the inputted employee number.
      *
-     * @param employeeNumber Employee number inputted
-     * @throws IOException If an I/O error happen
-     * @throws ParseException If a parsing error happen
+     * @param employeeNumber The employee number to search for
+     * @throws IOException If an I/O error occurs while reading the file
+     * @throws ParseException If a parsing error occurs
      */
     public void showEmployeeInformation(int employeeNumber) throws IOException, ParseException {
         // Create instance of EmployeeDataReader
@@ -45,23 +53,23 @@ public class EmployeeInformation {
     }
 
     /**
-     * Finds an employee using inputted employee number.
+     * Finds an employee by their employee number.
      *
-     * @param employees List of employees
-     * @param employeeNumber Inputted employee number to search for in the data
-     * file
-     * @return Found employee. If not found, return null
+     * @param employees The list of employees to search in
+     * @param employeeNumber The employee number to search for
+     * @return The found employee. If not found, return null
      */
     private Employee findEmployeeByNumber(List<Employee> employees, int employeeNumber) {
-        // Loop/iterate through the list of employees
+        // Loop through the list of employees
         for (Employee employee : employees) {
-            // If the employee's employee number from the data file matches the inputted employee number by the user
+            // If the employee's number matches the inputted number
             if (employee.getEmployeeNumber() == employeeNumber) {
                 // Return found employee
                 return employee;
             }
         }
-        // Return null if employee is not found
+
+        // Return null if no matching employee is found
         return null;
     }
 }

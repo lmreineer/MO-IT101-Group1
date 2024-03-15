@@ -11,6 +11,9 @@ import java.util.Scanner;
 /**
  * A class that executes the main function of the MotorPH payroll system.
  *
+ * This class interacts with the user, displays menus, takes user input, and
+ * performs corresponding actions based on the input.
+ *
  * @author lance
  */
 public class MotorPHApplication {
@@ -19,29 +22,31 @@ public class MotorPHApplication {
 
     /**
      * Constructor for MotorPHApplication.
+     *
+     * Initializes an instance of MotorPHManager.
+     *
      */
     public MotorPHApplication() {
-        // Initialize instance of MotorPHManager
         this.motorPhManager = new MotorPHManager();
     }
 
     /**
      * Executes the main function of the MotorPH payroll system.
      *
-     * Displays menus, takes user input then performs corresponding actions
+     * Displays menus, takes user input, and performs corresponding actions.
      *
      * @param scanner The scanner object for user input
-     * @throws ParseException If a parsing error happen
-     * @throws IOException If an I/O error happen
+     * @throws ParseException If a parsing error occurs
+     * @throws IOException If an I/O error occurs
      */
     public void run(Scanner scanner) throws ParseException, IOException {
-        // Display menu
+        // Display the menu
         motorPhManager.printMenu();
 
         // Get user input
         int choice = motorPhManager.getChoice(scanner);
 
-        // Perform action based on user choice
+        // Perform action based on user input
         switch (choice) {
             case 1:
                 // Show employee information

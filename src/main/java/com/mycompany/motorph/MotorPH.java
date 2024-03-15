@@ -10,21 +10,28 @@ import java.util.Scanner;
 /**
  * Main class for the MotorPH payroll system.
  *
- * This class runs the app in a loop for the prompts and user input using
- * console.
+ * This class runs the application in a loop for prompts and user input using
+ * the console.
  *
  * @author Lance
  */
 public class MotorPH {
 
+    /**
+     * Entry point of the application.
+     *
+     * @param args Command line arguments
+     * @throws IOException If an I/O error occurs
+     * @throws ParseException If parsing of input fails
+     */
     public static void main(String[] args) throws ParseException, IOException {
         // Use Scanner for user input
         Scanner scanner = new Scanner(System.in);
 
-        // Create instance of MotorPHApplication
+        // Create an instance of MotorPHApplication
         MotorPHApplication motorPhApplication = new MotorPHApplication();
 
-        // Loop to keep the prompts running
+        // Run the application in a loop
         while (true) {
             motorPhApplication.run(scanner);
         }

@@ -2,10 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.motorph;
+package com.mycompany.motorph.calculation;
 
 /**
  * A class that calculates withholding tax using gross wage and deductions.
+ *
+ * @author Lance
  */
 public class WithholdingTaxCalculation {
 
@@ -31,7 +33,7 @@ public class WithholdingTaxCalculation {
      * @param grossWage Employee's gross wage
      * @return Withholding tax
      */
-    public double calculateWithholdingTax(double grossWage) {
+    protected double calculateWithholdingTax(double grossWage) {
         // Calculate the taxable income by subtracting gross wage from monthly contributions/deductions
         double taxableIncome = grossWage - calculateMonthlyContributions(grossWage);
 
@@ -58,7 +60,7 @@ public class WithholdingTaxCalculation {
      * @param grossWage Employee's gross wage
      * @return Total monthly contributions/deductions
      */
-    public double calculateMonthlyContributions(double grossWage) {
+    protected double calculateMonthlyContributions(double grossWage) {
         // Calculate contributions/deductions of SSS, PhilHealth, and Pag-IBIG
         double sssContribution = sssDeduction.calculateSssDeduction(grossWage);
         double philHealthContribution = healthInsuranceDeduction.calculatePhilHealthDeduction(grossWage);
@@ -112,4 +114,5 @@ public class WithholdingTaxCalculation {
             return 0.0;
         }
     }
+
 }
