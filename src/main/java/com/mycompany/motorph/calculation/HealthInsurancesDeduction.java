@@ -32,7 +32,7 @@ public class HealthInsurancesDeduction {
      * @param grossWage The employee's gross wage
      * @return The calculated PhilHealth deduction amount
      */
-    public double calculatePhilHealthDeduction(double grossWage) {
+    double calculatePhilHealthDeduction(double grossWage) {
         // Calculate monthly premium
         double monthlyPremium = calculatePhilHealthPremium(grossWage);
         // Calculate employee share as 50% of the monthly premium
@@ -45,7 +45,7 @@ public class HealthInsurancesDeduction {
      * @param grossWage The employee's gross wage
      * @return The calculated Pag-IBIG deduction amount
      */
-    public double calculatePagIbigDeduction(double grossWage) {
+    double calculatePagIbigDeduction(double grossWage) {
         double pagIbigDeduction = 0;
         // If the gross wage falls within the minimum salary range to be eligible for contributing
         if (grossWage >= PAGIBIG_MIN_SALARY && grossWage <= PAGIBIG_MAX_SALARY) {

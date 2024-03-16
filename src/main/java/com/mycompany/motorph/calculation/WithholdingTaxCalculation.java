@@ -33,7 +33,7 @@ public class WithholdingTaxCalculation {
      * @param grossWage Employee's gross wage
      * @return Withholding tax
      */
-    protected double calculateWithholdingTax(double grossWage) {
+    double calculateWithholdingTax(double grossWage) {
         // Calculate the taxable income by subtracting gross wage from monthly contributions/deductions
         double taxableIncome = grossWage - calculateMonthlyContributions(grossWage);
 
@@ -60,7 +60,7 @@ public class WithholdingTaxCalculation {
      * @param grossWage Employee's gross wage
      * @return Total monthly contributions/deductions
      */
-    protected double calculateMonthlyContributions(double grossWage) {
+    private double calculateMonthlyContributions(double grossWage) {
         // Calculate contributions/deductions of SSS, PhilHealth, and Pag-IBIG
         double sssContribution = sssDeduction.calculateSssDeduction(grossWage);
         double philHealthContribution = healthInsuranceDeduction.calculatePhilHealthDeduction(grossWage);

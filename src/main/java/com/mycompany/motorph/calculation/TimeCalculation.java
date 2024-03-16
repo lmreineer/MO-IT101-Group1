@@ -36,7 +36,7 @@ public class TimeCalculation {
      * deduction amount
      * @throws ParseException If there is an error parsing dates
      */
-    public double calculateTotalHoursWorked(List<String> attendanceDataList, int employeeNumber, DateRange dateRange) throws ParseException {
+    double calculateTotalHoursWorked(List<String> attendanceDataList, int employeeNumber, DateRange dateRange) throws ParseException {
         double totalHoursWorked = 0.0;
 
         // Iterate through each line of attendance data
@@ -68,7 +68,7 @@ public class TimeCalculation {
      * @param dateRange Date range inputted
      * @return Assumed hours worked
      */
-    public double calculateAssumedHoursWorked(DateRange dateRange) {
+    double calculateAssumedHoursWorked(DateRange dateRange) {
         // Calculate the number of days within the date range
         long numberOfDays = calculateNumberOfDays(dateRange);
 

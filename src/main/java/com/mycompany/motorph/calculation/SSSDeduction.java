@@ -44,7 +44,7 @@ public class SSSDeduction {
      * @param grossWage Gross wage
      * @return SSS deduction amount
      */
-    public double calculateSssDeduction(double grossWage) {
+    double calculateSssDeduction(double grossWage) {
         // If gross wage is below the lower limit
         if (grossWage < MIN_COMPENSATION_RANGE) {
             return MIN_DEDUCTION;

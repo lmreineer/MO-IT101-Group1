@@ -77,31 +77,6 @@ public abstract class WageCalculation {
     }
 
     /**
-     * Gets the hourly rate of an employee from the employee data file.
-     *
-     * @param employeeNumber Employee number
-     * @return Hourly rate of the employee
-     * @throws IOException If an I/O error occurs
-     */
-    protected double getHourlyRate(int employeeNumber) throws IOException {
-        try (BufferedReader reader = new BufferedReader(new FileReader(EMPLOYEES_DATA_PATH))) {
-            String line;
-            // Iterate through each line of the employee information data file
-            while ((line = reader.readLine()) != null) {
-                // Split the attendance data using "|" as delimiter
-                String[] employeeData = line.split("\\|");
-                // If the data field has the expected length and matches the inputted employee number
-                if (employeeData.length >= EMPLOYEE_DATA_EXPECTED_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
-                    // Return the hourly rate of the employee
-                    return Double.parseDouble(employeeData[EMPLOYEE_DATA_EXPECTED_LENGTH]);
-                }
-            }
-        }
-        // Throw an exception if the employee with the inputted employee number is not found in the employee database
-        throw new RuntimeException("Employee not found in the employee database");
-    }
-
-    /**
      * Abstract method to calculate late arrival deduction for an employee.
      *
      * @param attendanceDataList Attendance data
@@ -131,6 +106,31 @@ public abstract class WageCalculation {
      * @param lateArrivalDeduction
      */
     protected abstract void displayWage(int employeeNumber, double hourlyRate, double hoursWorked, double lateArrivalDeduction);
+
+    /**
+     * Gets the hourly rate of an employee from the employee data file.
+     *
+     * @param employeeNumber Employee number
+     * @return Hourly rate of the employee
+     * @throws IOException If an I/O error occurs
+     */
+    private double getHourlyRate(int employeeNumber) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new FileReader(EMPLOYEES_DATA_PATH))) {
+            String line;
+            // Iterate through each line of the employee information data file
+            while ((line = reader.readLine()) != null) {
+                // Split the attendance data using "|" as delimiter
+                String[] employeeData = line.split("\\|");
+                // If the data field has the expected length and matches the inputted employee number
+                if (employeeData.length >= EMPLOYEE_DATA_EXPECTED_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
+                    // Return the hourly rate of the employee
+                    return Double.parseDouble(employeeData[EMPLOYEE_DATA_EXPECTED_LENGTH]);
+                }
+            }
+        }
+        // Throw an exception if the employee with the inputted employee number is not found in the employee database
+        throw new RuntimeException("Employee not found in the employee database");
+    }
 
     /**
      * Calculates the total hours worked by an employee within a inputted date

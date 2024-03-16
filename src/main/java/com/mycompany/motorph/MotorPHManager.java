@@ -41,7 +41,7 @@ public class MotorPHManager {
      *
      * Initializes dependencies.
      */
-    protected MotorPHManager() {
+    public MotorPHManager() {
         this.sssDeduction = new SSSDeduction();
         this.healthInsuranceDeduction = new HealthInsurancesDeduction();
         this.withholdingTaxCalculation = new WithholdingTaxCalculation(sssDeduction, healthInsuranceDeduction);
@@ -50,7 +50,7 @@ public class MotorPHManager {
     /**
      * Displays the main menu.
      */
-    protected void printMenu() {
+    public void printMenu() {
         System.out.println("\n================================");
         System.out.println("    Motor PH Payroll System     ");
         System.out.println("================================");
@@ -68,7 +68,7 @@ public class MotorPHManager {
      * @param scanner Scanner for user input
      * @return Valid menu choice
      */
-    protected int getMenuChoice(Scanner scanner) {
+    public int getMenuChoice(Scanner scanner) {
         // Prompt the user in a loop until a valid input is received
         while (true) {
             try {
@@ -95,7 +95,7 @@ public class MotorPHManager {
      * @throws java.io.IOException
      * @throws java.text.ParseException
      */
-    protected void showEmployeeInformation(Scanner scanner) throws IOException, ParseException {
+    public void showEmployeeInformation(Scanner scanner) throws IOException, ParseException {
         // Prompt the user for the employee number
         int employeeNumber = getValidEmployeeNumberFromUser(scanner);
 
@@ -114,7 +114,7 @@ public class MotorPHManager {
      * @throws ParseException If date parsing error occurs
      * @throws IOException If I/O error occurs
      */
-    protected void showWage(Scanner scanner, boolean isGross) throws ParseException, IOException {
+    public void showWage(Scanner scanner, boolean isGross) throws ParseException, IOException {
         try {
             // Prompt the user for the employee number
             int employeeNumber = getValidEmployeeNumberFromUser(scanner);
