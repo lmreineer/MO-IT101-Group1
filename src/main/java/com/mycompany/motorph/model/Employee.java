@@ -193,7 +193,7 @@ public class Employee {
     }
 
     /**
-     * Get the birthdate of the employee formatted as a string.
+     * Gets the birthdate of the employee formatted as a string.
      *
      * @return The birthdate as a string in "mm/dd/yyyy" format
      */
@@ -203,7 +203,7 @@ public class Employee {
     }
 
     /**
-     * Display employee information.
+     * Displays employee information.
      */
     public void displayEmployeeInformation() {
         System.out.println("================================");

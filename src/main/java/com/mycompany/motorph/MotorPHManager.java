@@ -41,7 +41,7 @@ public class MotorPHManager {
      *
      * Initializes dependencies.
      */
-    public MotorPHManager() {
+    protected MotorPHManager() {
         this.sssDeduction = new SSSDeduction();
         this.healthInsuranceDeduction = new HealthInsurancesDeduction();
         this.withholdingTaxCalculation = new WithholdingTaxCalculation(sssDeduction, healthInsuranceDeduction);
@@ -50,7 +50,7 @@ public class MotorPHManager {
     /**
      * Displays the main menu.
      */
-    public void printMenu() {
+    protected void printMenu() {
         System.out.println("\n================================");
         System.out.println("    Motor PH Payroll System     ");
         System.out.println("================================");
@@ -60,58 +60,47 @@ public class MotorPHManager {
         System.out.println("|                              |");
         System.out.println("|   0:  Exit Menu              |");
         System.out.println("================================");
-        System.out.print("Choose your option: ");
     }
 
     /**
-     * Handles user input.
+     * Prompts the user for the menu choice and validates it.
      *
      * @param scanner Scanner for user input
-     * @return Validated user choice
+     * @return Valid menu choice
      */
-    public int getChoice(Scanner scanner) {
-        int choice;
+    protected int getMenuChoice(Scanner scanner) {
+        // Prompt the user in a loop until a valid input is received
+        while (true) {
+            try {
+                System.out.print("Choose your option: ");
+                int menuChoice = scanner.nextInt();
+                // Discard any remaining input
+                scanner.nextLine();
 
-        // Check if the next input is an integer
-        if (scanner.hasNextInt()) {
-            choice = scanner.nextInt();
-            // Discard any remaining input
-            scanner.nextLine();
-
-            // Else
-        } else {
-            // Display error message and prompt again
-            System.out.println("Invalid input. Please enter a number.");
-            System.out.print("Choose your option: ");
-            // Discard any remaining input
-            scanner.nextLine();
-
-            // Call getChoice recursively to get a valid input
-            return getChoice(scanner);
+                // Return the valid menu choice
+                return menuChoice;
+            } catch (InputMismatchException e) {
+                // Display an error message
+                System.out.println("Invalid input. Please enter a valid integer.");
+                // Discard any remaining input
+                scanner.nextLine();
+            }
         }
-
-        return choice;
     }
 
     /**
      * Shows information about an employee.
      *
      * @param scanner Scanner for user input
+     * @throws java.io.IOException
+     * @throws java.text.ParseException
      */
-    public void showEmployeeInformation(Scanner scanner) {
+    protected void showEmployeeInformation(Scanner scanner) throws IOException, ParseException {
         // Prompt the user for the employee number
-        System.out.print("Enter employee number: ");
-        int employeeNumber = scanner.nextInt();
-        // Discard any remaining input
-        scanner.nextLine();
+        int employeeNumber = getValidEmployeeNumberFromUser(scanner);
 
-        try {
-            // Show information of the employee with the inputted employee number
-            new EmployeeInformation().showEmployeeInformation(employeeNumber);
-        } catch (IOException | ParseException e) {
-            // Catch exception if error occurs and display an error message
-            System.err.println("Error: " + e.getMessage());
-        }
+        // Show information of the employee with the inputted employee number
+        new EmployeeInformation().showEmployeeInformation(employeeNumber);
 
         // Prompt the user to go back to the main menu
         promptToGoBackToMainMenu(scanner);
@@ -124,50 +113,27 @@ public class MotorPHManager {
      * @param isGross Indicates whether to calculate gross or net wage
      * @throws ParseException If date parsing error occurs
      * @throws IOException If I/O error occurs
-     * @throws InputMismatchException If input mismatch occurs
      */
-    public void showWage(Scanner scanner, boolean isGross) throws ParseException, IOException, InputMismatchException {
-        // Prompt the user for the employee number
-        int employeeNumber = getValidEmployeeNumber(scanner);
-
-        // Prompt the user to enter start and end dates
-        System.out.print("Enter start date (mm/dd): ");
-        String startDateString = scanner.nextLine();
-        System.out.print("Enter end date (mm/dd): ");
-        String endDateString = scanner.nextLine();
-
-        // Create a DateRange object based on the inputted start and end date
-        DateRange dateRange = DateRange.createDateRange(startDateString, endDateString);
-
-        // Retrieve employee information from the data source
-        Employee employeeInfo = getEmployeeInfo(employeeNumber, EMPLOYEES_DATA_PATH);
-
-        // Show type of wage based on the isGross value given (true or false)
-        WageCalculation wageCalculation = (isGross)
-                ? new GrossWageCalculation(employeeNumber,
-                        employeeInfo.getLastName(),
-                        employeeInfo.getFirstName(),
-                        employeeInfo.getBirthdateAsString())
-                : new NetWageCalculation(
-                        employeeNumber,
-                        employeeInfo.getLastName(),
-                        employeeInfo.getFirstName(),
-                        employeeInfo.getBirthdateAsString(),
-                        sssDeduction,
-                        healthInsuranceDeduction,
-                        withholdingTaxCalculation);
-
+    protected void showWage(Scanner scanner, boolean isGross) throws ParseException, IOException {
         try {
-            // Show the type of wage and/or other information
-            wageCalculation.showWage(employeeNumber, dateRange);
-        } catch (RuntimeException e) {
-            // Catch runtime exception if an error occurs during wage calculation and display an error message
-            System.err.println("Error: " + e.getMessage());
-            promptToGoBackToMainMenu(scanner);
-        }
+            // Prompt the user for the employee number
+            int employeeNumber = getValidEmployeeNumberFromUser(scanner);
+            DateRange dateRange = getDateRangeFromUser(scanner);
 
-        // Prompt the user to go back to the main menu
-        promptToGoBackToMainMenu(scanner);
+            // Retrieve employee information from the data source
+            Employee employeeInfo = getEmployeeInfo(employeeNumber, EMPLOYEES_DATA_PATH);
+            WageCalculation wageCalculation = createWageCalculation(isGross, employeeNumber, employeeInfo);
+
+            // Prompt the user to go back to the main menu
+            wageCalculation.showWage(employeeNumber, dateRange);
+
+            // Discard any remaining input and prompt the user to go back to the main menu
+            scanner.nextLine();
+            promptToGoBackToMainMenu(scanner);
+        } catch (RuntimeException e) {
+            // Throw RuntimeException with an error message
+            throw new RuntimeException("Employee not found.");
+        }
     }
 
     /**
@@ -176,7 +142,7 @@ public class MotorPHManager {
      * @param scanner Scanner for user input
      * @return Valid employee number
      */
-    private int getValidEmployeeNumber(Scanner scanner) {
+    private int getValidEmployeeNumberFromUser(Scanner scanner) {
         while (true) {
             try {
                 System.out.print("Enter employee number: ");
@@ -187,11 +153,61 @@ public class MotorPHManager {
                 // Return valid employee number
                 return employeeNumber;
             } catch (InputMismatchException e) {
-                // Catch the exception if employee number input is invalid
-                System.out.println("Invalid input. Please enter a valid integer for the employee number.");
+                // Display an error message
+                System.out.println("Invalid input. Please enter a valid integer.");
                 // Discard any remaining input
                 scanner.nextLine();
             }
+        }
+    }
+
+    /**
+     * Prompts the user to enter start and end dates, then creates a DateRange
+     * object.
+     *
+     * @param scanner Scanner for user input
+     * @return DateRange object of the inputted date range
+     * @throws ParseException If date parsing error occurs
+     */
+    private DateRange getDateRangeFromUser(Scanner scanner) throws ParseException {
+        // Prompt the user to enter start and end dates
+        System.out.print("Enter start date (MM/dd): ");
+        String startDateString = scanner.next();
+        System.out.print("Enter end date (MM/dd): ");
+        String endDateString = scanner.next();
+
+        // Create a DateRange object based on the inputted start and end date
+        return DateRange.createDateRange(startDateString, endDateString);
+    }
+
+    /**
+     * Creates a WageCalculation object based on the type of wage to calculate.
+     *
+     * @param isGross Indicates whether to calculate gross or net wage
+     * @param employeeNumber Employee number
+     * @param employeeInfo Employee object containing employee information
+     * @return WageCalculation object containing either gross or net wage
+     * calculation
+     */
+    private WageCalculation createWageCalculation(boolean isGross, int employeeNumber, Employee employeeInfo) {
+        // If the type of wage to show is gross wage based on the isGross value given
+        if (isGross) {
+            // Return gross wage calculation
+            return new GrossWageCalculation(employeeNumber,
+                    employeeInfo.getLastName(),
+                    employeeInfo.getFirstName(),
+                    employeeInfo.getBirthdateAsString());
+
+            // Else
+        } else {
+            // return net wage calculation
+            return new NetWageCalculation(employeeNumber,
+                    employeeInfo.getLastName(),
+                    employeeInfo.getFirstName(),
+                    employeeInfo.getBirthdateAsString(),
+                    sssDeduction,
+                    healthInsuranceDeduction,
+                    withholdingTaxCalculation);
         }
     }
 

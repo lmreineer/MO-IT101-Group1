@@ -40,15 +40,15 @@ public class EmployeeInformation {
         // Find the employee with the inputted employee number
         Employee foundEmployee = findEmployeeByNumber(employees, employeeNumber);
 
-        // If employee is found
+        // If employee is found with the inputted employee number
         if (foundEmployee != null) {
-            // Display information of the employee 
+            // Display information of the employee
             foundEmployee.displayEmployeeInformation();
 
             // Else
         } else {
-            // Print employee is not found
-            System.out.println("Employee not found.");
+            // Throw exception
+            throw new RuntimeException("Employee not found.");
         }
     }
 

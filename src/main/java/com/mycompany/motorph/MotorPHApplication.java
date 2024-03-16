@@ -24,7 +24,6 @@ public class MotorPHApplication {
      * Constructor for MotorPHApplication.
      *
      * Initializes an instance of MotorPHManager.
-     *
      */
     public MotorPHApplication() {
         this.motorPhManager = new MotorPHManager();
@@ -44,10 +43,10 @@ public class MotorPHApplication {
         motorPhManager.printMenu();
 
         // Get user input
-        int choice = motorPhManager.getChoice(scanner);
+        int menuChoice = motorPhManager.getMenuChoice(scanner);
 
         // Perform action based on user input
-        switch (choice) {
+        switch (menuChoice) {
             case 1:
                 // Show employee information
                 motorPhManager.showEmployeeInformation(scanner);
@@ -65,7 +64,7 @@ public class MotorPHApplication {
                 System.out.println("Logged out.");
                 System.exit(0);
             default:
-                System.out.println("Invalid option. Please try again.");
+                System.out.println("\nInvalid option. Please try again.");
                 break;
         }
     }

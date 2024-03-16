@@ -51,7 +51,7 @@ public class DateRange {
 
     /**
      * Creates a DateRange object with the inputted start and end date strings
-     * in "mm/dd/yyyy" format.
+     * in "mm/dd" format.
      *
      * @param startDateString The start date string
      * @param endDateString The end date string
@@ -59,25 +59,25 @@ public class DateRange {
      * @throws ParseException If parsing error occurs
      */
     public static DateRange createDateRange(String startDateString, String endDateString) throws ParseException {
-        // Set leniency to false to strictly match the pattern
-        DATE_FORMAT.setLenient(false);
-
         try {
+            // Set leniency to false to strictly match the pattern
+            DATE_FORMAT.setLenient(false);
+
             // Parse the start and end dates
             Date start = DATE_FORMAT.parse(startDateString);
             Date end = DATE_FORMAT.parse(endDateString);
 
             // If the end date is before the start date
             if (end.before(start)) {
-                // Throw an exception with an error message
+                // Throw IllegalArgumentException with an error message
                 throw new IllegalArgumentException("Invalid date sequence. End date must be on or after the start date.");
             }
 
             // Create a DateRange object with the parsed start and end dates
             return new DateRange(start, end);
         } catch (ParseException e) {
-            // Catch parsing exception and prompt the user again
-            throw new ParseException("Invalid date. Please enter valid dates or dates in mm/dd format.", e.getErrorOffset());
+            // Throw ParseException with an error message
+            throw new ParseException("Invalid date. Dates must be valid or in mm/dd format.", e.getErrorOffset());
         }
     }
 }
