@@ -5,6 +5,7 @@
 package com.mycompany.motorph.calculation;
 
 import com.mycompany.motorph.model.DateRange;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -26,7 +27,6 @@ public class TimeCalculation {
     /**
      * Calculates the total hours worked by the employee, late arrival deduction
      * if applicable, within the inputted date range.
-     *
      *
      * @param attendanceDataList A list containing attendance data
      * @param employeeNumber Employee number for which hours are to be

@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 /**
  * A class that executes the main function of the MotorPH payroll system.
- *
+ * <p>
  * This class interacts with the user, displays menus, takes user input, and
  * performs corresponding actions based on the input.
  *
- * @author lance
+ * @author Lance1
  */
 public class MotorPHApplication {
 
@@ -22,7 +22,7 @@ public class MotorPHApplication {
 
     /**
      * Constructor for MotorPHApplication.
-     *
+     * <p>
      * Initializes an instance of MotorPHManager.
      */
     public MotorPHApplication() {
@@ -31,7 +31,7 @@ public class MotorPHApplication {
 
     /**
      * Executes the main function of the MotorPH payroll system.
-     *
+     * <p>
      * Displays menus, takes user input, and performs corresponding actions.
      *
      * @param scanner The scanner object for user input

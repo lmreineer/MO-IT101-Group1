@@ -6,6 +6,7 @@ package com.mycompany.motorph.calculation;
 
 import com.mycompany.motorph.model.DateRange;
 import com.mycompany.motorph.util.CurrencyUtil;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -14,14 +15,14 @@ import java.util.List;
 
 /**
  * A class that calculates and displays net wage.
- *
+ * <p>
  * Extends the abstract class WageCalculation.
- *
+ * <p>
  * This class calculates the net wage by subtracting total deductions from gross
  * wage and late arrival deduction and displays the employee's information along
  * with the calculated wage
  *
- * @author Lance
+ * @author Lance1
  */
 public class NetWageCalculation extends WageCalculation {
 

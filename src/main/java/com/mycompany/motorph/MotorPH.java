@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 /**
  * Main class for the MotorPH payroll system.
- *
+ * <p>
  * This class runs the application in a loop for prompts and user input using
  * the console.
  *
- * @author Lance
+ * @author Lance1
  */
 public class MotorPH {
 

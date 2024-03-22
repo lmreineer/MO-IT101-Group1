@@ -6,17 +6,18 @@ package com.mycompany.motorph.calculation;
 
 import com.mycompany.motorph.model.DateRange;
 import com.mycompany.motorph.util.CurrencyUtil;
+
 import java.util.List;
 
 /**
  * A class that calculates and displays gross wage.
- *
+ * <p>
  * Extends the abstract class WageCalculation.
- *
+ * <p>
  * This class calculates the gross wage based on hourly rate and hours worked,
  * and displays the employee's information along with the calculated wage
  *
- * @author Lance
+ * @author Lance1
  */
 public class GrossWageCalculation extends WageCalculation {
 
@@ -46,7 +47,7 @@ public class GrossWageCalculation extends WageCalculation {
      * @param attendanceDataList Attendance data
      * @param employeeNumber Employee number
      * @param dateRange Date range
-     * @return Always throws UnsupportedOperationException
+     * @return Always 0.0 as it is not supported for gross wage calculation
      */
     @Override
     protected double calculateLateArrivalDeduction(List<String> attendanceDataList, int employeeNumber, DateRange dateRange) {

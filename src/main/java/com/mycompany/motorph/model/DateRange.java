@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * Represents a date range.
  *
- * @author Lance
+ * @author Lance1
  */
 public class DateRange {
 
@@ -26,7 +26,7 @@ public class DateRange {
      * @param startDate The start date of the range
      * @param endDate The end date of the range
      */
-    private DateRange(Date startDate, Date endDate) {
+    public DateRange(Date startDate, Date endDate) {
         this.startDate = startDate;
         this.endDate = endDate;
     }

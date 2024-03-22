@@ -5,6 +5,7 @@
 package com.mycompany.motorph.data;
 
 import com.mycompany.motorph.model.Employee;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,13 +17,14 @@ import java.util.List;
 /**
  * A class that reads employee data from the data file.
  *
- * @author Lance
+ * @author Lance1
  */
 public class EmployeeDataReader {
 
     private static final SimpleDateFormat BIRTHDATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
 
-    private static final int EXPECTED_DATA_LENGTH = 19;
+    // Expected total number of values per row from the data
+    private static final int EXPECTED_ROW_LENGTH = 19;
 
     /**
      * Reads employee data from the data file and returns list of employees.
@@ -43,7 +45,7 @@ public class EmployeeDataReader {
                 // Split the line into employee data using "|" as delimiter
                 String[] employeeData = line.split("\\|");
                 // If the line has the expected length
-                if (employeeData.length >= EXPECTED_DATA_LENGTH) {
+                if (employeeData.length >= EXPECTED_ROW_LENGTH) {
                     // Create an employee object from the data and add it to the list
                     employees.add(createEmployeeFromData(employeeData));
                 }
@@ -73,7 +75,7 @@ public class EmployeeDataReader {
                 // Split the line into employee data using "|" as delimiter
                 String[] employeeData = line.split("\\|");
                 // Check if the line has the expected length and matches the inputted employee number
-                if (employeeData.length == EXPECTED_DATA_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
+                if (employeeData.length == EXPECTED_ROW_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
                     // Create an employee object from the data and return it
                     return createEmployeeFromData(employeeData);
                 }

@@ -5,17 +5,18 @@
 package com.mycompany.motorph.model;
 
 import com.mycompany.motorph.util.CurrencyUtil;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Represents an employee.
- *
+ * <p>
  * Contains employee information and methods to access and display it. This
  * class also provides methods for formatting and displaying employee
  * information.
  *
- * @author Lance
+ * @author Lance1
  */
 public class Employee {
 

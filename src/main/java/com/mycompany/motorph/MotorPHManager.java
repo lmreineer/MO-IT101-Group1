@@ -14,6 +14,7 @@ import com.mycompany.motorph.calculation.SSSDeduction;
 import com.mycompany.motorph.calculation.WageCalculation;
 import com.mycompany.motorph.calculation.NetWageCalculation;
 import com.mycompany.motorph.calculation.GrossWageCalculation;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.InputMismatchException;
@@ -21,11 +22,10 @@ import java.util.Scanner;
 
 /**
  * A class that manages the MotorPH application/payroll system.
- *
+ * <p>
  * Displays menus, handles user input, and manages functionalities.
  *
- *
- * @author Lance
+ * @author Lance1
  */
 public class MotorPHManager {
 
@@ -38,7 +38,7 @@ public class MotorPHManager {
 
     /**
      * Constructor for MotorPHManager.
-     *
+     * <p>
      * Initializes dependencies.
      */
     public MotorPHManager() {

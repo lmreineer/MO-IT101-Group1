@@ -5,6 +5,7 @@
 package com.mycompany.motorph.calculation;
 
 import com.mycompany.motorph.model.DateRange;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,12 +15,12 @@ import java.util.List;
 
 /**
  * An abstract class that calculates wages based on hours worked.
- *
+ * <p>
  * This class reads employee and attendance data from files, calculates total
  * hours worked, late arrival deduction, and wage based on both, and displays
  * the employee's calculated wage
  *
- * @author Lance
+ * @author Lance1
  */
 public abstract class WageCalculation {
 
@@ -29,11 +30,12 @@ public abstract class WageCalculation {
     private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
     private static final String ATTENDANCE_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_attendance.txt";
 
-    private static final int EMPLOYEE_DATA_EXPECTED_LENGTH = 18;
+    // Expected total number of values per row from the data
+    private static final int EXPECTED_ROW_LENGTH = 18;
 
     /**
      * Constructor for WageCalculation.
-     *
+     * <p>
      * Initializes an instance of TimeCalculation.
      */
     public WageCalculation() {
@@ -101,9 +103,9 @@ public abstract class WageCalculation {
      * Abstract method to display wage for an employee.
      *
      * @param employeeNumber Employee number
-     * @param hourlyRate
-     * @param hoursWorked
-     * @param lateArrivalDeduction
+     * @param hourlyRate Hourly rate
+     * @param hoursWorked Hours worked
+     * @param lateArrivalDeduction Late arrival deduction for the employee
      */
     protected abstract void displayWage(int employeeNumber, double hourlyRate, double hoursWorked, double lateArrivalDeduction);
 
@@ -122,12 +124,13 @@ public abstract class WageCalculation {
                 // Split the attendance data using "|" as delimiter
                 String[] employeeData = line.split("\\|");
                 // If the data field has the expected length and matches the inputted employee number
-                if (employeeData.length >= EMPLOYEE_DATA_EXPECTED_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
+                if (employeeData.length >= EXPECTED_ROW_LENGTH && Integer.parseInt(employeeData[0]) == employeeNumber) {
                     // Return the hourly rate of the employee
-                    return Double.parseDouble(employeeData[EMPLOYEE_DATA_EXPECTED_LENGTH]);
+                    return Double.parseDouble(employeeData[EXPECTED_ROW_LENGTH]);
                 }
             }
         }
+
         // Throw an exception if the employee with the inputted employee number is not found in the employee database
         throw new RuntimeException("Employee not found in the employee database");
     }

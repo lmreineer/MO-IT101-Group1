@@ -7,7 +7,7 @@ package com.mycompany.motorph.calculation;
 /**
  * A class that calculates Pag-IBIG and PhilHealth deductions/contributions.
  *
- * @author Lance
+ * @author Lance1
  */
 public class HealthInsurancesDeduction {
 

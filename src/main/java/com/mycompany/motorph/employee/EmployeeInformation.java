@@ -1,22 +1,23 @@
 /*
-     * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-     * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.motorph.employee;
 
 import com.mycompany.motorph.model.Employee;
 import com.mycompany.motorph.data.EmployeeDataReader;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 
 /**
  * A class for managing employee information.
- *
+ * <p>
  * It allows displaying employee information using employee numbers, and
  * provides methods for finding employees.
  *
- * @author Lance
+ * @author Lance1
  */
 public class EmployeeInformation {
 

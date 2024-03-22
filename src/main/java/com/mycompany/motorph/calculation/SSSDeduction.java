@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * A class that calculates SSS deductions based on gross wage.
  *
- * @author Lance
+ * @author Lance1
  */
 public class SSSDeduction {
 
@@ -31,7 +31,7 @@ public class SSSDeduction {
 
     /**
      * Constructor for SSSDeduction.
-     *
+     * <p>
      * Reads SSS deductions data from the data file.
      */
     public SSSDeduction() {

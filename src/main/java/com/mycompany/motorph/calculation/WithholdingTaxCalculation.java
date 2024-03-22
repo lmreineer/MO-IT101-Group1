@@ -7,7 +7,7 @@ package com.mycompany.motorph.calculation;
 /**
  * A class that calculates withholding tax using gross wage and deductions.
  *
- * @author Lance
+ * @author Lance1
  */
 public class WithholdingTaxCalculation {
 
@@ -60,7 +60,7 @@ public class WithholdingTaxCalculation {
      * @param grossWage Employee's gross wage
      * @return Total monthly contributions/deductions
      */
-    private double calculateMonthlyContributions(double grossWage) {
+    double calculateMonthlyContributions(double grossWage) {
         // Calculate contributions/deductions of SSS, PhilHealth, and Pag-IBIG
         double sssContribution = sssDeduction.calculateSssDeduction(grossWage);
         double philHealthContribution = healthInsuranceDeduction.calculatePhilHealthDeduction(grossWage);
