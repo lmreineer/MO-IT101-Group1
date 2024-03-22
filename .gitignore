@@ -20,6 +20,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+build.xml
 
 ## Gradle
 bin/
@@ -53,7 +54,7 @@ local.properties
 .factorypath
 
 ## NetBeans
-nbproject/private/
+nbproject/
 build/
 nbbuild/
 dist/
@@ -70,3 +71,5 @@ nb-configuration.xml
 
 ## Miscellaneous
 *.log
+manifest.mf
+lib/
