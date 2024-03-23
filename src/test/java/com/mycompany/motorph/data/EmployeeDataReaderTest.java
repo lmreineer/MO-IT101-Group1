@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class EmployeeDataReaderTest {
 
-    private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
+    private static final String EMPLOYEES_DATA_PATH = "/home/lance/Documents/MO-IT101-Group1/src/main/resources/data/employee_information.txt";
     private static final int EXPECTED_EMPLOYEES_LENGTH = 34;
 
     @Test

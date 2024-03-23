@@ -34,7 +34,7 @@ public class MotorPHManager {
     private final WithholdingTaxCalculation withholdingTaxCalculation;
 
     // Path to the employee data file
-    private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
+    private static final String EMPLOYEES_DATA_PATH = "/home/lance/Documents/MO-IT101-Group1/src/main/resources/data/employee_information.txt";
 
     /**
      * Constructor for MotorPHManager.
