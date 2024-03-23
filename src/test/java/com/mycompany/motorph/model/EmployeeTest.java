@@ -19,16 +19,16 @@ public class EmployeeTest {
     private final SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 
     @Test
-    public void getBirthdateAsString_ReturnsString() throws ParseException {
-        // Create a sample employee information including birthdate
+    public void getBirthdateAsString_ReturnsCorrectDateString() throws ParseException {
+        // Create a sample employee information
         Employee employee = createSampleEmployee();
 
-        // Get the birthdate as a string
-        String actualBirthdateString = employee.getBirthdateAsString();
+        // Get the sample birthdate as a string
+        String createdSampleBirthdateString = employee.getBirthdateAsString();
         String expectedBirthdateString = "01/01/1985";
 
-        // Assert that the actual birthdate string matches the expected birthdate string
-        assertEquals(expectedBirthdateString, actualBirthdateString);
+        // Assert that the sample birthdate string created matches the expected birthdate string
+        assertEquals(expectedBirthdateString, createdSampleBirthdateString, "Birthdate string should match expected value");
     }
 
     @Test
@@ -36,14 +36,13 @@ public class EmployeeTest {
         // Create a sample employee information
         Employee employee = createSampleEmployee();
 
-        // Assert that execution does not throw any kind of exception
-        assertDoesNotThrow(() -> employee.displayEmployeeInformation());
+        // Assert that calling displayEmployeeInformation does not throw any exceptions
+        assertDoesNotThrow(() -> employee.displayEmployeeInformation(), "Displaying employee information should not throw any exceptions");
     }
 
+    // Helper method to create a sample employee information for testing
     private Employee createSampleEmployee() throws ParseException {
         Employee employee = new Employee();
-
-        // Set a sample employee information
         employee.setEmployeeNumber(123);
         employee.setLastName("Doe");
         employee.setFirstName("John");

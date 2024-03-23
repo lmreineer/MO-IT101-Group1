@@ -18,30 +18,34 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class EmployeeDataReaderTest {
 
-    // Path to the employee data file
     private static final String EMPLOYEES_DATA_PATH = "C:\\Users\\Lance1\\Documents\\MO-IT101-Group1\\src\\main\\resources\\data\\employee_information.txt";
     private static final int EXPECTED_EMPLOYEES_LENGTH = 34;
 
     @Test
-    public void readEmployees_ReturnsTotalNumberOfEmployees() throws IOException, ParseException {
+    public void readEmployees_ReturnsTotalNumberOfEmployees() {
         EmployeeDataReader reader = new EmployeeDataReader();
 
-        List<Employee> employees = reader.readEmployees(EMPLOYEES_DATA_PATH);
+        try {
+            List<Employee> employees = reader.readEmployees(EMPLOYEES_DATA_PATH);
 
-        // Assert employees are read from the file
-        assertNotNull(employees);
-        // Assert the size of the list is the same as the expected total employee length
-        assertEquals(EXPECTED_EMPLOYEES_LENGTH, employees.size());
+            assertNotNull(employees, "List of employees should not be null");
+            assertEquals(EXPECTED_EMPLOYEES_LENGTH, employees.size(), "Number of employees read should match expected count");
+        } catch (IOException | ParseException e) {
+            fail("Exception occurred: " + e.getMessage());
+        }
     }
 
     @Test
-    public void getEmployeeInfo_EmployeeDoesNotExist() throws IOException, ParseException {
+    public void getEmployeeInfo_EmployeeDoesNotExist() {
         EmployeeDataReader reader = new EmployeeDataReader();
         int nonExistingEmployeeNumber = 123;
 
-        Employee employee = reader.getEmployeeInfo(nonExistingEmployeeNumber, EMPLOYEES_DATA_PATH);
+        try {
+            Employee employee = reader.getEmployeeInfo(nonExistingEmployeeNumber, EMPLOYEES_DATA_PATH);
 
-        // Assert that the employee does not exist in the file
-        assertNull(employee);
+            assertNull(employee, "Non-existing employee should return null");
+        } catch (IOException | ParseException e) {
+            fail("Exception occurred: " + e.getMessage());
+        }
     }
 }

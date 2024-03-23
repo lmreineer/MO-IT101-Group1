@@ -20,38 +20,30 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TimeCalculationTest {
 
     private final SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd");
+    // Margin of error for comparisons with double
+    private static final double DELTA = 0.001;
 
     @Test
     public void calculateTotalHoursWorked_ReturnsCorrectTotalHours() throws ParseException {
-        // Create an empty attendance data list
         List<String> attendanceDataList = new ArrayList<>();
-
-        // Create a sample two days straight attendance with a total of 17 hours of work
         attendanceDataList.add("123|John|Doe|01/01|08:00|17:00");
         attendanceDataList.add("123|John|Doe|01/02|09:00|17:00");
-
         int employeeNumber = 123;
-
-        // Select John Doe's attendance date range
         DateRange dateRange = new DateRange(dateFormat.parse("01/01"), dateFormat.parse("01/02"));
-
         TimeCalculation timeCalculation = new TimeCalculation();
 
         double totalHoursWorked = timeCalculation.calculateTotalHoursWorked(attendanceDataList, employeeNumber, dateRange);
 
-        // Assert that the total hours worked within the date range is 17
-        assertEquals(17.0, totalHoursWorked);
+        assertEquals(17.0, totalHoursWorked, DELTA, "Total hours worked within the date range should be 17.0");
     }
 
     @Test
     public void calculateAssumedHoursWorked_ReturnsCorrectAssumedHours() throws ParseException {
-        // Create a random date range of 2 days
         DateRange dateRange = new DateRange(dateFormat.parse("02/01"), dateFormat.parse("02/02"));
         TimeCalculation timeCalculation = new TimeCalculation();
 
         double assumedHoursWorked = timeCalculation.calculateAssumedHoursWorked(dateRange);
 
-        // Assert that the total hours worked assumed is 18 hours
-        assertEquals(18.0, assumedHoursWorked);
+        assertEquals(18.0, assumedHoursWorked, DELTA, "Assumed hours worked within the date range should be 18.0");
     }
 }

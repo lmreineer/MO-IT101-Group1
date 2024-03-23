@@ -13,42 +13,33 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class SSSDeductionTest {
 
+    // Margin of error for comparisons with double
+    private static final double DELTA = 0.001;
+
+    private static final double MINIMUM_GROSS_WAGE = 3000.0;
+    private static final double MAXIMUM_GROSS_WAGE = 25000.0;
+    private static final double MINIMUM_DEDUCTION = 135.0;
+    private static final double MAXIMUM_DEDUCTION = 1125.0;
+    private static final double STANDARD_DEDUCTION = 450.0;
+
     @Test
-    public void calculateSssDeduction_ReturnsCorrectMinimumSssDeduction() {
-        // Create a sample gross wage that is the minimum compensation range
-        double grossWage = 3000.0;
-
+    public void calculateSssDeduction_ReturnsCorrectMinimumDeduction() {
         SSSDeduction sssDeduction = new SSSDeduction();
-
-        double deduction = sssDeduction.calculateSssDeduction(grossWage);
-
-        // Assert that the calculated SSS deduction is the minimum deduction value
-        assertEquals(135.0, deduction);
+        double deduction = sssDeduction.calculateSssDeduction(MINIMUM_GROSS_WAGE);
+        assertEquals(MINIMUM_DEDUCTION, deduction, DELTA, "SSS deduction should be correct for minimum wage");
     }
 
     @Test
-    public void calculateSssDeduction_DoesNotExceedMaximumSssDeduction() {
-        // Create a sample gross wage that is the maximum compensation range
-        double grossWage = 25000.0;
-
+    public void calculateSssDeduction_DoesNotExceedMaximumDeduction() {
         SSSDeduction sssDeduction = new SSSDeduction();
-
-        double deduction = sssDeduction.calculateSssDeduction(grossWage);
-
-        // Assert that the calculated SSS deduction is the maximum deduction value
-        assertEquals(1125.0, deduction);
+        double deduction = sssDeduction.calculateSssDeduction(MAXIMUM_GROSS_WAGE);
+        assertEquals(MAXIMUM_DEDUCTION, deduction, DELTA, "SSS deduction should not exceed maximum for maximum wage");
     }
 
     @Test
-    public void calculateSssDeduction_CalculatesCorrectSssDeduction() {
-        // Create a sample gross wage that is within the min and max compensation range
-        double grossWage = 10000.0;
-
+    public void calculateSssDeduction_CalculatesCorrectDeductionWithinRange() {
         SSSDeduction sssDeduction = new SSSDeduction();
-
-        double deduction = sssDeduction.calculateSssDeduction(grossWage);
-
-        // Assert that the calculated SSS deduction matches the expected value
-        assertEquals(450.0, deduction);
+        double deduction = sssDeduction.calculateSssDeduction(10000.0);
+        assertEquals(STANDARD_DEDUCTION, deduction, DELTA, "SSS deduction should be correct within range");
     }
 }

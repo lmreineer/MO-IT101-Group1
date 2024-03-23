@@ -11,40 +11,40 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * @author Lance1
  */
-class CurrencyUtilTest {
+public class CurrencyUtilTest {
 
     @Test
     void testCurrencyFormattingWithPositiveValue() {
         double currencyValue = 1234.567;
         String formattedCurrency = CurrencyUtil.formatCurrency(currencyValue);
-        assertEquals("1,234.57", formattedCurrency);
+        assertEquals("1,234.57", formattedCurrency, "Formatting positive value should produce correct result");
     }
 
     @Test
     void testCurrencyFormattingWithNegativeValue() {
         double currencyValue = -5678.901;
         String formattedCurrency = CurrencyUtil.formatCurrency(currencyValue);
-        assertEquals("-5,678.90", formattedCurrency);
+        assertEquals("-5,678.90", formattedCurrency, "Formatting negative value should produce correct result");
     }
 
     @Test
     void testCurrencyFormattingWithZeroValue() {
         double currencyValue = 0.0;
         String formattedCurrency = CurrencyUtil.formatCurrency(currencyValue);
-        assertEquals("0.00", formattedCurrency);
+        assertEquals("0.00", formattedCurrency, "Formatting zero value should produce correct result");
     }
 
     @Test
     void testCurrencyFormattingWithLargeValue() {
-        double currencyValue = 12345678.90;
+        double currencyValue = 1234567890.123;
         String formattedCurrency = CurrencyUtil.formatCurrency(currencyValue);
-        assertEquals("12,345,678.90", formattedCurrency);
+        assertEquals("1,234,567,890.12", formattedCurrency, "Formatting large value should produce correct result");
     }
 
     @Test
     void testCurrencyFormattingWithSmallValue() {
         double currencyValue = 0.12345;
         String formattedCurrency = CurrencyUtil.formatCurrency(currencyValue);
-        assertEquals("0.12", formattedCurrency);
+        assertEquals("0.12", formattedCurrency, "Formatting small value should produce correct result");
     }
 }

@@ -13,41 +13,44 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class HealthInsurancesDeductionTest {
 
+    // Constants for test data
     private static final double PHILHEALTH_MIN_SALARY = 10000.0;
     private static final double MAX_PAGIBIG_DEDUCTION = 100;
+    // Margin of error for comparisons with double
+    private static final double DELTA = 0.001;
 
     @Test
-    public void calculatePhilHealthDeduction_CalculatesCorrectPhilHealthDeduction() {
-        // Create a sample gross wage
+    public void calculatePhilHealthDeduction_CalculatesWithinExpectedRange() {
         double grossWage = PHILHEALTH_MIN_SALARY;
         HealthInsurancesDeduction healthInsurancesDeduction = new HealthInsurancesDeduction();
 
         double philHealthDeduction = healthInsurancesDeduction.calculatePhilHealthDeduction(grossWage);
 
-        // Assert that the calculated PhilHealth deduction is within the expected range
-        assertTrue(philHealthDeduction >= 150.0 && philHealthDeduction <= 900.0);
+        assertTrue(philHealthDeduction >= 150.0 && philHealthDeduction <= 900.0,
+                "PhilHealth deduction should be between PHP 150.00 and PHP 900.00");
     }
 
     @Test
-    public void calculatePagIbigDeduction_CalculatesCorrectPagIbigDeduction() {
-        // Create a sample gross wage
+    public void calculatePagIbigDeduction_CalculatesCorrectly() {
         double grossWage = 1200.0;
         HealthInsurancesDeduction healthInsurancesDeduction = new HealthInsurancesDeduction();
 
+        double expectedDeduction = 36.0;
         double pagIbigDeduction = healthInsurancesDeduction.calculatePagIbigDeduction(grossWage);
 
-        // Assert that the calculated Pag-IBIG deduction matches the expected value
-        assertEquals(36.0, pagIbigDeduction);
+        assertEquals(expectedDeduction, pagIbigDeduction, DELTA,
+                "Pag-IBIG deduction should be PHP 36.00 for a gross wage of PHP 1200.00");
     }
 
     @Test
-    public void calculatePagIbigDeduction_DoesNotExceedMaximumPagIbigDeduction() {
-        double grossWage = 1600.0; // Sample gross wage above the range
+    public void calculatePagIbigDeduction_DoesNotExceedMaximum() {
+        // Create a sample gross wage above the range
+        double grossWage = 1600.0;
         HealthInsurancesDeduction healthInsurancesDeduction = new HealthInsurancesDeduction();
 
         double pagIbigDeduction = healthInsurancesDeduction.calculatePagIbigDeduction(grossWage);
 
-        // Assert that the calculated Pag-IBIG deduction does not exceed the maximum deduction amount
-        assertTrue(pagIbigDeduction <= MAX_PAGIBIG_DEDUCTION);
+        assertTrue(pagIbigDeduction <= MAX_PAGIBIG_DEDUCTION,
+                "Pag-IBIG deduction should not exceed maximum limit of PHP 100.00");
     }
 }
