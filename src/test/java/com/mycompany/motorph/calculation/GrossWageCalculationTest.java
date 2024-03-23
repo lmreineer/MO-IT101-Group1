@@ -53,7 +53,8 @@ public class GrossWageCalculationTest {
         assertEquals("Employee Name: John Doe", lines[2].trim());
         assertEquals("Birthdate: 01/01/1990", lines[3].trim());
         assertEquals("--------------------------------", lines[4].trim());
-        assertEquals("Gross Wage: PHP 400.00", lines[5].trim()); // Assuming CurrencyUtil is working fine
+        // Assume that CurrencyUtil is working correctly
+        assertEquals("Gross Wage: PHP 400.00", lines[5].trim());
         assertEquals("================================", lines[6].trim());
     }
 
