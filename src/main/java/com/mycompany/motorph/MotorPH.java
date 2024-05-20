@@ -55,7 +55,7 @@ public class MotorPH {
      * @throws ParseException If a parsing error occurs
      * @throws IOException If an I/O error occurs
      */
-    public void run(Scanner scanner) throws ParseException, IOException {
+    private void run(Scanner scanner) throws ParseException, IOException {
         // Display the menu
         motorPhManager.printMenu();
 
